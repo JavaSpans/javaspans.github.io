@@ -38,22 +38,6 @@
       </tags>
   </entry>
   <entry>
-    <title>反编译 class 文件</title>
-    <url>/blog/posts/81406da.html</url>
-    <content><![CDATA[<h3 id="反编译-class-文件"><a href="#反编译-class-文件" class="headerlink" title="反编译 class 文件"></a>反编译 class 文件</h3><p>1.找到项目结构 </p>
-<p>project → project compiler output</p>
-<p>2.打开输出out文件夹 把要反编译的class文件拖进</p>
-<p>3.在idea项目内就可以打开反编译文件了。</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>html 学习目录(连载中)</title>
     <url>/blog/posts/c258b0a1.html</url>
     <content><![CDATA[<h1 id="今天开始正式写前端笔记"><a href="#今天开始正式写前端笔记" class="headerlink" title="今天开始正式写前端笔记"></a>今天开始正式写前端笔记</h1><blockquote>
@@ -76,6 +60,22 @@
       <tags>
         <tag>笔记</tag>
         <tag>html</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>反编译 class 文件</title>
+    <url>/blog/posts/81406da.html</url>
+    <content><![CDATA[<h3 id="反编译-class-文件"><a href="#反编译-class-文件" class="headerlink" title="反编译 class 文件"></a>反编译 class 文件</h3><p>1.找到项目结构 </p>
+<p>project → project compiler output</p>
+<p>2.打开输出out文件夹 把要反编译的class文件拖进</p>
+<p>3.在idea项目内就可以打开反编译文件了。</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -112,6 +112,18 @@
       </tags>
   </entry>
   <entry>
+    <title>mysql 学习目录(连载中)</title>
+    <url>/blog/posts/6e48d4f4.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Mysql</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Mysql</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Scanner对象</title>
     <url>/blog/posts/e2abe5ec.html</url>
     <content><![CDATA[<h3 id="Scanner对象"><a href="#Scanner对象" class="headerlink" title="Scanner对象"></a>Scanner对象</h3><h4 id="是实现人机交互的工具类，通过Scanner类来获取用户的输入。"><a href="#是实现人机交互的工具类，通过Scanner类来获取用户的输入。" class="headerlink" title="是实现人机交互的工具类，通过Scanner类来获取用户的输入。"></a>是实现人机交互的工具类，通过Scanner类来获取用户的输入。</h4><h4 id="基本的语法："><a href="#基本的语法：" class="headerlink" title="基本的语法："></a>基本的语法：</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//创建一个扫描器对象，用于接收键盘数据</span></span><br><span class="line">Scanner s = <span class="keyword">new</span> Scanner(System.in)</span><br></pre></td></tr></table></figure>
@@ -125,66 +137,6 @@
       <tags>
         <tag>Java</tag>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>mysql 学习目录(连载中)</title>
-    <url>/blog/posts/6e48d4f4.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Mysql</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Mysql</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>JAVA 学习目录(连载中)</title>
-    <url>/blog/posts/7bdea972.html</url>
-    <content><![CDATA[<h1 id="今天开始正式写Java笔记"><a href="#今天开始正式写Java笔记" class="headerlink" title="今天开始正式写Java笔记"></a>今天开始正式写Java笔记</h1><blockquote>
-<h2 id="为什么要写Java笔记？"><a href="#为什么要写Java笔记？" class="headerlink" title="为什么要写Java笔记？"></a>为什么要写Java笔记？</h2></blockquote>
-<blockquote>
-<p>作为一个学习技术和分享笔记的小博客</p>
-<p>本着学习和分享Java菜鸟笔记开始有目录了。<del>在这里我要立个Flag，从入门到入坟一定要坚持写完</del>。顺便巩固一下自己的基础（就是因为鄙人太菜了，哎~），生存不易,还需努力！！！</p>
-</blockquote>
-<h3 id="最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！"><a href="#最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！" class="headerlink" title="最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！"></a>最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！</h3><hr>
-<h4 id="JAVA笔记将会分为以下几个阶段"><a href="#JAVA笔记将会分为以下几个阶段" class="headerlink" title="JAVA笔记将会分为以下几个阶段"></a>JAVA笔记将会分为以下几个阶段</h4><h1 id="（目录）"><a href="#（目录）" class="headerlink" title="（目录）"></a><strong>（目录）</strong></h1><h1 id="一、JAVA入门"><a href="#一、JAVA入门" class="headerlink" title="一、JAVA入门"></a>一、JAVA入门</h1><ul>
-<li><h2 id="Java快速入门"><a href="#Java快速入门" class="headerlink" title="Java快速入门"></a>Java快速入门</h2><ol>
-<li><h4 id="JAVA简介"><a href="#JAVA简介" class="headerlink" title="JAVA简介"></a><a href="https://baike.baidu.com/item/java/85979?fromtitle=Java%E8%AF%AD%E8%A8%80&fromid=4148931#1">JAVA简介</a></h4></li>
-<li><h4 id="关键字以及数据类型"><a href="#关键字以及数据类型" class="headerlink" title="关键字以及数据类型"></a><a href="https://javaspans.github.io/blog/posts/1f3c832.html">关键字以及数据类型</a></h4></li>
-<li><h4 id="变量是什么"><a href="#变量是什么" class="headerlink" title="变量是什么"></a><a href="https://javaspans.github.io/blog/posts/94320cfe.html">变量是什么</a></h4></li>
-<li><h4 id="类型的转换"><a href="#类型的转换" class="headerlink" title="类型的转换"></a><a href="https://cxq21.gitee.io/posts/335f9f1b.html">类型的转换</a></h4></li>
-<li><h4 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a><a href="https://javaspans.github.io/blog/posts/f29265a7.html">运算符</a></h4></li>
-<li><h4 id="Scanner对象"><a href="#Scanner对象" class="headerlink" title="Scanner对象"></a><a href="https://javaspans.github.io/blog/posts/e2abe5ec.html">Scanner对象</a></h4></li>
-<li><h4 id="顺序结构和IF选择结构"><a href="#顺序结构和IF选择结构" class="headerlink" title="顺序结构和IF选择结构"></a><a href="https://javaspans.github.io/blog/posts/d7363e83.html">顺序结构和IF选择结构</a></h4></li>
-<li><h4 id="循环结构三大循环"><a href="#循环结构三大循环" class="headerlink" title="循环结构三大循环"></a><a href="https://javaspans.github.io/blog/posts/5f91e7e3.html">循环结构三大循环</a></h4></li>
-<li><h4 id="方-法"><a href="#方-法" class="headerlink" title="方 法"></a><a href="https://javaspans.github.io/blog/posts/69244af4.html">方 法</a></h4></li>
-<li><h4 id="方法的重载"><a href="#方法的重载" class="headerlink" title="方法的重载"></a><a href="https://javaspans.github.io/blog/posts/70ec998a.html">方法的重载</a></h4></li>
-<li><h4 id="命令行传参"><a href="#命令行传参" class="headerlink" title="命令行传参"></a><a href="javaspans.github.io/blog/posts/4a246c51.html">命令行传参</a></h4></li>
-<li><h4 id="可变参数"><a href="#可变参数" class="headerlink" title="可变参数"></a><a href="javaspans.github.io/blog/posts/6963fb18.html">可变参数</a></h4></li>
-</ol>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>其他学习拓展(连载中)</title>
-    <url>/blog/posts/8d422b92.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>其他</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>其他</tag>
       </tags>
   </entry>
   <entry>
@@ -306,6 +258,54 @@
       </tags>
   </entry>
   <entry>
+    <title>JAVA 学习目录(连载中)</title>
+    <url>/blog/posts/7bdea972.html</url>
+    <content><![CDATA[<h1 id="今天开始正式写Java笔记"><a href="#今天开始正式写Java笔记" class="headerlink" title="今天开始正式写Java笔记"></a>今天开始正式写Java笔记</h1><blockquote>
+<h2 id="为什么要写Java笔记？"><a href="#为什么要写Java笔记？" class="headerlink" title="为什么要写Java笔记？"></a>为什么要写Java笔记？</h2></blockquote>
+<blockquote>
+<p>作为一个学习技术和分享笔记的小博客</p>
+<p>本着学习和分享Java菜鸟笔记开始有目录了。<del>在这里我要立个Flag，从入门到入坟一定要坚持写完</del>。顺便巩固一下自己的基础（就是因为鄙人太菜了，哎~），生存不易,还需努力！！！</p>
+</blockquote>
+<h3 id="最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！"><a href="#最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！" class="headerlink" title="最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！"></a>最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！</h3><hr>
+<h4 id="JAVA笔记将会分为以下几个阶段"><a href="#JAVA笔记将会分为以下几个阶段" class="headerlink" title="JAVA笔记将会分为以下几个阶段"></a>JAVA笔记将会分为以下几个阶段</h4><h1 id="（目录）"><a href="#（目录）" class="headerlink" title="（目录）"></a><strong>（目录）</strong></h1><h1 id="一、JAVA入门"><a href="#一、JAVA入门" class="headerlink" title="一、JAVA入门"></a>一、JAVA入门</h1><ul>
+<li><h2 id="Java快速入门"><a href="#Java快速入门" class="headerlink" title="Java快速入门"></a>Java快速入门</h2><ol>
+<li><h4 id="JAVA简介"><a href="#JAVA简介" class="headerlink" title="JAVA简介"></a><a href="https://baike.baidu.com/item/java/85979?fromtitle=Java%E8%AF%AD%E8%A8%80&fromid=4148931#1">JAVA简介</a></h4></li>
+<li><h4 id="关键字以及数据类型"><a href="#关键字以及数据类型" class="headerlink" title="关键字以及数据类型"></a><a href="https://javaspans.github.io/blog/posts/1f3c832.html">关键字以及数据类型</a></h4></li>
+<li><h4 id="变量是什么"><a href="#变量是什么" class="headerlink" title="变量是什么"></a><a href="https://javaspans.github.io/blog/posts/94320cfe.html">变量是什么</a></h4></li>
+<li><h4 id="类型的转换"><a href="#类型的转换" class="headerlink" title="类型的转换"></a><a href="https://cxq21.gitee.io/posts/335f9f1b.html">类型的转换</a></h4></li>
+<li><h4 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a><a href="https://javaspans.github.io/blog/posts/f29265a7.html">运算符</a></h4></li>
+<li><h4 id="Scanner对象"><a href="#Scanner对象" class="headerlink" title="Scanner对象"></a><a href="https://javaspans.github.io/blog/posts/e2abe5ec.html">Scanner对象</a></h4></li>
+<li><h4 id="顺序结构和IF选择结构"><a href="#顺序结构和IF选择结构" class="headerlink" title="顺序结构和IF选择结构"></a><a href="https://javaspans.github.io/blog/posts/d7363e83.html">顺序结构和IF选择结构</a></h4></li>
+<li><h4 id="循环结构三大循环"><a href="#循环结构三大循环" class="headerlink" title="循环结构三大循环"></a><a href="https://javaspans.github.io/blog/posts/5f91e7e3.html">循环结构三大循环</a></h4></li>
+<li><h4 id="方-法"><a href="#方-法" class="headerlink" title="方 法"></a><a href="https://javaspans.github.io/blog/posts/69244af4.html">方 法</a></h4></li>
+<li><h4 id="方法的重载"><a href="#方法的重载" class="headerlink" title="方法的重载"></a><a href="https://javaspans.github.io/blog/posts/70ec998a.html">方法的重载</a></h4></li>
+<li><h4 id="命令行传参"><a href="#命令行传参" class="headerlink" title="命令行传参"></a><a href="javaspans.github.io/blog/posts/4a246c51.html">命令行传参</a></h4></li>
+<li><h4 id="可变参数"><a href="#可变参数" class="headerlink" title="可变参数"></a><a href="javaspans.github.io/blog/posts/6963fb18.html">可变参数</a></h4></li>
+</ol>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>其他学习拓展(连载中)</title>
+    <url>/blog/posts/8d422b92.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>其他</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>变量是什么</title>
     <url>/blog/posts/94320cfe.html</url>
     <content><![CDATA[<h1 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h1><h2 id="变量是什么：就是可以变换的量！"><a href="#变量是什么：就是可以变换的量！" class="headerlink" title="变量是什么：就是可以变换的量！"></a>变量是什么：就是可以变换的量！</h2><h3 id="java-是一种强类型语言，没个变量都必须声明其类型。"><a href="#java-是一种强类型语言，没个变量都必须声明其类型。" class="headerlink" title="java 是一种强类型语言，没个变量都必须声明其类型。"></a>java 是一种强类型语言，没个变量都必须声明其类型。</h3><h3 id="java是程序中最基本的存储单元，其要素包括包括变量名，变量类型和作用域。"><a href="#java是程序中最基本的存储单元，其要素包括包括变量名，变量类型和作用域。" class="headerlink" title="java是程序中最基本的存储单元，其要素包括包括变量名，变量类型和作用域。"></a>java是程序中最基本的存储单元，其要素包括包括变量名，变量类型和作用域。</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">type varName  [=value]  [&#123;,varName[=value]&#125;];    </span><br></pre></td></tr></table></figure>
@@ -350,23 +350,6 @@
       </tags>
   </entry>
   <entry>
-    <title>命令行传参</title>
-    <url>/blog/posts/4a246c51.html</url>
-    <content><![CDATA[<h3 id="命令行传参"><a href="#命令行传参" class="headerlink" title="命令行传参"></a>命令行传参</h3><h4 id="有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main-函数实现。"><a href="#有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main-函数实现。" class="headerlink" title="有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main()函数实现。"></a>有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main()函数实现。</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ClassDemo01</span> </span>&#123;</span><br><span class="line">    <span class="comment">//主方法 mian方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">      <span class="keyword">for</span>(<span class="keyword">int</span> i =<span class="number">0</span>;i&lt;args.length;i++)&#123;</span><br><span class="line">          <span class="comment">//便利主方法内的数组长度</span></span><br><span class="line">          System.out.println(args[i]);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
-
-<p>命令行下执行</p>
-<p>javac  包名.类名</p>
-<p>java 包名.类名   参数</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>多态</title>
     <url>/blog/posts/ac4294eb.html</url>
     <content><![CDATA[<h1 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h1><h2 id="多态的格式："><a href="#多态的格式：" class="headerlink" title="多态的格式："></a>多态的格式：</h2><h3 id="父类名-对象名-new-子类的构造方法-传参"><a href="#父类名-对象名-new-子类的构造方法-传参" class="headerlink" title="父类名  对象名 = new 子类的构造方法(传参);"></a>父类名  对象名 = new 子类的构造方法(传参);</h3><h3 id="接口名-对象名-new-实现类名"><a href="#接口名-对象名-new-实现类名" class="headerlink" title="接口名  对象名 = new  实现类名();"></a>接口名  对象名 = new  实现类名();</h3><h2 id="多态创建的对象有什么特点？"><a href="#多态创建的对象有什么特点？" class="headerlink" title="多态创建的对象有什么特点？"></a>多态创建的对象有什么特点？</h2><ul>
@@ -388,9 +371,21 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo的建设及踩坑</title>
-    <url>/blog/posts/980497e8.html</url>
-    <content><![CDATA[]]></content>
+    <title>命令行传参</title>
+    <url>/blog/posts/4a246c51.html</url>
+    <content><![CDATA[<h3 id="命令行传参"><a href="#命令行传参" class="headerlink" title="命令行传参"></a>命令行传参</h3><h4 id="有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main-函数实现。"><a href="#有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main-函数实现。" class="headerlink" title="有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main()函数实现。"></a>有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main()函数实现。</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ClassDemo01</span> </span>&#123;</span><br><span class="line">    <span class="comment">//主方法 mian方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">      <span class="keyword">for</span>(<span class="keyword">int</span> i =<span class="number">0</span>;i&lt;args.length;i++)&#123;</span><br><span class="line">          <span class="comment">//便利主方法内的数组长度</span></span><br><span class="line">          System.out.println(args[i]);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<p>命令行下执行</p>
+<p>javac  包名.类名</p>
+<p>java 包名.类名   参数</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>笔记</tag>
+      </tags>
   </entry>
   <entry>
     <title>循环结构三大循环</title>
@@ -463,6 +458,34 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo的建设及踩坑</title>
+    <url>/blog/posts/980497e8.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>类型的转换</title>
+    <url>/blog/posts/6280299f.html</url>
+    <content><![CDATA[<h1 id="类型的转换"><a href="#类型的转换" class="headerlink" title="类型的转换"></a>类型的转换</h1><h4 id="由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换"><a href="#由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换" class="headerlink" title="由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换"></a>由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">由低------------------------------到高</span><br><span class="line">byte → short → char → int → long → float → double</span><br></pre></td></tr></table></figure>
+
+<h4 id="在运算中，不同类型的数据先转化为同一类型，然后进行运算。"><a href="#在运算中，不同类型的数据先转化为同一类型，然后进行运算。" class="headerlink" title="在运算中，不同类型的数据先转化为同一类型，然后进行运算。"></a>在运算中，不同类型的数据先转化为同一类型，然后进行运算。</h4><h3 id="强制类型转换和自动类型转换"><a href="#强制类型转换和自动类型转换" class="headerlink" title="强制类型转换和自动类型转换"></a>强制类型转换和自动类型转换</h3><p>注意点：</p>
+<ol>
+<li>不能对布尔值进行转换</li>
+<li>不能把对象类型转换位不相干的类型</li>
+<li>在把高容量转换到低容量的时候，强制转换</li>
+<li>在转换的时候可能存在内存溢出，或者精度问题！</li>
+</ol>
+<h4 id="强制转换"><a href="#强制转换" class="headerlink" title="强制转换"></a>强制转换</h4><p>(类型)变量名     高到低</p>
+<h4 id="自动转换"><a href="#自动转换" class="headerlink" title="自动转换"></a>自动转换</h4><p>由低—–高</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>运算符</title>
     <url>/blog/posts/f29265a7.html</url>
     <content><![CDATA[<h1 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h1><h4 id="JAVA-语言支持如下运算符"><a href="#JAVA-语言支持如下运算符" class="headerlink" title="JAVA 语言支持如下运算符:"></a>JAVA 语言支持如下运算符:</h4><ul>
@@ -496,20 +519,9 @@
       </tags>
   </entry>
   <entry>
-    <title>类型的转换</title>
-    <url>/blog/posts/6280299f.html</url>
-    <content><![CDATA[<h1 id="类型的转换"><a href="#类型的转换" class="headerlink" title="类型的转换"></a>类型的转换</h1><h4 id="由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换"><a href="#由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换" class="headerlink" title="由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换"></a>由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">由低------------------------------到高</span><br><span class="line">byte → short → char → int → long → float → double</span><br></pre></td></tr></table></figure>
-
-<h4 id="在运算中，不同类型的数据先转化为同一类型，然后进行运算。"><a href="#在运算中，不同类型的数据先转化为同一类型，然后进行运算。" class="headerlink" title="在运算中，不同类型的数据先转化为同一类型，然后进行运算。"></a>在运算中，不同类型的数据先转化为同一类型，然后进行运算。</h4><h3 id="强制类型转换和自动类型转换"><a href="#强制类型转换和自动类型转换" class="headerlink" title="强制类型转换和自动类型转换"></a>强制类型转换和自动类型转换</h3><p>注意点：</p>
-<ol>
-<li>不能对布尔值进行转换</li>
-<li>不能把对象类型转换位不相干的类型</li>
-<li>在把高容量转换到低容量的时候，强制转换</li>
-<li>在转换的时候可能存在内存溢出，或者精度问题！</li>
-</ol>
-<h4 id="强制转换"><a href="#强制转换" class="headerlink" title="强制转换"></a>强制转换</h4><p>(类型)变量名     高到低</p>
-<h4 id="自动转换"><a href="#自动转换" class="headerlink" title="自动转换"></a>自动转换</h4><p>由低—–高</p>
-]]></content>
+    <title>递归</title>
+    <url>/blog/posts/a0b50c75.html</url>
+    <content><![CDATA[]]></content>
       <categories>
         <category>Java</category>
       </categories>
@@ -545,18 +557,6 @@
 <h3 id="switch-多选择结构"><a href="#switch-多选择结构" class="headerlink" title="switch 多选择结构"></a>switch 多选择结构</h3><h4 id="多选择结构还有一个实现方式就是switch-case-语句"><a href="#多选择结构还有一个实现方式就是switch-case-语句" class="headerlink" title="多选择结构还有一个实现方式就是switch case 语句"></a>多选择结构还有一个实现方式就是switch case 语句</h4><h4 id="switch-case-语句判断一个变量与一系列值中某个值是否相等，每个值称为一个分支。"><a href="#switch-case-语句判断一个变量与一系列值中某个值是否相等，每个值称为一个分支。" class="headerlink" title="switch case 语句判断一个变量与一系列值中某个值是否相等，每个值称为一个分支。"></a>switch case 语句判断一个变量与一系列值中某个值是否相等，每个值称为一个分支。</h4><h5 id="switch-语句中的变量类型可以是："><a href="#switch-语句中的变量类型可以是：" class="headerlink" title="switch 语句中的变量类型可以是："></a>switch 语句中的变量类型可以是：</h5><h5 id="byte、short、int、或者char、也支持String-同时case-标签必须为字符串常量或者字面量"><a href="#byte、short、int、或者char、也支持String-同时case-标签必须为字符串常量或者字面量" class="headerlink" title="byte、short、int、或者char、也支持String 同时case 标签必须为字符串常量或者字面量"></a>byte、short、int、或者char、也支持String 同时case 标签必须为字符串常量或者字面量</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">switch</span>(expression)&#123;</span><br><span class="line"><span class="keyword">case</span> value :</span><br><span class="line">	<span class="comment">// 语句</span></span><br><span class="line">	<span class="keyword">break</span>;</span><br><span class="line"><span class="keyword">case</span> value2 : </span><br><span class="line">	<span class="comment">//语句</span></span><br><span class="line">	<span class="keyword">break</span>;</span><br><span class="line">	<span class="comment">//你可以有任何数量的case语句</span></span><br><span class="line">	<span class="keyword">default</span>: <span class="comment">//可选</span></span><br><span class="line">	<span class="comment">//语句</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">// case 穿透</span></span><br><span class="line">        <span class="comment">// switch 匹配一个具体值</span></span><br><span class="line">        <span class="keyword">char</span> grade =<span class="string">&#x27;C&#x27;</span>;</span><br><span class="line">        <span class="keyword">switch</span> (grade)&#123;</span><br><span class="line">            <span class="keyword">case</span> <span class="string">&#x27;A&#x27;</span>:</span><br><span class="line">                System.out.println(<span class="string">&quot;优秀1&quot;</span>);</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="string">&#x27;B&#x27;</span>:</span><br><span class="line">                System.out.println(<span class="string">&quot;优秀2&quot;</span>);</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="string">&#x27;C&#x27;</span>:</span><br><span class="line">                System.out.println(<span class="string">&quot;优秀&quot;</span>);</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="string">&#x27;D&#x27;</span>:</span><br><span class="line">                System.out.println(<span class="string">&quot;优秀3&quot;</span>);</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">default</span>:</span><br><span class="line">                System.out.println(<span class="string">&quot;未知&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">////String 类型</span></span><br><span class="line"><span class="comment">//字符的本质还是数字</span></span><br><span class="line"><span class="comment">//反编译  java ---- class(字节码文件) ---反编译(idea)</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">           String name =<span class="string">&quot;Java&quot;</span>;</span><br><span class="line">        <span class="keyword">switch</span> (name)&#123;</span><br><span class="line">            <span class="keyword">case</span> <span class="string">&quot;Java&quot;</span>:</span><br><span class="line">                System.out.println(<span class="string">&quot;优秀&quot;</span>);</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="string">&quot;JAVA&quot;</span>:</span><br><span class="line">                System.out.println(<span class="string">&quot;优秀&quot;</span>);</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="string">&quot;HTML&quot;</span>:</span><br><span class="line">                System.out.println(<span class="string">&quot;优秀&quot;</span>);</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="string">&quot;mysql&quot;</span>:</span><br><span class="line">                System.out.println(<span class="string">&quot;优秀&quot;</span>);</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">default</span>:</span><br><span class="line">                System.out.println(<span class="string">&quot;未知&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 ]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>递归</title>
-    <url>/blog/posts/a0b50c75.html</url>
-    <content><![CDATA[]]></content>
       <categories>
         <category>Java</category>
       </categories>
