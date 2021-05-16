@@ -24,20 +24,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Debug的使用</title>
-    <url>/blog/posts/3f0598a9.html</url>
-    <content><![CDATA[<h3 id="Debug的使用-："><a href="#Debug的使用-：" class="headerlink" title="Debug的使用 ："></a>Debug的使用 ：</h3><h4 id="在IDEa或者在eclipse中"><a href="#在IDEa或者在eclipse中" class="headerlink" title="在IDEa或者在eclipse中,"></a>在IDEa或者在eclipse中,</h4><h4 id="1-先点击要检查的代码前面，出现红点或蓝点表示标记成功"><a href="#1-先点击要检查的代码前面，出现红点或蓝点表示标记成功" class="headerlink" title="1.先点击要检查的代码前面，出现红点或蓝点表示标记成功,"></a>1.先点击要检查的代码前面，出现红点或蓝点表示标记成功,</h4><h4 id="2-然后找到选项栏运行图标旁边的-”Debug“"><a href="#2-然后找到选项栏运行图标旁边的-”Debug“" class="headerlink" title="2.然后找到选项栏运行图标旁边的 ”Debug“"></a>2.然后找到选项栏运行图标旁边的 ”Debug“</h4><h4 id="3-点击之后下方窗口会出现控制栏-就可以调试或者一步一步点击下一步看代码运行状态和代码执行内容"><a href="#3-点击之后下方窗口会出现控制栏-就可以调试或者一步一步点击下一步看代码运行状态和代码执行内容" class="headerlink" title="3.点击之后下方窗口会出现控制栏,就可以调试或者一步一步点击下一步看代码运行状态和代码执行内容"></a>3.点击之后下方窗口会出现控制栏,就可以调试或者一步一步点击下一步看代码运行状态和代码执行内容</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//打印五行三角形  5行</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= <span class="number">5</span>; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">5</span>; j &gt;= i; j--) &#123;</span><br><span class="line">                System.out.print(<span class="string">&quot; &quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">1</span>; j &lt;= i;j++)&#123;</span><br><span class="line">                System.out.print(<span class="string">&quot;*&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j =<span class="number">1</span> ; j&lt;i;j++)&#123;</span><br><span class="line">                System.out.print(<span class="string">&quot;*&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.println();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>html 学习目录(连载中)</title>
     <url>/blog/posts/c258b0a1.html</url>
     <content><![CDATA[<h1 id="今天开始正式写前端笔记"><a href="#今天开始正式写前端笔记" class="headerlink" title="今天开始正式写前端笔记"></a>今天开始正式写前端笔记</h1><blockquote>
@@ -60,6 +46,20 @@
       <tags>
         <tag>笔记</tag>
         <tag>html</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Debug的使用</title>
+    <url>/blog/posts/3f0598a9.html</url>
+    <content><![CDATA[<h3 id="Debug的使用-："><a href="#Debug的使用-：" class="headerlink" title="Debug的使用 ："></a>Debug的使用 ：</h3><h4 id="在IDEa或者在eclipse中"><a href="#在IDEa或者在eclipse中" class="headerlink" title="在IDEa或者在eclipse中,"></a>在IDEa或者在eclipse中,</h4><h4 id="1-先点击要检查的代码前面，出现红点或蓝点表示标记成功"><a href="#1-先点击要检查的代码前面，出现红点或蓝点表示标记成功" class="headerlink" title="1.先点击要检查的代码前面，出现红点或蓝点表示标记成功,"></a>1.先点击要检查的代码前面，出现红点或蓝点表示标记成功,</h4><h4 id="2-然后找到选项栏运行图标旁边的-”Debug“"><a href="#2-然后找到选项栏运行图标旁边的-”Debug“" class="headerlink" title="2.然后找到选项栏运行图标旁边的 ”Debug“"></a>2.然后找到选项栏运行图标旁边的 ”Debug“</h4><h4 id="3-点击之后下方窗口会出现控制栏-就可以调试或者一步一步点击下一步看代码运行状态和代码执行内容"><a href="#3-点击之后下方窗口会出现控制栏-就可以调试或者一步一步点击下一步看代码运行状态和代码执行内容" class="headerlink" title="3.点击之后下方窗口会出现控制栏,就可以调试或者一步一步点击下一步看代码运行状态和代码执行内容"></a>3.点击之后下方窗口会出现控制栏,就可以调试或者一步一步点击下一步看代码运行状态和代码执行内容</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//打印五行三角形  5行</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= <span class="number">5</span>; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">5</span>; j &gt;= i; j--) &#123;</span><br><span class="line">                System.out.print(<span class="string">&quot; &quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">1</span>; j &lt;= i;j++)&#123;</span><br><span class="line">                System.out.print(<span class="string">&quot;*&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j =<span class="number">1</span> ; j&lt;i;j++)&#123;</span><br><span class="line">                System.out.print(<span class="string">&quot;*&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.println();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -173,6 +173,18 @@
       <tags>
         <tag>Java</tag>
         <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>其他学习拓展(连载中)</title>
+    <url>/blog/posts/8d422b92.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>其他</tag>
       </tags>
   </entry>
   <entry>
@@ -294,40 +306,6 @@
       </tags>
   </entry>
   <entry>
-    <title>其他学习拓展(连载中)</title>
-    <url>/blog/posts/8d422b92.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>其他</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>其他</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>可变参数</title>
-    <url>/blog/posts/6963fb18.html</url>
-    <content><![CDATA[<h3 id="可变参数-不定项参数"><a href="#可变参数-不定项参数" class="headerlink" title="可变参数(不定项参数)"></a>可变参数(不定项参数)</h3><ul>
-<li><h4 id="在jdk-1-5-开始-，java支持传递同类型的可变参数给一个方法"><a href="#在jdk-1-5-开始-，java支持传递同类型的可变参数给一个方法" class="headerlink" title="在jdk 1.5 开始 ，java支持传递同类型的可变参数给一个方法"></a>在jdk 1.5 开始 ，java支持传递同类型的可变参数给一个方法</h4></li>
-<li><h4 id="在方法声明中，在指定参数类型后加一个省略号-…-本质就是数组"><a href="#在方法声明中，在指定参数类型后加一个省略号-…-本质就是数组" class="headerlink" title="在方法声明中，在指定参数类型后加一个省略号(…),[  本质就是数组  ]"></a>在方法声明中，在指定参数类型后加一个省略号(…),[  本质就是数组  ]</h4></li>
-<li><h4 id="一个方法中只能指定一个可变参数，他必须是方法最后一个参数，任何普通的参数必须在它之前声明。"><a href="#一个方法中只能指定一个可变参数，他必须是方法最后一个参数，任何普通的参数必须在它之前声明。" class="headerlink" title="一个方法中只能指定一个可变参数，他必须是方法最后一个参数，任何普通的参数必须在它之前声明。"></a>一个方法中只能指定一个可变参数，他必须是方法最后一个参数，任何普通的参数必须在它之前声明。</h4></li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ClassDemo01</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">    ClassDemo01 demo = <span class="keyword">new</span> ClassDemo01();</span><br><span class="line">    	demo.test();</span><br><span class="line">    &#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test</span><span class="params">(<span class="keyword">int</span>... i)</span></span>&#123;</span><br><span class="line">   		System.out.println(i[<span class="number">0</span>]);  </span><br><span class="line"> &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>实例：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">CLassDemo0</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">            printlnMax(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">6</span>,<span class="number">5</span>,<span class="number">9</span>,<span class="number">45</span>,<span class="number">465</span>,<span class="number">456</span>,<span class="number">465</span>);</span><br><span class="line">            printlnMax(<span class="number">3333</span>,<span class="number">333</span>,<span class="number">33</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">33</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">33</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">33</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">printlnMax</span><span class="params">(<span class="keyword">double</span> ...nbm)</span></span>&#123;</span><br><span class="line">            <span class="keyword">if</span> (nbm.length == <span class="number">0</span>)&#123;</span><br><span class="line">                System.out.println(<span class="string">&quot;数据出错&quot;</span>);</span><br><span class="line">                <span class="keyword">return</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">double</span> res = nbm[<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; nbm.length; i++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (nbm[i]&gt;res)&#123;</span><br><span class="line">                res = nbm[i];</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;最大&quot;</span>+res);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>变量是什么</title>
     <url>/blog/posts/94320cfe.html</url>
     <content><![CDATA[<h1 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h1><h2 id="变量是什么：就是可以变换的量！"><a href="#变量是什么：就是可以变换的量！" class="headerlink" title="变量是什么：就是可以变换的量！"></a>变量是什么：就是可以变换的量！</h2><h3 id="java-是一种强类型语言，没个变量都必须声明其类型。"><a href="#java-是一种强类型语言，没个变量都必须声明其类型。" class="headerlink" title="java 是一种强类型语言，没个变量都必须声明其类型。"></a>java 是一种强类型语言，没个变量都必须声明其类型。</h3><h3 id="java是程序中最基本的存储单元，其要素包括包括变量名，变量类型和作用域。"><a href="#java是程序中最基本的存储单元，其要素包括包括变量名，变量类型和作用域。" class="headerlink" title="java是程序中最基本的存储单元，其要素包括包括变量名，变量类型和作用域。"></a>java是程序中最基本的存储单元，其要素包括包括变量名，变量类型和作用域。</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">type varName  [=value]  [&#123;,varName[=value]&#125;];    </span><br></pre></td></tr></table></figure>
@@ -357,6 +335,28 @@
 <p>命令行下执行</p>
 <p>javac  包名.类名</p>
 <p>java 包名.类名   参数</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>可变参数</title>
+    <url>/blog/posts/6963fb18.html</url>
+    <content><![CDATA[<h3 id="可变参数-不定项参数"><a href="#可变参数-不定项参数" class="headerlink" title="可变参数(不定项参数)"></a>可变参数(不定项参数)</h3><ul>
+<li><h4 id="在jdk-1-5-开始-，java支持传递同类型的可变参数给一个方法"><a href="#在jdk-1-5-开始-，java支持传递同类型的可变参数给一个方法" class="headerlink" title="在jdk 1.5 开始 ，java支持传递同类型的可变参数给一个方法"></a>在jdk 1.5 开始 ，java支持传递同类型的可变参数给一个方法</h4></li>
+<li><h4 id="在方法声明中，在指定参数类型后加一个省略号-…-本质就是数组"><a href="#在方法声明中，在指定参数类型后加一个省略号-…-本质就是数组" class="headerlink" title="在方法声明中，在指定参数类型后加一个省略号(…),[  本质就是数组  ]"></a>在方法声明中，在指定参数类型后加一个省略号(…),[  本质就是数组  ]</h4></li>
+<li><h4 id="一个方法中只能指定一个可变参数，他必须是方法最后一个参数，任何普通的参数必须在它之前声明。"><a href="#一个方法中只能指定一个可变参数，他必须是方法最后一个参数，任何普通的参数必须在它之前声明。" class="headerlink" title="一个方法中只能指定一个可变参数，他必须是方法最后一个参数，任何普通的参数必须在它之前声明。"></a>一个方法中只能指定一个可变参数，他必须是方法最后一个参数，任何普通的参数必须在它之前声明。</h4></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ClassDemo01</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">    ClassDemo01 demo = <span class="keyword">new</span> ClassDemo01();</span><br><span class="line">    	demo.test();</span><br><span class="line">    &#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test</span><span class="params">(<span class="keyword">int</span>... i)</span></span>&#123;</span><br><span class="line">   		System.out.println(i[<span class="number">0</span>]);  </span><br><span class="line"> &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>实例：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">CLassDemo0</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">            printlnMax(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">6</span>,<span class="number">5</span>,<span class="number">9</span>,<span class="number">45</span>,<span class="number">465</span>,<span class="number">456</span>,<span class="number">465</span>);</span><br><span class="line">            printlnMax(<span class="number">3333</span>,<span class="number">333</span>,<span class="number">33</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">33</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">33</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">33</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">printlnMax</span><span class="params">(<span class="keyword">double</span> ...nbm)</span></span>&#123;</span><br><span class="line">            <span class="keyword">if</span> (nbm.length == <span class="number">0</span>)&#123;</span><br><span class="line">                System.out.println(<span class="string">&quot;数据出错&quot;</span>);</span><br><span class="line">                <span class="keyword">return</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">double</span> res = nbm[<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; nbm.length; i++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (nbm[i]&gt;res)&#123;</span><br><span class="line">                res = nbm[i];</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;最大&quot;</span>+res);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>Java</category>
