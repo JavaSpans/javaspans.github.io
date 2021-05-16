@@ -112,18 +112,6 @@
       </tags>
   </entry>
   <entry>
-    <title>mysql 学习目录(连载中)</title>
-    <url>/blog/posts/6e48d4f4.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Mysql</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Mysql</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Scanner对象</title>
     <url>/blog/posts/e2abe5ec.html</url>
     <content><![CDATA[<h3 id="Scanner对象"><a href="#Scanner对象" class="headerlink" title="Scanner对象"></a>Scanner对象</h3><h4 id="是实现人机交互的工具类，通过Scanner类来获取用户的输入。"><a href="#是实现人机交互的工具类，通过Scanner类来获取用户的输入。" class="headerlink" title="是实现人机交互的工具类，通过Scanner类来获取用户的输入。"></a>是实现人机交互的工具类，通过Scanner类来获取用户的输入。</h4><h4 id="基本的语法："><a href="#基本的语法：" class="headerlink" title="基本的语法："></a>基本的语法：</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//创建一个扫描器对象，用于接收键盘数据</span></span><br><span class="line">Scanner s = <span class="keyword">new</span> Scanner(System.in)</span><br></pre></td></tr></table></figure>
@@ -173,6 +161,18 @@
       <tags>
         <tag>Java</tag>
         <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>mysql 学习目录(连载中)</title>
+    <url>/blog/posts/6e48d4f4.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Mysql</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Mysql</tag>
       </tags>
   </entry>
   <entry>
@@ -328,6 +328,23 @@
       </tags>
   </entry>
   <entry>
+    <title>命令行传参</title>
+    <url>/blog/posts/4a246c51.html</url>
+    <content><![CDATA[<h3 id="命令行传参"><a href="#命令行传参" class="headerlink" title="命令行传参"></a>命令行传参</h3><h4 id="有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main-函数实现。"><a href="#有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main-函数实现。" class="headerlink" title="有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main()函数实现。"></a>有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main()函数实现。</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ClassDemo01</span> </span>&#123;</span><br><span class="line">    <span class="comment">//主方法 mian方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">      <span class="keyword">for</span>(<span class="keyword">int</span> i =<span class="number">0</span>;i&lt;args.length;i++)&#123;</span><br><span class="line">          <span class="comment">//便利主方法内的数组长度</span></span><br><span class="line">          System.out.println(args[i]);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<p>命令行下执行</p>
+<p>javac  包名.类名</p>
+<p>java 包名.类名   参数</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>可变参数</title>
     <url>/blog/posts/6963fb18.html</url>
     <content><![CDATA[<h3 id="可变参数-不定项参数"><a href="#可变参数-不定项参数" class="headerlink" title="可变参数(不定项参数)"></a>可变参数(不定项参数)</h3><ul>
@@ -350,6 +367,11 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo的建设及踩坑</title>
+    <url>/blog/posts/980497e8.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>多态</title>
     <url>/blog/posts/ac4294eb.html</url>
     <content><![CDATA[<h1 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h1><h2 id="多态的格式："><a href="#多态的格式：" class="headerlink" title="多态的格式："></a>多态的格式：</h2><h3 id="父类名-对象名-new-子类的构造方法-传参"><a href="#父类名-对象名-new-子类的构造方法-传参" class="headerlink" title="父类名  对象名 = new 子类的构造方法(传参);"></a>父类名  对象名 = new 子类的构造方法(传参);</h3><h3 id="接口名-对象名-new-实现类名"><a href="#接口名-对象名-new-实现类名" class="headerlink" title="接口名  对象名 = new  实现类名();"></a>接口名  对象名 = new  实现类名();</h3><h2 id="多态创建的对象有什么特点？"><a href="#多态创建的对象有什么特点？" class="headerlink" title="多态创建的对象有什么特点？"></a>多态创建的对象有什么特点？</h2><ul>
@@ -369,28 +391,6 @@
         <tag>Java</tag>
         <tag>笔记</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>命令行传参</title>
-    <url>/blog/posts/4a246c51.html</url>
-    <content><![CDATA[<h3 id="命令行传参"><a href="#命令行传参" class="headerlink" title="命令行传参"></a>命令行传参</h3><h4 id="有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main-函数实现。"><a href="#有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main-函数实现。" class="headerlink" title="有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main()函数实现。"></a>有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main()函数实现。</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ClassDemo01</span> </span>&#123;</span><br><span class="line">    <span class="comment">//主方法 mian方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">      <span class="keyword">for</span>(<span class="keyword">int</span> i =<span class="number">0</span>;i&lt;args.length;i++)&#123;</span><br><span class="line">          <span class="comment">//便利主方法内的数组长度</span></span><br><span class="line">          System.out.println(args[i]);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
-
-<p>命令行下执行</p>
-<p>javac  包名.类名</p>
-<p>java 包名.类名   参数</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo的建设及踩坑</title>
-    <url>/blog/posts/980497e8.html</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>循环结构三大循环</title>
@@ -443,26 +443,6 @@
       </tags>
   </entry>
   <entry>
-    <title>方法的重载</title>
-    <url>/blog/posts/70ec998a.html</url>
-    <content><![CDATA[<h3 id="方法的重载"><a href="#方法的重载" class="headerlink" title="方法的重载"></a>方法的重载</h3><h4 id="方法的重载就是在一个类里面，有相同的方法名称-函数名称-，但形参不同的函数。"><a href="#方法的重载就是在一个类里面，有相同的方法名称-函数名称-，但形参不同的函数。" class="headerlink" title="方法的重载就是在一个类里面，有相同的方法名称(函数名称)，但形参不同的函数。"></a>方法的重载就是在一个类里面，有相同的方法名称(函数名称)，但形参不同的函数。</h4><h4 id="方法的重载的规则："><a href="#方法的重载的规则：" class="headerlink" title="方法的重载的规则："></a>方法的重载的规则：</h4><ul>
-<li><h5 id="方法名称必须相同。"><a href="#方法名称必须相同。" class="headerlink" title="方法名称必须相同。"></a>方法名称必须相同。</h5></li>
-<li><h5 id="参数列表必须不同-个数不同，或类型不同、参数排列顺序不同等"><a href="#参数列表必须不同-个数不同，或类型不同、参数排列顺序不同等" class="headerlink" title="参数列表必须不同(个数不同，或类型不同、参数排列顺序不同等)"></a>参数列表必须不同(个数不同，或类型不同、参数排列顺序不同等)</h5></li>
-<li><h5 id="方法的返回值类型可以相同也可以不相同。"><a href="#方法的返回值类型可以相同也可以不相同。" class="headerlink" title="方法的返回值类型可以相同也可以不相同。"></a>方法的返回值类型可以相同也可以不相同。</h5></li>
-<li><h5 id="仅仅返回值类型不同不足以成为方法的重载。"><a href="#仅仅返回值类型不同不足以成为方法的重载。" class="headerlink" title="仅仅返回值类型不同不足以成为方法的重载。"></a>仅仅返回值类型不同不足以成为方法的重载。</h5></li>
-</ul>
-<h4 id="实现理论："><a href="#实现理论：" class="headerlink" title="实现理论："></a>实现理论：</h4><h5 id="方法名称相同时，编译器会根据调用方法的参数个数、参数类型等去逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错。"><a href="#方法名称相同时，编译器会根据调用方法的参数个数、参数类型等去逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错。" class="headerlink" title="方法名称相同时，编译器会根据调用方法的参数个数、参数类型等去逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错。"></a>方法名称相同时，编译器会根据调用方法的参数个数、参数类型等去逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错。</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"> <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> num = add(<span class="number">3</span>,<span class="number">4</span>);</span><br><span class="line">        System.out.println(num);</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> a+b;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">double</span> <span class="title">add</span><span class="params">(<span class="keyword">double</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> a+b;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b,<span class="keyword">int</span> c)</span></span>&#123; <span class="keyword">return</span> a+b; &#125;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>类型的转换</title>
     <url>/blog/posts/6280299f.html</url>
     <content><![CDATA[<h1 id="类型的转换"><a href="#类型的转换" class="headerlink" title="类型的转换"></a>类型的转换</h1><h4 id="由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换"><a href="#由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换" class="headerlink" title="由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换"></a>由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">由低------------------------------到高</span><br><span class="line">byte → short → char → int → long → float → double</span><br></pre></td></tr></table></figure>
@@ -476,6 +456,26 @@
 </ol>
 <h4 id="强制转换"><a href="#强制转换" class="headerlink" title="强制转换"></a>强制转换</h4><p>(类型)变量名     高到低</p>
 <h4 id="自动转换"><a href="#自动转换" class="headerlink" title="自动转换"></a>自动转换</h4><p>由低—–高</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>方法的重载</title>
+    <url>/blog/posts/70ec998a.html</url>
+    <content><![CDATA[<h3 id="方法的重载"><a href="#方法的重载" class="headerlink" title="方法的重载"></a>方法的重载</h3><h4 id="方法的重载就是在一个类里面，有相同的方法名称-函数名称-，但形参不同的函数。"><a href="#方法的重载就是在一个类里面，有相同的方法名称-函数名称-，但形参不同的函数。" class="headerlink" title="方法的重载就是在一个类里面，有相同的方法名称(函数名称)，但形参不同的函数。"></a>方法的重载就是在一个类里面，有相同的方法名称(函数名称)，但形参不同的函数。</h4><h4 id="方法的重载的规则："><a href="#方法的重载的规则：" class="headerlink" title="方法的重载的规则："></a>方法的重载的规则：</h4><ul>
+<li><h5 id="方法名称必须相同。"><a href="#方法名称必须相同。" class="headerlink" title="方法名称必须相同。"></a>方法名称必须相同。</h5></li>
+<li><h5 id="参数列表必须不同-个数不同，或类型不同、参数排列顺序不同等"><a href="#参数列表必须不同-个数不同，或类型不同、参数排列顺序不同等" class="headerlink" title="参数列表必须不同(个数不同，或类型不同、参数排列顺序不同等)"></a>参数列表必须不同(个数不同，或类型不同、参数排列顺序不同等)</h5></li>
+<li><h5 id="方法的返回值类型可以相同也可以不相同。"><a href="#方法的返回值类型可以相同也可以不相同。" class="headerlink" title="方法的返回值类型可以相同也可以不相同。"></a>方法的返回值类型可以相同也可以不相同。</h5></li>
+<li><h5 id="仅仅返回值类型不同不足以成为方法的重载。"><a href="#仅仅返回值类型不同不足以成为方法的重载。" class="headerlink" title="仅仅返回值类型不同不足以成为方法的重载。"></a>仅仅返回值类型不同不足以成为方法的重载。</h5></li>
+</ul>
+<h4 id="实现理论："><a href="#实现理论：" class="headerlink" title="实现理论："></a>实现理论：</h4><h5 id="方法名称相同时，编译器会根据调用方法的参数个数、参数类型等去逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错。"><a href="#方法名称相同时，编译器会根据调用方法的参数个数、参数类型等去逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错。" class="headerlink" title="方法名称相同时，编译器会根据调用方法的参数个数、参数类型等去逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错。"></a>方法名称相同时，编译器会根据调用方法的参数个数、参数类型等去逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错。</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"> <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> num = add(<span class="number">3</span>,<span class="number">4</span>);</span><br><span class="line">        System.out.println(num);</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> a+b;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">double</span> <span class="title">add</span><span class="params">(<span class="keyword">double</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> a+b;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b,<span class="keyword">int</span> c)</span></span>&#123; <span class="keyword">return</span> a+b; &#125;</span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>Java</category>
