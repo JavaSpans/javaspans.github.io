@@ -690,7 +690,42 @@
 <li><h5 id="数组描述的是相同类型的若干个数据，按照一定的先后顺序排列组合而成。"><a href="#数组描述的是相同类型的若干个数据，按照一定的先后顺序排列组合而成。" class="headerlink" title="数组描述的是相同类型的若干个数据，按照一定的先后顺序排列组合而成。"></a>数组描述的是相同类型的若干个数据，按照一定的先后顺序排列组合而成。</h5></li>
 <li><h5 id="其中，每一个数据称作一个数组元素，每个数组元素可以通过一个下标来访问他们。"><a href="#其中，每一个数据称作一个数组元素，每个数组元素可以通过一个下标来访问他们。" class="headerlink" title="其中，每一个数据称作一个数组元素，每个数组元素可以通过一个下标来访问他们。"></a>其中，每一个数据称作一个数组元素，每个数组元素可以通过一个下标来访问他们。</h5></li>
 </ul>
-<h3 id="数组声明创建"><a href="#数组声明创建" class="headerlink" title="数组声明创建"></a>数组声明创建</h3><h4 id="首先必须声明数组变量，才能在程序中使用数组。"><a href="#首先必须声明数组变量，才能在程序中使用数组。" class="headerlink" title="首先必须声明数组变量，才能在程序中使用数组。"></a>首先必须声明数组变量，才能在程序中使用数组。</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">dataType[] arrayRefVar; <span class="comment">//首选方法</span></span><br></pre></td></tr></table></figure>
+<h3 id="数组声明创建"><a href="#数组声明创建" class="headerlink" title="数组声明创建"></a>数组声明创建</h3><ul>
+<li><h4 id="首先必须声明数组变量，才能在程序中使用数组。"><a href="#首先必须声明数组变量，才能在程序中使用数组。" class="headerlink" title="首先必须声明数组变量，才能在程序中使用数组。"></a>首先必须声明数组变量，才能在程序中使用数组。</h4></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">dataType[] arrayRefVar; <span class="comment">//首选方法</span></span><br><span class="line">或</span><br><span class="line">dataType arrayRefVar[];<span class="comment">//效果相同但不是首选方法</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><h4 id="Java语言使用new操作符来创建数组，语法如下："><a href="#Java语言使用new操作符来创建数组，语法如下：" class="headerlink" title="Java语言使用new操作符来创建数组，语法如下："></a>Java语言使用new操作符来创建数组，语法如下：</h4></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">dataType[]arrayRefVer = <span class="keyword">new</span> dataType[arraySize];</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><h4 id="数组的元素是通过索引访问的，数组索引-下标值-从0开始。"><a href="#数组的元素是通过索引访问的，数组索引-下标值-从0开始。" class="headerlink" title="数组的元素是通过索引访问的，数组索引(下标值)从0开始。"></a>数组的元素是通过索引访问的，数组索引(下标值)从0开始。</h4></li>
+<li><h4 id="获取数组的v长度-arrays-length"><a href="#获取数组的v长度-arrays-length" class="headerlink" title="获取数组的v长度 arrays.length"></a>获取数组的v长度 arrays.length</h4></li>
+<li><h4 id="如果没有给数组某个元素赋值的话-默认值-为-类型的默认值"><a href="#如果没有给数组某个元素赋值的话-默认值-为-类型的默认值" class="headerlink" title="如果没有给数组某个元素赋值的话 默认值 为 类型的默认值"></a>如果没有给数组某个元素赋值的话 默认值 为 类型的默认值</h4></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>int</th>
+<th>double</th>
+<th>String</th>
+<th>boolean</th>
+<th>char</th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0</td>
+<td>0.0</td>
+<td>null</td>
+<td>false</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ArratRes</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> [] array ;<span class="comment">//定义一个数组</span></span><br><span class="line">        array = <span class="keyword">new</span> <span class="keyword">int</span> [<span class="number">10</span>];<span class="comment">//创建了一个数组，这里面可以存放10个int类型的数字</span></span><br><span class="line">    <span class="comment">//给数组元素赋值</span></span><br><span class="line">        array[<span class="number">0</span>]=<span class="number">1</span>;</span><br><span class="line">        array[<span class="number">1</span>]=<span class="number">2</span>;</span><br><span class="line">        array[<span class="number">2</span>]=<span class="number">3</span>;</span><br><span class="line">        array[<span class="number">3</span>]=<span class="number">4</span>;</span><br><span class="line">        array[<span class="number">4</span>]=<span class="number">5</span>;</span><br><span class="line">        array[<span class="number">5</span>]=<span class="number">6</span>;</span><br><span class="line">        array[<span class="number">6</span>]=<span class="number">7</span>;</span><br><span class="line">        array[<span class="number">7</span>]=<span class="number">8</span>;</span><br><span class="line">        array[<span class="number">8</span>]=<span class="number">9</span>;</span><br><span class="line">        array[<span class="number">9</span>]=<span class="number">10</span>;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
