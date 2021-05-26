@@ -361,7 +361,9 @@
   <entry>
     <title>其他学习拓展(连载中)</title>
     <url>/blog/posts/8d422b92.html</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>1.<a href="https://javaspans.github.io/blog/posts/3f0598a9.html">Debug的使用性</a></p>
+<p>2.<a href="https://javaspans.github.io/blog/posts/81406da.html">反编译 class 文件</a></p>
+]]></content>
       <categories>
         <category>其他</category>
       </categories>
@@ -927,7 +929,10 @@
 </li>
 <li><h4 id="记住这句话就够了：属性私有get-set"><a href="#记住这句话就够了：属性私有get-set" class="headerlink" title="记住这句话就够了：属性私有get/set"></a>记住这句话就够了：属性私有get/set</h4><h4 id="private：-私有的"><a href="#private：-私有的" class="headerlink" title="private： 私有的"></a>private： 私有的</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//属性私有</span></span><br><span class="line"><span class="keyword">private</span> String name;</span><br><span class="line"><span class="comment">//提供一些可以操作这个属性的方法</span></span><br><span class="line"><span class="comment">//提供一些public 的get set 方法</span></span><br><span class="line"><span class="comment">//get 获得这个数据</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">this</span>.name;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//set 给这个数据设置值</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span></span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.name = name;</span><br><span class="line">&#125;</span><br><span class="line">快捷键ALT + INSERT</span><br></pre></td></tr></table></figure></li>
 </ul>
-<h5 id="1-提高程序的安全性，保护数据"><a href="#1-提高程序的安全性，保护数据" class="headerlink" title="1.提高程序的安全性，保护数据"></a>1.提高程序的安全性，保护数据</h5><h5 id="2-隐藏代码的实现细节"><a href="#2-隐藏代码的实现细节" class="headerlink" title="2.隐藏代码的实现细节"></a>2.隐藏代码的实现细节</h5><h5 id="3-统一接口"><a href="#3-统一接口" class="headerlink" title="3.统一接口"></a>3.统一接口</h5><h5 id="4-系统可维护增加了"><a href="#4-系统可维护增加了" class="headerlink" title="4.系统可维护增加了"></a>4.系统可维护增加了</h5>]]></content>
+<h5 id="1-提高程序的安全性，保护数据"><a href="#1-提高程序的安全性，保护数据" class="headerlink" title="1.提高程序的安全性，保护数据"></a>1.提高程序的安全性，保护数据</h5><h5 id="2-隐藏代码的实现细节"><a href="#2-隐藏代码的实现细节" class="headerlink" title="2.隐藏代码的实现细节"></a>2.隐藏代码的实现细节</h5><h5 id="3-统一接口"><a href="#3-统一接口" class="headerlink" title="3.统一接口"></a>3.统一接口</h5><h5 id="4-系统可维护增加了"><a href="#4-系统可维护增加了" class="headerlink" title="4.系统可维护增加了"></a>4.系统可维护增加了</h5><h3 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h3><ul>
+<li>继承的本质是对某一批类的抽象，从而实现对现实时间更好的建模</li>
+</ul>
+]]></content>
       <categories>
         <category>Java</category>
       </categories>
