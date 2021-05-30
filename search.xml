@@ -224,8 +224,7 @@
 <li><h5 id="面对对象的三大特性"><a href="#面对对象的三大特性" class="headerlink" title="面对对象的三大特性"></a><a href="https://javaspans.github.io/blog/posts/bf990afe.html">面对对象的三大特性</a></h5></li>
 <li><h4 id="static关键字"><a href="#static关键字" class="headerlink" title="static关键字"></a><a href="https://javaspans.github.io/blog/posts/a6c6c4c.html">static关键字</a></h4></li>
 <li><h4 id="抽象类"><a href="#抽象类" class="headerlink" title="抽象类"></a><a href="https://javaspans.github.io/blog/posts/bcf3512a.html">抽象类</a></h4></li>
-<li><p><a href="https://javaspans.github.io/blog/posts/bcf3512a.html">抽象类</a></p>
-</li>
+<li><h4 id="接口的定义和实现"><a href="#接口的定义和实现" class="headerlink" title="接口的定义和实现"></a><a href="https://javaspans.github.io/blog/posts/224e502b.html">接口的定义和实现</a></h4></li>
 </ol>
 </li>
 </ul>
@@ -1041,7 +1040,7 @@
   <entry>
     <title>接口的定义和实现</title>
     <url>/blog/posts/224e502b.html</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h3 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h3><h5 id="区别："><a href="#区别：" class="headerlink" title="区别："></a>区别：</h5><h5 id="抽象类：只有具体实现"><a href="#抽象类：只有具体实现" class="headerlink" title="抽象类：只有具体实现"></a>抽象类：只有具体实现</h5><h5 id="抽象类：具体实现和规范（抽象方法）都有"><a href="#抽象类：具体实现和规范（抽象方法）都有" class="headerlink" title="抽象类：具体实现和规范（抽象方法）都有"></a>抽象类：具体实现和规范（抽象方法）都有</h5><h5 id="接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程"><a href="#接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程" class="headerlink" title="接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程~"></a>接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程~</h5><h5 id="接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。"><a href="#接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。" class="headerlink" title="接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。"></a>接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。</h5><h5 id="接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。"><a href="#接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。" class="headerlink" title="接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。"></a>接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。</h5><h5 id="精髓就是对对象的抽象，最能体现这一点的就是接口。"><a href="#精髓就是对对象的抽象，最能体现这一点的就是接口。" class="headerlink" title="精髓就是对对象的抽象，最能体现这一点的就是接口。"></a>精髓就是对对象的抽象，最能体现这一点的就是接口。</h5>]]></content>
       <categories>
         <category>Java</category>
       </categories>
