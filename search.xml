@@ -225,6 +225,7 @@
 <li><h4 id="static关键字"><a href="#static关键字" class="headerlink" title="static关键字"></a><a href="https://javaspans.github.io/blog/posts/a6c6c4c.html">static关键字</a></h4></li>
 <li><h4 id="抽象类"><a href="#抽象类" class="headerlink" title="抽象类"></a><a href="https://javaspans.github.io/blog/posts/bcf3512a.html">抽象类</a></h4></li>
 <li><h4 id="接口的定义和实现"><a href="#接口的定义和实现" class="headerlink" title="接口的定义和实现"></a><a href="https://javaspans.github.io/blog/posts/224e502b.html">接口的定义和实现</a></h4></li>
+<li><h4 id="内部类"><a href="#内部类" class="headerlink" title="内部类"></a><a href="https://javaspans.github.io/blog/posts/9bc01b38.html">内部类</a></h4></li>
 </ol>
 </li>
 </ul>
@@ -1040,7 +1041,36 @@
   <entry>
     <title>接口的定义和实现</title>
     <url>/blog/posts/224e502b.html</url>
-    <content><![CDATA[<h3 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h3><h5 id="区别："><a href="#区别：" class="headerlink" title="区别："></a>区别：</h5><h5 id="抽象类：只有具体实现"><a href="#抽象类：只有具体实现" class="headerlink" title="抽象类：只有具体实现"></a>抽象类：只有具体实现</h5><h5 id="抽象类：具体实现和规范（抽象方法）都有"><a href="#抽象类：具体实现和规范（抽象方法）都有" class="headerlink" title="抽象类：具体实现和规范（抽象方法）都有"></a>抽象类：具体实现和规范（抽象方法）都有</h5><h5 id="接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程"><a href="#接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程" class="headerlink" title="接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程~"></a>接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程~</h5><h5 id="接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。"><a href="#接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。" class="headerlink" title="接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。"></a>接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。</h5><h5 id="接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。"><a href="#接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。" class="headerlink" title="接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。"></a>接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。</h5><h5 id="精髓就是对对象的抽象，最能体现这一点的就是接口。"><a href="#精髓就是对对象的抽象，最能体现这一点的就是接口。" class="headerlink" title="精髓就是对对象的抽象，最能体现这一点的就是接口。"></a>精髓就是对对象的抽象，最能体现这一点的就是接口。</h5>]]></content>
+    <content><![CDATA[<h3 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h3><h5 id="区别："><a href="#区别：" class="headerlink" title="区别："></a>区别：</h5><h5 id="抽象类：只有具体实现"><a href="#抽象类：只有具体实现" class="headerlink" title="抽象类：只有具体实现"></a>抽象类：只有具体实现</h5><h5 id="抽象类：具体实现和规范（抽象方法）都有"><a href="#抽象类：具体实现和规范（抽象方法）都有" class="headerlink" title="抽象类：具体实现和规范（抽象方法）都有"></a>抽象类：具体实现和规范（抽象方法）都有</h5><h5 id="接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程"><a href="#接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程" class="headerlink" title="接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程~"></a>接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程~</h5><h5 id="接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。"><a href="#接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。" class="headerlink" title="接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。"></a>接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。</h5><h5 id="接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。"><a href="#接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。" class="headerlink" title="接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。"></a>接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。</h5><h5 id="精髓就是对对象的抽象，最能体现这一点的就是接口。"><a href="#精髓就是对对象的抽象，最能体现这一点的就是接口。" class="headerlink" title="精髓就是对对象的抽象，最能体现这一点的就是接口。"></a>精髓就是对对象的抽象，最能体现这一点的就是接口。</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//interfa 定义的关键字，接口都需要有实现类	</span></span><br><span class="line"><span class="comment">//接口中所有定义方法其实都是抽象的 public abstract	</span></span><br><span class="line"><span class="comment">//接口中定义的变量(属性)都是常量 public static final</span></span><br><span class="line"><span class="comment">//抽象类：extends  和 接口 实现 implements 接口</span></span><br><span class="line"><span class="comment">//实现了接口的类，就需要重写接口中的方法</span></span><br><span class="line"><span class="comment">//多继承，利用接口实现多继承。 </span></span><br></pre></td></tr></table></figure>
+
+<h4 id="接口的作用："><a href="#接口的作用：" class="headerlink" title="接口的作用："></a>接口的作用：</h4><ol>
+<li><h5 id="约束"><a href="#约束" class="headerlink" title="约束"></a>约束</h5></li>
+<li><h5 id="定义一些方法，让不同的人实现"><a href="#定义一些方法，让不同的人实现" class="headerlink" title="定义一些方法，让不同的人实现~"></a>定义一些方法，让不同的人实现~</h5></li>
+<li><h5 id="public-abstract-抽象"><a href="#public-abstract-抽象" class="headerlink" title="public  abstract 抽象"></a>public  abstract 抽象</h5></li>
+<li><h5 id="public-static-final-常量"><a href="#public-static-final-常量" class="headerlink" title="public static final 常量"></a>public static final 常量</h5></li>
+<li><h5 id="接口不能被实例化-接口中没有构造方法。"><a href="#接口不能被实例化-接口中没有构造方法。" class="headerlink" title="接口不能被实例化~接口中没有构造方法。"></a>接口不能被实例化~接口中没有构造方法。</h5></li>
+<li><h5 id="implements-可以实现多个接口"><a href="#implements-可以实现多个接口" class="headerlink" title="implements 可以实现多个接口"></a>implements 可以实现多个接口</h5></li>
+<li><h5 id="必须要重写接口中的方法"><a href="#必须要重写接口中的方法" class="headerlink" title="必须要重写接口中的方法~"></a>必须要重写接口中的方法~</h5></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>内部类</title>
+    <url>/blog/posts/9bc01b38.html</url>
+    <content><![CDATA[<h3 id="内部类"><a href="#内部类" class="headerlink" title="内部类"></a>内部类</h3><h4 id="内部类就是在一个类内部在定义一个类，比如，A类中定义一个B类，那么B类相对于A类来说就称为内部类，而A类相对于B类来说就是外部类了。"><a href="#内部类就是在一个类内部在定义一个类，比如，A类中定义一个B类，那么B类相对于A类来说就称为内部类，而A类相对于B类来说就是外部类了。" class="headerlink" title="内部类就是在一个类内部在定义一个类，比如，A类中定义一个B类，那么B类相对于A类来说就称为内部类，而A类相对于B类来说就是外部类了。"></a>内部类就是在一个类内部在定义一个类，比如，A类中定义一个B类，那么B类相对于A类来说就称为内部类，而A类相对于B类来说就是外部类了。</h4><ul>
+<li><h5 id="成员内部类"><a href="#成员内部类" class="headerlink" title="成员内部类"></a>成员内部类</h5></li>
+<li><h5 id="静态内部类"><a href="#静态内部类" class="headerlink" title="静态内部类"></a>静态内部类</h5></li>
+<li><h5 id="局部内部类"><a href="#局部内部类" class="headerlink" title="局部内部类"></a>局部内部类</h5></li>
+<li><h5 id="匿名内部类"><a href="#匿名内部类" class="headerlink" title="匿名内部类"></a>匿名内部类</h5></li>
+</ul>
+<h5 id="在一个类里面在写一个类就是内部类"><a href="#在一个类里面在写一个类就是内部类" class="headerlink" title="在一个类里面在写一个类就是内部类"></a>在一个类里面在写一个类就是内部类</h5>]]></content>
       <categories>
         <category>Java</category>
       </categories>
