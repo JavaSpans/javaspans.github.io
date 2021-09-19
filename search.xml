@@ -575,6 +575,45 @@
 <p>Lock 接口中的方法：</p>
 <p>void Lock() 获取锁</p>
 <p>void unLock()释放锁</p>
+<p>使用步骤：</p>
+<p>1.在成员位置创建一个ReentrantLock对象</p>
+<p>2.在可能会出现安全问题的代码前调用Lock接口中的方法Lock获取</p>
+<p>package Day002;<br>import java.lang.*;</p>
+<p>public class TestDesp implements Runnable{<br>    private static int r = 100;<br>    Object object = new Object();<br>    @Override<br>    //设置线程任务<br>    public void run(){<br>        //使用死循环，让卖票操作重复执行<br>       while(true){<br>           plytak();<br>          }<br>        }<br>    }<br>    /*</p>
+<pre><code>静态同步方法的
+锁对象是谁？
+不是this
+this是创建对象后才产生的，静态方法优先于对象。
+就是本类的class属性---class文件对象(反射)
+也就是this 
+
+*/
+public static synchronized void plytak ()&#123;
+    //先判断票是否存在
+           if(r&gt;0)&#123;
+               //提高安全问题出现问题的概率，让程序睡眠
+               try &#123;
+                   Thread.sleep(10);
+                   System.out.println(Thread.currentThread().getName()+&quot;卖出了多少票&quot;+r);
+               r--;
+               &#125; catch (InterruptedException e) &#123;
+                   e.printStackTrace();
+               &#125;finally&#123;
+               lock.unlock();
+               &#125;
+               
+       &#125;
+
+     &#125;
+&#125;
+</code></pre>
+<p>​        </p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">    <span class="comment">//创建Runnable接口对象的实现类对象(lamada表达式方式)</span></span><br><span class="line">    Runnable runnable = () -&gt; &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">100</span>; i++) &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;hello word&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="comment">//创建Runnable接口对象的实现类对象</span></span><br><span class="line">    TestDesp ts =<span class="keyword">new</span> TestDesp();</span><br><span class="line">    <span class="comment">//创建Thread类对象，构造方法中传递Runnable接口的实现类对象</span></span><br><span class="line">    Thread tss = <span class="keyword">new</span> Thread(ts);</span><br><span class="line">    Thread tss1 = <span class="keyword">new</span> Thread(runnable);</span><br><span class="line">    Thread tss2 = <span class="keyword">new</span> Thread(ts);</span><br><span class="line">    <span class="comment">//调用start方法开启多线程</span></span><br><span class="line">    tss.start();</span><br><span class="line">    tss1.start();</span><br><span class="line">    tss2.start();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="线程状态"><a href="#线程状态" class="headerlink" title="线程状态"></a>线程状态</h4><p><img src="https://cdn.jsdelivr.net/gh/JavaSpans/imgdemo@main/img/202109191904174.png"></p>
+<h4 id="等待唤醒"><a href="#等待唤醒" class="headerlink" title="等待唤醒"></a>等待唤醒</h4><p>​    线程之间的通信</p>
+<p>案例：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> class <span class="title">DemowaitAndNotify</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	创建一个顾客线程(消费者)：告知老板要的包子种类喝数量，调用wait方法，放弃cpu的执行，进入都WAITING状态(无线等待)</span></span><br><span class="line"><span class="comment">	创建一个拉板线程(生产者)：花了五秒做好包子之后，调用notify方法，唤醒顾客吃包子。</span></span><br><span class="line"><span class="comment">	注意：</span></span><br><span class="line"><span class="comment">		顾客喝老板线程必须使用同步代码块包裹起来，保证等待喝唤醒只能有一个在执行，同步使用的锁对象必须保证唯一，只有锁对象才能调用wait喝notify方法</span></span><br><span class="line"><span class="comment">	Obejct类中的方法</span></span><br><span class="line"><span class="comment">void wait()</span></span><br><span class="line"><span class="comment">	在其他线程调用此对象的notify()方法或notifyAll()方法之前，导致当前线程等待。</span></span><br><span class="line"><span class="comment">void notify()</span></span><br><span class="line"><span class="comment">	唤醒在此对象监视器上等待的单个线程。</span></span><br><span class="line"><span class="comment">	会继续执行wait方法之后的代码</span></span><br><span class="line"><span class="comment">	</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">public</span>	<span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String &#123;&#125; args)</span></span>&#123;</span><br><span class="line">        <span class="comment">//创建锁对象，保证唯一</span></span><br><span class="line">        Object obj = <span class="keyword">new</span> Object();</span><br><span class="line">        <span class="comment">//创建一个顾客线程(消费者)</span></span><br><span class="line">    &#125;</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>Java</category>
