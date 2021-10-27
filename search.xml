@@ -28,44 +28,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Java学校笔记(连载中)</title>
-    <url>/df344879.html</url>
-    <content><![CDATA[<h5 id=""><a href="#" class="headerlink" title=""></a></h5><ol>
-<li><h5 id="数据类型结构"><a href="#数据类型结构" class="headerlink" title="数据类型结构"></a><a href="https://javaspans.github.io/posts/37015d6b.html">数据类型结构</a></h5></li>
-<li><h5 id="三元运算符和switch"><a href="#三元运算符和switch" class="headerlink" title="三元运算符和switch"></a><a href="https://javaspans.github.io/posts/ef68d2a6.html">三元运算符和switch</a></h5></li>
-<li><h5 id="Static关键字和代码块"><a href="#Static关键字和代码块" class="headerlink" title="Static关键字和代码块"></a><a href="https://javaspans.github.io/posts/8c6f2d57.html">Static关键字和代码块</a></h5></li>
-<li><h5 id="Final关键字"><a href="#Final关键字" class="headerlink" title="Final关键字"></a><a href="https://javaspans.github.io/posts/ec8d8377.html">Final关键字</a></h5></li>
-<li><h5 id="构造方法和getset"><a href="#构造方法和getset" class="headerlink" title="构造方法和getset"></a><a href="https://javaspans.github.io/posts/e2abe5ec.html">构造方法和getset</a></h5></li>
-<li><h5 id="抽象类"><a href="#抽象类" class="headerlink" title="抽象类"></a><a href="https://javaspans.github.io/posts/d7363e83.html">抽象类</a></h5></li>
-<li><h5 id="循环结构三大循环"><a href="#循环结构三大循环" class="headerlink" title="循环结构三大循环"></a><a href="https://javaspans.github.io/posts/5f91e7e3.html">循环结构三大循环</a></h5></li>
-<li><h5 id="方-法"><a href="#方-法" class="headerlink" title="方 法"></a><a href="https://javaspans.github.io/posts/69244af4.html">方 法</a></h5></li>
-<li><h5 id="方法的重载"><a href="#方法的重载" class="headerlink" title="方法的重载"></a><a href="https://javaspans.github.io/posts/70ec998a.html">方法的重载</a></h5></li>
-<li><h5 id="命令行传参"><a href="#命令行传参" class="headerlink" title="命令行传参"></a><a href="https://javaspans.github.io/posts/4a246c51.html">命令行传参</a></h5></li>
-<li><h5 id="可变参数"><a href="#可变参数" class="headerlink" title="可变参数"></a><a href="https://javaspans.github.io/posts/6963fb18.html">可变参数</a></h5></li>
-<li><h5 id="递归"><a href="#递归" class="headerlink" title="递归"></a><a href="https://javaspans.github.io/posts/a0b50c75.html">递归</a></h5></li>
-<li><h5 id="数组的定义"><a href="#数组的定义" class="headerlink" title="数组的定义"></a><a href="https://javaspans.github.io/posts/340249a9.html">数组的定义</a></h5></li>
-<li><h5 id="Java内存分析"><a href="#Java内存分析" class="headerlink" title="Java内存分析"></a><a href="https://javaspans.github.io/posts/5d966776.html">Java内存分析</a></h5></li>
-<li><h5 id="Arrays集合"><a href="#Arrays集合" class="headerlink" title="Arrays集合"></a><a href="https://javaspans.github.io/posts/c3c27062.html">Arrays集合</a></h5></li>
-<li><h5 id="面对对象"><a href="#面对对象" class="headerlink" title="面对对象"></a><a href="https://javaspans.github.io/posts/28239a8d.html">面对对象</a></h5></li>
-<li><h5 id="面对对象的三大特性"><a href="#面对对象的三大特性" class="headerlink" title="面对对象的三大特性"></a><a href="https://javaspans.github.io/posts/bf990afe.html">面对对象的三大特性</a></h5></li>
-<li><h5 id="static关键字"><a href="#static关键字" class="headerlink" title="static关键字"></a><a href="https://javaspans.github.io/posts/a6c6c4c.html">static关键字</a></h5></li>
-<li><h5 id="抽象类-1"><a href="#抽象类-1" class="headerlink" title="抽象类"></a><a href="https://javaspans.github.io/posts/bcf3512a.html">抽象类</a></h5></li>
-<li><h5 id="接口的定义和实现"><a href="#接口的定义和实现" class="headerlink" title="接口的定义和实现"></a><a href="https://javaspans.github.io/posts/224e502b.html">接口的定义和实现</a></h5></li>
-<li><h5 id="内部类"><a href="#内部类" class="headerlink" title="内部类"></a><a href="https://javaspans.github.io/posts/9bc01b38.html">内部类</a></h5></li>
-<li><h5 id="异常机制"><a href="#异常机制" class="headerlink" title="异常机制"></a><a href="https://javaspans.github.io/posts/7792860f.html">异常机制</a></h5></li>
-<li><h5 id="自定义异常机制"><a href="#自定义异常机制" class="headerlink" title="自定义异常机制"></a><a href="https://javaspans.github.io/posts/5f2e64d3.html">自定义异常机制</a></h5></li>
-<li><h5 id="常用API和类"><a href="#常用API和类" class="headerlink" title="常用API和类"></a><a href="https://javaspans.github.io/posts/d84486e7.html">常用API和类</a></h5></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>学校笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>JAVA 学习目录(连载中)</title>
     <url>/7bdea972.html</url>
     <content><![CDATA[<h1 id="今天开始正式写Java笔记"><a href="#今天开始正式写Java笔记" class="headerlink" title="今天开始正式写Java笔记"></a>今天开始正式写Java笔记</h1><blockquote>
@@ -114,6 +76,44 @@
       <tags>
         <tag>笔记</tag>
         <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java学校笔记(连载中)</title>
+    <url>/df344879.html</url>
+    <content><![CDATA[<h5 id=""><a href="#" class="headerlink" title=""></a></h5><ol>
+<li><h5 id="数据类型结构"><a href="#数据类型结构" class="headerlink" title="数据类型结构"></a><a href="https://javaspans.github.io/posts/37015d6b.html">数据类型结构</a></h5></li>
+<li><h5 id="三元运算符和switch"><a href="#三元运算符和switch" class="headerlink" title="三元运算符和switch"></a><a href="https://javaspans.github.io/posts/ef68d2a6.html">三元运算符和switch</a></h5></li>
+<li><h5 id="Static关键字和代码块"><a href="#Static关键字和代码块" class="headerlink" title="Static关键字和代码块"></a><a href="https://javaspans.github.io/posts/8c6f2d57.html">Static关键字和代码块</a></h5></li>
+<li><h5 id="Final关键字"><a href="#Final关键字" class="headerlink" title="Final关键字"></a><a href="https://javaspans.github.io/posts/ec8d8377.html">Final关键字</a></h5></li>
+<li><h5 id="构造方法和getset"><a href="#构造方法和getset" class="headerlink" title="构造方法和getset"></a><a href="https://javaspans.github.io/posts/e2abe5ec.html">构造方法和getset</a></h5></li>
+<li><h5 id="抽象类"><a href="#抽象类" class="headerlink" title="抽象类"></a><a href="https://javaspans.github.io/posts/d7363e83.html">抽象类</a></h5></li>
+<li><h5 id="循环结构三大循环"><a href="#循环结构三大循环" class="headerlink" title="循环结构三大循环"></a><a href="https://javaspans.github.io/posts/5f91e7e3.html">循环结构三大循环</a></h5></li>
+<li><h5 id="方-法"><a href="#方-法" class="headerlink" title="方 法"></a><a href="https://javaspans.github.io/posts/69244af4.html">方 法</a></h5></li>
+<li><h5 id="方法的重载"><a href="#方法的重载" class="headerlink" title="方法的重载"></a><a href="https://javaspans.github.io/posts/70ec998a.html">方法的重载</a></h5></li>
+<li><h5 id="命令行传参"><a href="#命令行传参" class="headerlink" title="命令行传参"></a><a href="https://javaspans.github.io/posts/4a246c51.html">命令行传参</a></h5></li>
+<li><h5 id="可变参数"><a href="#可变参数" class="headerlink" title="可变参数"></a><a href="https://javaspans.github.io/posts/6963fb18.html">可变参数</a></h5></li>
+<li><h5 id="递归"><a href="#递归" class="headerlink" title="递归"></a><a href="https://javaspans.github.io/posts/a0b50c75.html">递归</a></h5></li>
+<li><h5 id="数组的定义"><a href="#数组的定义" class="headerlink" title="数组的定义"></a><a href="https://javaspans.github.io/posts/340249a9.html">数组的定义</a></h5></li>
+<li><h5 id="Java内存分析"><a href="#Java内存分析" class="headerlink" title="Java内存分析"></a><a href="https://javaspans.github.io/posts/5d966776.html">Java内存分析</a></h5></li>
+<li><h5 id="Arrays集合"><a href="#Arrays集合" class="headerlink" title="Arrays集合"></a><a href="https://javaspans.github.io/posts/c3c27062.html">Arrays集合</a></h5></li>
+<li><h5 id="面对对象"><a href="#面对对象" class="headerlink" title="面对对象"></a><a href="https://javaspans.github.io/posts/28239a8d.html">面对对象</a></h5></li>
+<li><h5 id="面对对象的三大特性"><a href="#面对对象的三大特性" class="headerlink" title="面对对象的三大特性"></a><a href="https://javaspans.github.io/posts/bf990afe.html">面对对象的三大特性</a></h5></li>
+<li><h5 id="static关键字"><a href="#static关键字" class="headerlink" title="static关键字"></a><a href="https://javaspans.github.io/posts/a6c6c4c.html">static关键字</a></h5></li>
+<li><h5 id="抽象类-1"><a href="#抽象类-1" class="headerlink" title="抽象类"></a><a href="https://javaspans.github.io/posts/bcf3512a.html">抽象类</a></h5></li>
+<li><h5 id="接口的定义和实现"><a href="#接口的定义和实现" class="headerlink" title="接口的定义和实现"></a><a href="https://javaspans.github.io/posts/224e502b.html">接口的定义和实现</a></h5></li>
+<li><h5 id="内部类"><a href="#内部类" class="headerlink" title="内部类"></a><a href="https://javaspans.github.io/posts/9bc01b38.html">内部类</a></h5></li>
+<li><h5 id="异常机制"><a href="#异常机制" class="headerlink" title="异常机制"></a><a href="https://javaspans.github.io/posts/7792860f.html">异常机制</a></h5></li>
+<li><h5 id="自定义异常机制"><a href="#自定义异常机制" class="headerlink" title="自定义异常机制"></a><a href="https://javaspans.github.io/posts/5f2e64d3.html">自定义异常机制</a></h5></li>
+<li><h5 id="常用API和类"><a href="#常用API和类" class="headerlink" title="常用API和类"></a><a href="https://javaspans.github.io/posts/d84486e7.html">常用API和类</a></h5></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>学校笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -504,30 +504,6 @@
       </tags>
   </entry>
   <entry>
-    <title>内存分析堆、栈、方法区</title>
-    <url>/5d966776.html</url>
-    <content><![CDATA[<h3 id="Java内存分析："><a href="#Java内存分析：" class="headerlink" title="Java内存分析："></a>Java内存分析：</h3><h4 id="堆："><a href="#堆：" class="headerlink" title="堆："></a>堆：</h4><ul>
-<li><h5 id="凡是new的东西都存储与堆里面-例如对象和数组"><a href="#凡是new的东西都存储与堆里面-例如对象和数组" class="headerlink" title="凡是new的东西都存储与堆里面 例如对象和数组"></a>凡是new的东西都存储与堆里面 例如对象和数组</h5></li>
-<li><h5 id="可以被所有的线程共享不会存放别的对象引用"><a href="#可以被所有的线程共享不会存放别的对象引用" class="headerlink" title="可以被所有的线程共享不会存放别的对象引用"></a>可以被所有的线程共享不会存放别的对象引用</h5></li>
-</ul>
-<h4 id="栈："><a href="#栈：" class="headerlink" title="栈："></a>栈：</h4><ul>
-<li><h5 id="存放基本变量类型-会包含这个基本类型的数据数值"><a href="#存放基本变量类型-会包含这个基本类型的数据数值" class="headerlink" title="存放基本变量类型(会包含这个基本类型的数据数值)"></a>存放基本变量类型(会包含这个基本类型的数据数值)</h5></li>
-<li><h5 id="引用对象的变量-会存放这个引用在堆里面的具体地址"><a href="#引用对象的变量-会存放这个引用在堆里面的具体地址" class="headerlink" title="引用对象的变量(会存放这个引用在堆里面的具体地址)"></a>引用对象的变量(会存放这个引用在堆里面的具体地址)</h5></li>
-</ul>
-<h4 id="方法区："><a href="#方法区：" class="headerlink" title="方法区："></a>方法区：</h4><ul>
-<li><h5 id="可以被所有的线程共享"><a href="#可以被所有的线程共享" class="headerlink" title="可以被所有的线程共享"></a>可以被所有的线程共享</h5></li>
-<li><h5 id="包含了所有的Class和static变量"><a href="#包含了所有的Class和static变量" class="headerlink" title="包含了所有的Class和static变量"></a>包含了所有的Class和static变量</h5></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>其他学习拓展(连载中)</title>
     <url>/8d422b92.html</url>
     <content><![CDATA[<p><a href="https://javaspans.github.io/posts/3f0598a9.html">Debug的使用性</a></p>
@@ -550,6 +526,30 @@
       <tags>
         <tag>笔记</tag>
         <tag>其他</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>内存分析堆、栈、方法区</title>
+    <url>/5d966776.html</url>
+    <content><![CDATA[<h3 id="Java内存分析："><a href="#Java内存分析：" class="headerlink" title="Java内存分析："></a>Java内存分析：</h3><h4 id="堆："><a href="#堆：" class="headerlink" title="堆："></a>堆：</h4><ul>
+<li><h5 id="凡是new的东西都存储与堆里面-例如对象和数组"><a href="#凡是new的东西都存储与堆里面-例如对象和数组" class="headerlink" title="凡是new的东西都存储与堆里面 例如对象和数组"></a>凡是new的东西都存储与堆里面 例如对象和数组</h5></li>
+<li><h5 id="可以被所有的线程共享不会存放别的对象引用"><a href="#可以被所有的线程共享不会存放别的对象引用" class="headerlink" title="可以被所有的线程共享不会存放别的对象引用"></a>可以被所有的线程共享不会存放别的对象引用</h5></li>
+</ul>
+<h4 id="栈："><a href="#栈：" class="headerlink" title="栈："></a>栈：</h4><ul>
+<li><h5 id="存放基本变量类型-会包含这个基本类型的数据数值"><a href="#存放基本变量类型-会包含这个基本类型的数据数值" class="headerlink" title="存放基本变量类型(会包含这个基本类型的数据数值)"></a>存放基本变量类型(会包含这个基本类型的数据数值)</h5></li>
+<li><h5 id="引用对象的变量-会存放这个引用在堆里面的具体地址"><a href="#引用对象的变量-会存放这个引用在堆里面的具体地址" class="headerlink" title="引用对象的变量(会存放这个引用在堆里面的具体地址)"></a>引用对象的变量(会存放这个引用在堆里面的具体地址)</h5></li>
+</ul>
+<h4 id="方法区："><a href="#方法区：" class="headerlink" title="方法区："></a>方法区：</h4><ul>
+<li><h5 id="可以被所有的线程共享"><a href="#可以被所有的线程共享" class="headerlink" title="可以被所有的线程共享"></a>可以被所有的线程共享</h5></li>
+<li><h5 id="包含了所有的Class和static变量"><a href="#包含了所有的Class和static变量" class="headerlink" title="包含了所有的Class和static变量"></a>包含了所有的Class和static变量</h5></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -1058,6 +1058,29 @@ public static synchronized void plytak ()&#123;
       </tags>
   </entry>
   <entry>
+    <title>类型的转换</title>
+    <url>/6280299f.html</url>
+    <content><![CDATA[<h1 id="类型的转换"><a href="#类型的转换" class="headerlink" title="类型的转换"></a>类型的转换</h1><h4 id="由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换"><a href="#由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换" class="headerlink" title="由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换"></a>由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">由低------------------------------到高</span><br><span class="line">byte → short → char → int → long → float → double</span><br></pre></td></tr></table></figure>
+
+<h4 id="在运算中，不同类型的数据先转化为同一类型，然后进行运算。"><a href="#在运算中，不同类型的数据先转化为同一类型，然后进行运算。" class="headerlink" title="在运算中，不同类型的数据先转化为同一类型，然后进行运算。"></a>在运算中，不同类型的数据先转化为同一类型，然后进行运算。</h4><h3 id="强制类型转换和自动类型转换"><a href="#强制类型转换和自动类型转换" class="headerlink" title="强制类型转换和自动类型转换"></a>强制类型转换和自动类型转换</h3><p>注意点：</p>
+<ol>
+<li>不能对布尔值进行转换</li>
+<li>不能把对象类型转换位不相干的类型</li>
+<li>在把高容量转换到低容量的时候，强制转换</li>
+<li>在转换的时候可能存在内存溢出，或者精度问题！</li>
+</ol>
+<h4 id="强制转换"><a href="#强制转换" class="headerlink" title="强制转换"></a>强制转换</h4><p>(类型)变量名     高到低</p>
+<h4 id="自动转换"><a href="#自动转换" class="headerlink" title="自动转换"></a>自动转换</h4><p>由低—–高</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>html基础</title>
     <url>/1a147173.html</url>
     <content><![CDATA[<h3 id="什么是html5和它的优势"><a href="#什么是html5和它的优势" class="headerlink" title="什么是html5和它的优势"></a>什么是html5和它的优势</h3><h6 id="HTML5作为HTML的最新版本，是HTML的传递和延续。经历HTML4-0、XHTML再到HTML5从某种意义上讲，这是HTML超文本标签语言的更新与规范过程。因此，HTML5并没有给用户带来多大的冲击，大部分标签在HTML5版本中依然适用。"><a href="#HTML5作为HTML的最新版本，是HTML的传递和延续。经历HTML4-0、XHTML再到HTML5从某种意义上讲，这是HTML超文本标签语言的更新与规范过程。因此，HTML5并没有给用户带来多大的冲击，大部分标签在HTML5版本中依然适用。" class="headerlink" title="HTML5作为HTML的最新版本，是HTML的传递和延续。经历HTML4.0、XHTML再到HTML5从某种意义上讲，这是HTML超文本标签语言的更新与规范过程。因此，HTML5并没有给用户带来多大的冲击，大部分标签在HTML5版本中依然适用。"></a>HTML5作为HTML的最新版本，是HTML的传递和延续。经历HTML4.0、XHTML再到HTML5从某种意义上讲，这是HTML超文本标签语言的更新与规范过程。因此，HTML5并没有给用户带来多大的冲击，大部分标签在HTML5版本中依然适用。</h6><h6 id="HTML5的优势主要体现在兼容、合理、易用三个方面，本节将做具体介绍。"><a href="#HTML5的优势主要体现在兼容、合理、易用三个方面，本节将做具体介绍。" class="headerlink" title="HTML5的优势主要体现在兼容、合理、易用三个方面，本节将做具体介绍。"></a>HTML5的优势主要体现在兼容、合理、易用三个方面，本节将做具体介绍。</h6><h6 id="HTML5并不是对之前HTML语言颠覆性的革新，它的核心理念就是要保持与过去技术的完美衔接，因此HTML5有很好的兼容性。"><a href="#HTML5并不是对之前HTML语言颠覆性的革新，它的核心理念就是要保持与过去技术的完美衔接，因此HTML5有很好的兼容性。" class="headerlink" title="HTML5并不是对之前HTML语言颠覆性的革新，它的核心理念就是要保持与过去技术的完美衔接，因此HTML5有很好的兼容性。"></a>HTML5并不是对之前HTML语言颠覆性的革新，它的核心理念就是要保持与过去技术的完美衔接，因此HTML5有很好的兼容性。</h6><h6 id="HTML5中增加和删除的标签都是对现有的网页和用户习惯进行分析、概括而推出的作为当下流行的标签语言，HTML5严格遵循-“简单至上”的原则。"><a href="#HTML5中增加和删除的标签都是对现有的网页和用户习惯进行分析、概括而推出的作为当下流行的标签语言，HTML5严格遵循-“简单至上”的原则。" class="headerlink" title="HTML5中增加和删除的标签都是对现有的网页和用户习惯进行分析、概括而推出的作为当下流行的标签语言，HTML5严格遵循 “简单至上”的原则。"></a>HTML5中增加和删除的标签都是对现有的网页和用户习惯进行分析、概括而推出的作为当下流行的标签语言，HTML5严格遵循 “简单至上”的原则。</h6><h5 id="lt-DOCTYPE-gt-标签-位于文档的最前面，用于向浏览器说明当前文档使用哪种-HTML-或-XHTML-标准规范。"><a href="#lt-DOCTYPE-gt-标签-位于文档的最前面，用于向浏览器说明当前文档使用哪种-HTML-或-XHTML-标准规范。" class="headerlink" title="&lt;!DOCTYPE&gt;标签 位于文档的最前面，用于向浏览器说明当前文档使用哪种 HTML 或 XHTML 标准规范。"></a>&lt;!DOCTYPE&gt;标签 位于文档的最前面，用于向浏览器说明当前文档使用哪种 HTML 或 XHTML 标准规范。</h5><h5 id="lt-html’-gt-标签-位于-lt-DOCTYPE-gt-标签之后，也称为根标签，用于告知浏览器其自身是一个-HTML-文档。"><a href="#lt-html’-gt-标签-位于-lt-DOCTYPE-gt-标签之后，也称为根标签，用于告知浏览器其自身是一个-HTML-文档。" class="headerlink" title="&lt;html’&gt; 标签 位于&lt;!DOCTYPE&gt; 标签之后，也称为根标签，用于告知浏览器其自身是一个 HTML 文档。"></a>&lt;html’&gt; 标签 位于&lt;!DOCTYPE&gt; 标签之后，也称为根标签，用于告知浏览器其自身是一个 HTML 文档。</h5><h5 id="lt-head’-gt-标签用于定定义HTML文档的头部信息，也称为头部标签，紧跟在“-lt-html’-gt-”标签之后，主要用来封装其他位于文档头部的标签。"><a href="#lt-head’-gt-标签用于定定义HTML文档的头部信息，也称为头部标签，紧跟在“-lt-html’-gt-”标签之后，主要用来封装其他位于文档头部的标签。" class="headerlink" title="&lt;head’&gt;标签用于定定义HTML文档的头部信息，也称为头部标签，紧跟在“&lt;html’&gt;”标签之后，主要用来封装其他位于文档头部的标签。"></a>&lt;head’&gt;标签用于定定义HTML文档的头部信息，也称为头部标签，紧跟在“&lt;html’&gt;”标签之后，主要用来封装其他位于文档头部的标签。</h5><h5 id="lt-body’-gt-标签用于定定义HTML文档所要显示的内容，也称为主体标签。浏览器中显示的所有文本、图像、音频和视频等信息都必须位于-lt-body’-gt-标签内。"><a href="#lt-body’-gt-标签用于定定义HTML文档所要显示的内容，也称为主体标签。浏览器中显示的所有文本、图像、音频和视频等信息都必须位于-lt-body’-gt-标签内。" class="headerlink" title="&lt;body’&gt;标签用于定定义HTML文档所要显示的内容，也称为主体标签。浏览器中显示的所有文本、图像、音频和视频等信息都必须位于&lt;body’&gt;标签内。"></a>&lt;body’&gt;标签用于定定义HTML文档所要显示的内容，也称为主体标签。浏览器中显示的所有文本、图像、音频和视频等信息都必须位于&lt;body’&gt;标签内。</h5><h5 id="在HTML页面中，带有“-lt-gt-”符号的元素被称为HTML标签，如上面提到的“-lt-html’-gt-”、”-lt-head’-gt-”、”-lt-body’-gt-”都是HTML标签。所谓标签就是放在“-lt-gt-”符号中表示某个功能的编码命令，也称为HTML标签或HTML元素，本书统一称作HTML标签"><a href="#在HTML页面中，带有“-lt-gt-”符号的元素被称为HTML标签，如上面提到的“-lt-html’-gt-”、”-lt-head’-gt-”、”-lt-body’-gt-”都是HTML标签。所谓标签就是放在“-lt-gt-”符号中表示某个功能的编码命令，也称为HTML标签或HTML元素，本书统一称作HTML标签" class="headerlink" title="在HTML页面中，带有“&lt; &gt;”符号的元素被称为HTML标签，如上面提到的“&lt;html’&gt;”、”&lt;head’&gt;”、”&lt;body’&gt;”都是HTML标签。所谓标签就是放在“&lt; &gt;”符号中表示某个功能的编码命令，也称为HTML标签或HTML元素，本书统一称作HTML标签"></a>在HTML页面中，带有“&lt; &gt;”符号的元素被称为HTML标签，如上面提到的“&lt;html’&gt;”、”&lt;head’&gt;”、”&lt;body’&gt;”都是HTML标签。所谓标签就是放在“&lt; &gt;”符号中表示某个功能的编码命令，也称为HTML标签或HTML元素，本书统一称作HTML标签</h5><h4 id="标签概述"><a href="#标签概述" class="headerlink" title="标签概述"></a>标签概述</h4><h5 id="双标签也称体标签，是指由开始和结束两个标签符组成的标签。"><a href="#双标签也称体标签，是指由开始和结束两个标签符组成的标签。" class="headerlink" title="双标签也称体标签，是指由开始和结束两个标签符组成的标签。"></a>双标签也称体标签，是指由开始和结束两个标签符组成的标签。</h5><h5 id="单标签也称空标签，是指用一个标签符号即可完整地描述某个功能的标签。"><a href="#单标签也称空标签，是指用一个标签符号即可完整地描述某个功能的标签。" class="headerlink" title="单标签也称空标签，是指用一个标签符号即可完整地描述某个功能的标签。"></a>单标签也称空标签，是指用一个标签符号即可完整地描述某个功能的标签。</h5><h6 id="HTML标签的作用原理就是选择网页内容，从而进行描述，也就是说需要描述哪个元素，就选择哪个元素，所以才会有双标签的出现，用于定义标签作用的开始与结束。而单标签本身就可以描述一个功能，不需要选择。例如，水平线标签-lt-hr-‘’-gt-按照双标签的语法，它应该写成“-lt-hr’-gt-lt-hr’-gt-”，但是水平线标签不需要选择，本身就代表一条水平线，此时写成双标签就显得有点多余，但是又不能没有结束符号，所以在标签名称后面加一个关闭符，即-lt-标签名-gt-。"><a href="#HTML标签的作用原理就是选择网页内容，从而进行描述，也就是说需要描述哪个元素，就选择哪个元素，所以才会有双标签的出现，用于定义标签作用的开始与结束。而单标签本身就可以描述一个功能，不需要选择。例如，水平线标签-lt-hr-‘’-gt-按照双标签的语法，它应该写成“-lt-hr’-gt-lt-hr’-gt-”，但是水平线标签不需要选择，本身就代表一条水平线，此时写成双标签就显得有点多余，但是又不能没有结束符号，所以在标签名称后面加一个关闭符，即-lt-标签名-gt-。" class="headerlink" title="HTML标签的作用原理就是选择网页内容，从而进行描述，也就是说需要描述哪个元素，就选择哪个元素，所以才会有双标签的出现，用于定义标签作用的开始与结束。而单标签本身就可以描述一个功能，不需要选择。例如，水平线标签&lt;hr /‘’&gt;,按照双标签的语法，它应该写成“&lt;hr’&gt;&lt;/hr’&gt;”，但是水平线标签不需要选择，本身就代表一条水平线，此时写成双标签就显得有点多余，但是又不能没有结束符号，所以在标签名称后面加一个关闭符，即&lt;标签名 /&gt;。"></a>HTML标签的作用原理就是选择网页内容，从而进行描述，也就是说需要描述哪个元素，就选择哪个元素，所以才会有双标签的出现，用于定义标签作用的开始与结束。而单标签本身就可以描述一个功能，不需要选择。例如，水平线标签&lt;hr /‘’&gt;,按照双标签的语法，它应该写成“&lt;hr’&gt;&lt;/hr’&gt;”，但是水平线标签不需要选择，本身就代表一条水平线，此时写成双标签就显得有点多余，但是又不能没有结束符号，所以在标签名称后面加一个关闭符，即&lt;标签名 /&gt;。</h6><h4 id="标签的关系"><a href="#标签的关系" class="headerlink" title="标签的关系"></a>标签的关系</h4><h5 id="并列关系也称为兄弟关系，就是两个标签处于同一级别，并且没有包含关系。例如在HTML5的结构代码中，-lt-head’-gt-标签和-lt-body’-gt-标签就是并列关系。在HTML标签中，无论是单标签还是双标签，都可以拥有并列关系。"><a href="#并列关系也称为兄弟关系，就是两个标签处于同一级别，并且没有包含关系。例如在HTML5的结构代码中，-lt-head’-gt-标签和-lt-body’-gt-标签就是并列关系。在HTML标签中，无论是单标签还是双标签，都可以拥有并列关系。" class="headerlink" title="并列关系也称为兄弟关系，就是两个标签处于同一级别，并且没有包含关系。例如在HTML5的结构代码中，&lt;head’&gt;标签和&lt;body’&gt;标签就是并列关系。在HTML标签中，无论是单标签还是双标签，都可以拥有并列关系。"></a>并列关系也称为兄弟关系，就是两个标签处于同一级别，并且没有包含关系。例如在HTML5的结构代码中，&lt;head’&gt;标签和&lt;body’&gt;标签就是并列关系。在HTML标签中，无论是单标签还是双标签，都可以拥有并列关系。</h5><h4 id="标签的属性"><a href="#标签的属性" class="headerlink" title="标签的属性"></a>标签的属性</h4><h5 id="“键值对”可以理解为对“属性”设置“属性值”。键值对有多种表现形式，例如color-”red”-、width-200px-等，其中color和width即为“键值对”中的“键”（英文key），red和200px为“键值对”中的“值”（英文value）。“键值对”广泛地应用于编程中，HTML属性的定义形式“属性-”属性值””只是“键值对”中的一种。"><a href="#“键值对”可以理解为对“属性”设置“属性值”。键值对有多种表现形式，例如color-”red”-、width-200px-等，其中color和width即为“键值对”中的“键”（英文key），red和200px为“键值对”中的“值”（英文value）。“键值对”广泛地应用于编程中，HTML属性的定义形式“属性-”属性值””只是“键值对”中的一种。" class="headerlink" title="“键值对”可以理解为对“属性”设置“属性值”。键值对有多种表现形式，例如color=”red” 、width:200px;等，其中color和width即为“键值对”中的“键”（英文key），red和200px为“键值对”中的“值”（英文value）。“键值对”广泛地应用于编程中，HTML属性的定义形式“属性=”属性值””只是“键值对”中的一种。"></a>“键值对”可以理解为对“属性”设置“属性值”。键值对有多种表现形式，例如color=”red” 、width:200px;等，其中color和width即为“键值对”中的“键”（英文key），red和200px为“键值对”中的“值”（英文value）。“键值对”广泛地应用于编程中，HTML属性的定义形式“属性=”属性值””只是“键值对”中的一种。</h5><h4 id="HTML5文档头部相关标签"><a href="#HTML5文档头部相关标签" class="headerlink" title="HTML5文档头部相关标签"></a>HTML5文档头部相关标签</h4><h5 id="lt-title‘-gt-标签用于定义HTML页面的标题，即给网页取一个名字，必须位于-lt-head’-gt-标签之内。"><a href="#lt-title‘-gt-标签用于定义HTML页面的标题，即给网页取一个名字，必须位于-lt-head’-gt-标签之内。" class="headerlink" title="&lt;title‘&gt;标签用于定义HTML页面的标题，即给网页取一个名字，必须位于&lt;head’&gt;标签之内。"></a>&lt;title‘&gt;标签用于定义HTML页面的标题，即给网页取一个名字，必须位于&lt;head’&gt;标签之内。</h5><h5 id="lt-‘meta-gt-标签用于定义页面的元信息，可重复出现在-lt-’head’-gt-头部标签中。"><a href="#lt-‘meta-gt-标签用于定义页面的元信息，可重复出现在-lt-’head’-gt-头部标签中。" class="headerlink" title="&lt;‘meta /&gt;标签用于定义页面的元信息，可重复出现在&lt;’head’&gt;头部标签中。"></a>&lt;‘meta /&gt;标签用于定义页面的元信息，可重复出现在&lt;’head’&gt;头部标签中。</h5><h5 id="一个HTML文档只能含有一对-lt-title‘-gt-lt-title’-gt-标签，-lt-title‘-gt-lt-title’-gt-之间的内容将显示在浏览器窗口的标题栏中。"><a href="#一个HTML文档只能含有一对-lt-title‘-gt-lt-title’-gt-标签，-lt-title‘-gt-lt-title’-gt-之间的内容将显示在浏览器窗口的标题栏中。" class="headerlink" title="一个HTML文档只能含有一对&lt;title‘&gt;&lt;/title’&gt;标签，&lt;title‘&gt;&lt;/title’&gt;之间的内容将显示在浏览器窗口的标题栏中。"></a>一个HTML文档只能含有一对&lt;title‘&gt;&lt;/title’&gt;标签，&lt;title‘&gt;&lt;/title’&gt;之间的内容将显示在浏览器窗口的标题栏中。</h5><h5 id="lt-title‘-gt-网页标题名称-lt-title’-gt"><a href="#lt-title‘-gt-网页标题名称-lt-title’-gt" class="headerlink" title="&lt;title‘&gt;网页标题名称&lt;/title’&gt;"></a>&lt;title‘&gt;网页标题名称&lt;/title’&gt;</h5><h4 id="文本控制标签"><a href="#文本控制标签" class="headerlink" title="文本控制标签"></a>文本控制标签</h4><h5 id="无论网页内容如何丰富，文字自始至终都是网页中最基本的元素。为了使文字排版整齐、结构清晰，HTML中提供了一系列文本控制标签，如标题标签-lt-h1‘-gt-lt-h6’-gt-、段落标签-lt-P‘-gt-等"><a href="#无论网页内容如何丰富，文字自始至终都是网页中最基本的元素。为了使文字排版整齐、结构清晰，HTML中提供了一系列文本控制标签，如标题标签-lt-h1‘-gt-lt-h6’-gt-、段落标签-lt-P‘-gt-等" class="headerlink" title="无论网页内容如何丰富，文字自始至终都是网页中最基本的元素。为了使文字排版整齐、结构清晰，HTML中提供了一系列文本控制标签，如标题标签&lt;h1‘&gt;~&lt;h6’&gt;、段落标签&lt;P‘&gt;等"></a>无论网页内容如何丰富，文字自始至终都是网页中最基本的元素。为了使文字排版整齐、结构清晰，HTML中提供了一系列文本控制标签，如标题标签&lt;h1‘&gt;~&lt;h6’&gt;、段落标签&lt;P‘&gt;等</h5><h4 id="页面格式化标签"><a href="#页面格式化标签" class="headerlink" title="页面格式化标签"></a>页面格式化标签</h4><h5 id="HTML提供了6个等级的标题，即-lt-h1’-gt-、-lt-h2‘-gt-、-lt-h3’-gt-、-lt-h4‘-gt-、-lt-h5’-gt-和-lt-h6‘-gt-，从-lt-h1’-gt-到-lt-h6‘-gt-标题的重要性依次递减。"><a href="#HTML提供了6个等级的标题，即-lt-h1’-gt-、-lt-h2‘-gt-、-lt-h3’-gt-、-lt-h4‘-gt-、-lt-h5’-gt-和-lt-h6‘-gt-，从-lt-h1’-gt-到-lt-h6‘-gt-标题的重要性依次递减。" class="headerlink" title="HTML提供了6个等级的标题，即&lt;h1’&gt;、&lt;h2‘&gt;、&lt;h3’&gt;、&lt;h4‘&gt;、&lt;h5’&gt;和&lt;h6‘&gt;，从&lt;h1’&gt;到&lt;h6‘&gt;标题的重要性依次递减。"></a>HTML提供了6个等级的标题，即&lt;h1’&gt;、&lt;h2‘&gt;、&lt;h3’&gt;、&lt;h4‘&gt;、&lt;h5’&gt;和&lt;h6‘&gt;，从&lt;h1’&gt;到&lt;h6‘&gt;标题的重要性依次递减。</h5><h4 id="页面格式化标签-1"><a href="#页面格式化标签-1" class="headerlink" title="页面格式化标签"></a>页面格式化标签</h4><h5 id="在网页中使用标签来定义段落。-lt-p’-gt-标签是HTML文档中最常见的标签，默认情况下，文本在一个段落中会根据浏览器窗口的大小自动换行。"><a href="#在网页中使用标签来定义段落。-lt-p’-gt-标签是HTML文档中最常见的标签，默认情况下，文本在一个段落中会根据浏览器窗口的大小自动换行。" class="headerlink" title="在网页中使用标签来定义段落。&lt;p’&gt;标签是HTML文档中最常见的标签，默认情况下，文本在一个段落中会根据浏览器窗口的大小自动换行。"></a>在网页中使用<p>标签来定义段落。&lt;p’&gt;标签是HTML文档中最常见的标签，默认情况下，文本在一个段落中会根据浏览器窗口的大小自动换行。</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">align</span>=<span class="string">&quot;对齐方式&quot;</span>&gt;</span>段落文本<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -1146,29 +1169,6 @@ public static synchronized void plytak ()&#123;
       <tags>
         <tag>html</tag>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>类型的转换</title>
-    <url>/6280299f.html</url>
-    <content><![CDATA[<h1 id="类型的转换"><a href="#类型的转换" class="headerlink" title="类型的转换"></a>类型的转换</h1><h4 id="由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换"><a href="#由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换" class="headerlink" title="由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换"></a>由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">由低------------------------------到高</span><br><span class="line">byte → short → char → int → long → float → double</span><br></pre></td></tr></table></figure>
-
-<h4 id="在运算中，不同类型的数据先转化为同一类型，然后进行运算。"><a href="#在运算中，不同类型的数据先转化为同一类型，然后进行运算。" class="headerlink" title="在运算中，不同类型的数据先转化为同一类型，然后进行运算。"></a>在运算中，不同类型的数据先转化为同一类型，然后进行运算。</h4><h3 id="强制类型转换和自动类型转换"><a href="#强制类型转换和自动类型转换" class="headerlink" title="强制类型转换和自动类型转换"></a>强制类型转换和自动类型转换</h3><p>注意点：</p>
-<ol>
-<li>不能对布尔值进行转换</li>
-<li>不能把对象类型转换位不相干的类型</li>
-<li>在把高容量转换到低容量的时候，强制转换</li>
-<li>在转换的时候可能存在内存溢出，或者精度问题！</li>
-</ol>
-<h4 id="强制转换"><a href="#强制转换" class="headerlink" title="强制转换"></a>强制转换</h4><p>(类型)变量名     高到低</p>
-<h4 id="自动转换"><a href="#自动转换" class="headerlink" title="自动转换"></a>自动转换</h4><p>由低—–高</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -1454,6 +1454,20 @@ public static synchronized void plytak ()&#123;
       </tags>
   </entry>
   <entry>
+    <title>Mysql</title>
+    <url>/54e1373e.html</url>
+    <content><![CDATA[<h3 id="Mysql"><a href="#Mysql" class="headerlink" title="Mysql"></a>Mysql</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">-- 查询所有住在南昌的女学生</span><br><span class="line">SELECT * from yd_student where sex&#x3D;&#39;女&#39; and  address &#x3D; &#39;南昌&#39;;</span><br><span class="line">-- 查询所有男生的信息</span><br><span class="line">SELECT * FROM yd_student WHERE sex&#x3D;&#39;男&#39;;</span><br><span class="line">-- 查询所有女生的姓名，学号，地址</span><br><span class="line">SELECT name,sno,address FROM yd_student WHERE sex&#x3D;&#39;女&#39;;</span><br><span class="line">-- 把南昌的女的学生删除</span><br><span class="line">DELETE from yd_student where sex&#x3D;&#39;女&#39; and  address&#x3D;&#39;南昌&#39;;</span><br><span class="line"></span><br><span class="line">-- 查询yd_user 按年龄排序</span><br><span class="line">SELECT * FROM yd_user ORDER BY age DESC;  -- 降序(大到小)</span><br><span class="line">SELECT * FROM yd_user ORDER BY age ASC;   -- 升序</span><br><span class="line"></span><br><span class="line">-- 分组查询</span><br><span class="line">SELECT * from yd_user GROUP BY sex,id;-- 分组查询</span><br><span class="line">-- 分组查询所有男生女生各有多少人</span><br><span class="line">SELECT sex,COUNT(sex) FROM yd_user GROUP BY sex;</span><br><span class="line">SELECT COUNT(*) from yd_user; -- 统计查询</span><br><span class="line">-- 分组查询，并且设置分组条件</span><br><span class="line">-- 1.查询按照性别分组后数量大于2的那个性别，输出性别及数量</span><br><span class="line">SELECT sex,COUNT(sex) from yd_user GROUP BY sex;</span><br><span class="line">HAVING COUNT(sex)&gt;2;</span><br><span class="line">-- 2.查询按照性别分组后年龄大于两岁，数量大于2的那个性别，输出性别及数量</span><br><span class="line">SELECT sex,COUNT(sex) from yd_user where age&gt;2 GROUP BY sex;</span><br><span class="line">HAVING COUNT(sex)&gt;2;</span><br><span class="line"></span><br><span class="line">-- 限制查询数量 limit</span><br><span class="line">-- 1.查前面两个人数据</span><br><span class="line">SELECT * from yd_user LIMIT 2;</span><br><span class="line">SELECT * from yd_user LIMIT 0,2;</span><br><span class="line">-- 2.查询从第二开始查询两条数据  前面的数字代表从第几条开始，后面的数字代表查询几条</span><br><span class="line">SELECT * from yd_user LIMIT 2,2;</span><br><span class="line">-- 3.查询从第二开始查询两条数据中的男的</span><br><span class="line">SELECT * from yd_user where sex&#x3D;&#39;男&#39; LIMIT 2,2;</span><br><span class="line">-- 4查询从第二开始查询两条数据中的男的并按照年龄排序</span><br><span class="line">SELECT * from yd_user where sex&#x3D;&#39;男&#39; ORDER BY age DESC LIMIT 0,3;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-- 去除重复</span><br><span class="line">SELECT address from yd_student; -- 去除来自重复的地址</span><br><span class="line">SELECT DISTINCT address from yd_student; -- 地址</span><br><span class="line">SELECT DISTINCT name from yd_student;-- 名字</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-- 别名</span><br><span class="line">SELECT s.sex as &#39;性别&#39;,COUNT(*) as &#39;总人数&#39; from yd_student as s GROUP BY sex;-- 查询男生女生个有多少人数</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">SELECT name as &#39;姓名&#39;,sex as&#39;性别&#39;,address as &#39;地址&#39; from yd_student;</span><br><span class="line"></span><br><span class="line">#查询工资&gt;12000的员工信息</span><br><span class="line">SELECT * from employees where salary&gt;12000;</span><br><span class="line">#查询部门编号不等于90的员工名和部门编号</span><br><span class="line">SELECT first_name,department_id from </span><br><span class="line">employees where department_id !&#x3D;90;</span><br><span class="line">#查询工资在10000到20000之间的员工名、工资以及奖金</span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary&gt;10000 and salary&lt;20000;</span><br><span class="line"></span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary BETWEEN 10000 and 20000;</span><br><span class="line">#查询部门编号不是在90到100之间，或者工资高于15000的员工信息</span><br><span class="line">SELECT * from employees where </span><br><span class="line">(department_id&lt;&#x3D;90 and department_id&gt;&#x3D;100) or salary&gt;15000;</span><br><span class="line">#查询员工last_name中包含字符a的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;%a%&quot;;</span><br><span class="line">#查询员工last_name的第二个字符为a，第五个字符为e的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;_a__e%&quot;;</span><br><span class="line">#查询员工last_name的第二个字符为_的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;_\_%&quot;;</span><br><span class="line">#查询工资在10000到20000之间的员工名、工资以及奖金</span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary&gt;10000 and salary&lt;20000;</span><br><span class="line">#查询员工的工种编号为 IT_PROG，AD_VP，AD_PRES中的一个的员工信息</span><br><span class="line">SELECT * from employees where </span><br><span class="line">job_id in(&#39;IT_PROG&#39;,&#39;AD_VP&#39;,&#39;AD_PRES&#39;);</span><br><span class="line"></span><br><span class="line">#查询没有奖金的员工信息</span><br><span class="line">select * from employees where commission_pct is null;</span><br><span class="line">#查询有奖金的员工信息</span><br><span class="line">select * from employees where commission_pct is not null; </span><br><span class="line">#查询员工号为176的员工的姓名、部门号和年薪</span><br><span class="line">select last_name,first_name,job_id from employees where employee_id &#x3D; 176;</span><br><span class="line"></span><br><span class="line">#查询年龄最大的那个人</span><br><span class="line"></span><br><span class="line">Select max(age) from yd_user ;</span><br><span class="line"></span><br><span class="line">#查询年纪最小的那个人</span><br><span class="line"></span><br><span class="line">select min(min) from yd_user;</span><br><span class="line"></span><br><span class="line">#统计所有岁数的和</span><br><span class="line">select SUM(age) from yd_user;</span><br><span class="line"></span><br><span class="line">#查询数据库yd_users age 内为 2，3，30</span><br><span class="line">SELECT * FROM yd_users WHERE age in(2,3,30);</span><br><span class="line">#查询数据库yd_users age 内不为 2，3，30</span><br><span class="line">SELECT * FROM yd_users WHERE age  NOT	in(2,3,30);</span><br><span class="line">#查询数据库yd_users age 内字符串为空</span><br><span class="line">SELECT * FROM yd_users WHERE age &#x3D; &#39; &#39;;</span><br><span class="line">#查询数据库yd_users age 内为null的值</span><br><span class="line">SELECT *FROM yd_users WHERE age is NULL;</span><br><span class="line">#查询数据库yd_users age 内为不为null的值</span><br><span class="line">SELECT * FROM yd_users WHERE age is not null;</span><br><span class="line">#查询性别不是男的人</span><br><span class="line">SELECT * FROM yd_users WHERE sex !&#x3D; &#39;男&#39;;</span><br><span class="line">SELECT * FROM yd_users WHERE sex &lt;&gt; &#39;男&#39;;</span><br><span class="line">#模糊查询</span><br><span class="line">#查询名字是包含e的人</span><br><span class="line">SELECT * FROM yd_study WHERE name LIKE &#39;%e%&#39;;</span><br><span class="line">#查询名字是J开头的人</span><br><span class="line">SELECT * FROM yd_study WHERE name like &#39;j%&#39;;</span><br><span class="line">#查询身份证号减去年龄等于360109的人</span><br><span class="line">SELECT * FROM yd_study WHERE idcard-age &#x3D; 360109;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Mysql</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Mysql</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown学习</title>
     <url>/82d7ef45.html</url>
     <content><![CDATA[<h1 id="Markdown学习"><a href="#Markdown学习" class="headerlink" title="Markdown学习"></a>Markdown学习</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><p>一级标题使用 #加空格</p>
@@ -1474,20 +1488,6 @@ public static synchronized void plytak ()&#123;
       <tags>
         <tag>笔记</tag>
         <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Mysql</title>
-    <url>/54e1373e.html</url>
-    <content><![CDATA[<h3 id="Mysql"><a href="#Mysql" class="headerlink" title="Mysql"></a>Mysql</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">-- 查询所有住在南昌的女学生</span><br><span class="line">SELECT * from yd_student where sex&#x3D;&#39;女&#39; and  address &#x3D; &#39;南昌&#39;;</span><br><span class="line">-- 查询所有男生的信息</span><br><span class="line">SELECT * FROM yd_student WHERE sex&#x3D;&#39;男&#39;;</span><br><span class="line">-- 查询所有女生的姓名，学号，地址</span><br><span class="line">SELECT name,sno,address FROM yd_student WHERE sex&#x3D;&#39;女&#39;;</span><br><span class="line">-- 把南昌的女的学生删除</span><br><span class="line">DELETE from yd_student where sex&#x3D;&#39;女&#39; and  address&#x3D;&#39;南昌&#39;;</span><br><span class="line"></span><br><span class="line">-- 查询yd_user 按年龄排序</span><br><span class="line">SELECT * FROM yd_user ORDER BY age DESC;  -- 降序(大到小)</span><br><span class="line">SELECT * FROM yd_user ORDER BY age ASC;   -- 升序</span><br><span class="line"></span><br><span class="line">-- 分组查询</span><br><span class="line">SELECT * from yd_user GROUP BY sex,id;-- 分组查询</span><br><span class="line">-- 分组查询所有男生女生各有多少人</span><br><span class="line">SELECT sex,COUNT(sex) FROM yd_user GROUP BY sex;</span><br><span class="line">SELECT COUNT(*) from yd_user; -- 统计查询</span><br><span class="line">-- 分组查询，并且设置分组条件</span><br><span class="line">-- 1.查询按照性别分组后数量大于2的那个性别，输出性别及数量</span><br><span class="line">SELECT sex,COUNT(sex) from yd_user GROUP BY sex;</span><br><span class="line">HAVING COUNT(sex)&gt;2;</span><br><span class="line">-- 2.查询按照性别分组后年龄大于两岁，数量大于2的那个性别，输出性别及数量</span><br><span class="line">SELECT sex,COUNT(sex) from yd_user where age&gt;2 GROUP BY sex;</span><br><span class="line">HAVING COUNT(sex)&gt;2;</span><br><span class="line"></span><br><span class="line">-- 限制查询数量 limit</span><br><span class="line">-- 1.查前面两个人数据</span><br><span class="line">SELECT * from yd_user LIMIT 2;</span><br><span class="line">SELECT * from yd_user LIMIT 0,2;</span><br><span class="line">-- 2.查询从第二开始查询两条数据  前面的数字代表从第几条开始，后面的数字代表查询几条</span><br><span class="line">SELECT * from yd_user LIMIT 2,2;</span><br><span class="line">-- 3.查询从第二开始查询两条数据中的男的</span><br><span class="line">SELECT * from yd_user where sex&#x3D;&#39;男&#39; LIMIT 2,2;</span><br><span class="line">-- 4查询从第二开始查询两条数据中的男的并按照年龄排序</span><br><span class="line">SELECT * from yd_user where sex&#x3D;&#39;男&#39; ORDER BY age DESC LIMIT 0,3;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-- 去除重复</span><br><span class="line">SELECT address from yd_student; -- 去除来自重复的地址</span><br><span class="line">SELECT DISTINCT address from yd_student; -- 地址</span><br><span class="line">SELECT DISTINCT name from yd_student;-- 名字</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-- 别名</span><br><span class="line">SELECT s.sex as &#39;性别&#39;,COUNT(*) as &#39;总人数&#39; from yd_student as s GROUP BY sex;-- 查询男生女生个有多少人数</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">SELECT name as &#39;姓名&#39;,sex as&#39;性别&#39;,address as &#39;地址&#39; from yd_student;</span><br><span class="line"></span><br><span class="line">#查询工资&gt;12000的员工信息</span><br><span class="line">SELECT * from employees where salary&gt;12000;</span><br><span class="line">#查询部门编号不等于90的员工名和部门编号</span><br><span class="line">SELECT first_name,department_id from </span><br><span class="line">employees where department_id !&#x3D;90;</span><br><span class="line">#查询工资在10000到20000之间的员工名、工资以及奖金</span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary&gt;10000 and salary&lt;20000;</span><br><span class="line"></span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary BETWEEN 10000 and 20000;</span><br><span class="line">#查询部门编号不是在90到100之间，或者工资高于15000的员工信息</span><br><span class="line">SELECT * from employees where </span><br><span class="line">(department_id&lt;&#x3D;90 and department_id&gt;&#x3D;100) or salary&gt;15000;</span><br><span class="line">#查询员工last_name中包含字符a的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;%a%&quot;;</span><br><span class="line">#查询员工last_name的第二个字符为a，第五个字符为e的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;_a__e%&quot;;</span><br><span class="line">#查询员工last_name的第二个字符为_的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;_\_%&quot;;</span><br><span class="line">#查询工资在10000到20000之间的员工名、工资以及奖金</span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary&gt;10000 and salary&lt;20000;</span><br><span class="line">#查询员工的工种编号为 IT_PROG，AD_VP，AD_PRES中的一个的员工信息</span><br><span class="line">SELECT * from employees where </span><br><span class="line">job_id in(&#39;IT_PROG&#39;,&#39;AD_VP&#39;,&#39;AD_PRES&#39;);</span><br><span class="line"></span><br><span class="line">#查询没有奖金的员工信息</span><br><span class="line">select * from employees where commission_pct is null;</span><br><span class="line">#查询有奖金的员工信息</span><br><span class="line">select * from employees where commission_pct is not null; </span><br><span class="line">#查询员工号为176的员工的姓名、部门号和年薪</span><br><span class="line">select last_name,first_name,job_id from employees where employee_id &#x3D; 176;</span><br><span class="line"></span><br><span class="line">#查询年龄最大的那个人</span><br><span class="line"></span><br><span class="line">Select max(age) from yd_user ;</span><br><span class="line"></span><br><span class="line">#查询年纪最小的那个人</span><br><span class="line"></span><br><span class="line">select min(min) from yd_user;</span><br><span class="line"></span><br><span class="line">#统计所有岁数的和</span><br><span class="line">select SUM(age) from yd_user;</span><br><span class="line"></span><br><span class="line">#查询数据库yd_users age 内为 2，3，30</span><br><span class="line">SELECT * FROM yd_users WHERE age in(2,3,30);</span><br><span class="line">#查询数据库yd_users age 内不为 2，3，30</span><br><span class="line">SELECT * FROM yd_users WHERE age  NOT	in(2,3,30);</span><br><span class="line">#查询数据库yd_users age 内字符串为空</span><br><span class="line">SELECT * FROM yd_users WHERE age &#x3D; &#39; &#39;;</span><br><span class="line">#查询数据库yd_users age 内为null的值</span><br><span class="line">SELECT *FROM yd_users WHERE age is NULL;</span><br><span class="line">#查询数据库yd_users age 内为不为null的值</span><br><span class="line">SELECT * FROM yd_users WHERE age is not null;</span><br><span class="line">#查询性别不是男的人</span><br><span class="line">SELECT * FROM yd_users WHERE sex !&#x3D; &#39;男&#39;;</span><br><span class="line">SELECT * FROM yd_users WHERE sex &lt;&gt; &#39;男&#39;;</span><br><span class="line">#模糊查询</span><br><span class="line">#查询名字是包含e的人</span><br><span class="line">SELECT * FROM yd_study WHERE name LIKE &#39;%e%&#39;;</span><br><span class="line">#查询名字是J开头的人</span><br><span class="line">SELECT * FROM yd_study WHERE name like &#39;j%&#39;;</span><br><span class="line">#查询身份证号减去年龄等于360109的人</span><br><span class="line">SELECT * FROM yd_study WHERE idcard-age &#x3D; 360109;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Mysql</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Mysql</tag>
       </tags>
   </entry>
   <entry>
