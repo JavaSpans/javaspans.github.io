@@ -66,18 +66,6 @@
       </tags>
   </entry>
   <entry>
-    <title>mysql 学习目录(连载中)</title>
-    <url>/6e48d4f4.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Mysql</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Mysql</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>JAVA 学习目录(连载中)</title>
     <url>/7bdea972.html</url>
     <content><![CDATA[<h1 id="今天开始正式写Java笔记"><a href="#今天开始正式写Java笔记" class="headerlink" title="今天开始正式写Java笔记"></a>今天开始正式写Java笔记</h1><blockquote>
@@ -129,15 +117,15 @@
       </tags>
   </entry>
   <entry>
-    <title>小程序学校学习(连载中)</title>
-    <url>/d347236.html</url>
+    <title>mysql 学习目录(连载中)</title>
+    <url>/6e48d4f4.html</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>Java</category>
+        <category>Mysql</category>
       </categories>
       <tags>
-        <tag>学校笔记</tag>
-        <tag>小程序</tag>
+        <tag>笔记</tag>
+        <tag>Mysql</tag>
       </tags>
   </entry>
   <entry>
@@ -211,6 +199,18 @@
       <tags>
         <tag>学校笔记</tag>
         <tag>andirons</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小程序学校学习(连载中)</title>
+    <url>/d347236.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>学校笔记</tag>
+        <tag>小程序</tag>
       </tags>
   </entry>
   <entry>
@@ -504,6 +504,30 @@
       </tags>
   </entry>
   <entry>
+    <title>内存分析堆、栈、方法区</title>
+    <url>/5d966776.html</url>
+    <content><![CDATA[<h3 id="Java内存分析："><a href="#Java内存分析：" class="headerlink" title="Java内存分析："></a>Java内存分析：</h3><h4 id="堆："><a href="#堆：" class="headerlink" title="堆："></a>堆：</h4><ul>
+<li><h5 id="凡是new的东西都存储与堆里面-例如对象和数组"><a href="#凡是new的东西都存储与堆里面-例如对象和数组" class="headerlink" title="凡是new的东西都存储与堆里面 例如对象和数组"></a>凡是new的东西都存储与堆里面 例如对象和数组</h5></li>
+<li><h5 id="可以被所有的线程共享不会存放别的对象引用"><a href="#可以被所有的线程共享不会存放别的对象引用" class="headerlink" title="可以被所有的线程共享不会存放别的对象引用"></a>可以被所有的线程共享不会存放别的对象引用</h5></li>
+</ul>
+<h4 id="栈："><a href="#栈：" class="headerlink" title="栈："></a>栈：</h4><ul>
+<li><h5 id="存放基本变量类型-会包含这个基本类型的数据数值"><a href="#存放基本变量类型-会包含这个基本类型的数据数值" class="headerlink" title="存放基本变量类型(会包含这个基本类型的数据数值)"></a>存放基本变量类型(会包含这个基本类型的数据数值)</h5></li>
+<li><h5 id="引用对象的变量-会存放这个引用在堆里面的具体地址"><a href="#引用对象的变量-会存放这个引用在堆里面的具体地址" class="headerlink" title="引用对象的变量(会存放这个引用在堆里面的具体地址)"></a>引用对象的变量(会存放这个引用在堆里面的具体地址)</h5></li>
+</ul>
+<h4 id="方法区："><a href="#方法区：" class="headerlink" title="方法区："></a>方法区：</h4><ul>
+<li><h5 id="可以被所有的线程共享"><a href="#可以被所有的线程共享" class="headerlink" title="可以被所有的线程共享"></a>可以被所有的线程共享</h5></li>
+<li><h5 id="包含了所有的Class和static变量"><a href="#包含了所有的Class和static变量" class="headerlink" title="包含了所有的Class和static变量"></a>包含了所有的Class和static变量</h5></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>其他学习拓展(连载中)</title>
     <url>/8d422b92.html</url>
     <content><![CDATA[<p><a href="https://javaspans.github.io/posts/3f0598a9.html">Debug的使用性</a></p>
@@ -526,30 +550,6 @@
       <tags>
         <tag>笔记</tag>
         <tag>其他</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>内存分析堆、栈、方法区</title>
-    <url>/5d966776.html</url>
-    <content><![CDATA[<h3 id="Java内存分析："><a href="#Java内存分析：" class="headerlink" title="Java内存分析："></a>Java内存分析：</h3><h4 id="堆："><a href="#堆：" class="headerlink" title="堆："></a>堆：</h4><ul>
-<li><h5 id="凡是new的东西都存储与堆里面-例如对象和数组"><a href="#凡是new的东西都存储与堆里面-例如对象和数组" class="headerlink" title="凡是new的东西都存储与堆里面 例如对象和数组"></a>凡是new的东西都存储与堆里面 例如对象和数组</h5></li>
-<li><h5 id="可以被所有的线程共享不会存放别的对象引用"><a href="#可以被所有的线程共享不会存放别的对象引用" class="headerlink" title="可以被所有的线程共享不会存放别的对象引用"></a>可以被所有的线程共享不会存放别的对象引用</h5></li>
-</ul>
-<h4 id="栈："><a href="#栈：" class="headerlink" title="栈："></a>栈：</h4><ul>
-<li><h5 id="存放基本变量类型-会包含这个基本类型的数据数值"><a href="#存放基本变量类型-会包含这个基本类型的数据数值" class="headerlink" title="存放基本变量类型(会包含这个基本类型的数据数值)"></a>存放基本变量类型(会包含这个基本类型的数据数值)</h5></li>
-<li><h5 id="引用对象的变量-会存放这个引用在堆里面的具体地址"><a href="#引用对象的变量-会存放这个引用在堆里面的具体地址" class="headerlink" title="引用对象的变量(会存放这个引用在堆里面的具体地址)"></a>引用对象的变量(会存放这个引用在堆里面的具体地址)</h5></li>
-</ul>
-<h4 id="方法区："><a href="#方法区：" class="headerlink" title="方法区："></a>方法区：</h4><ul>
-<li><h5 id="可以被所有的线程共享"><a href="#可以被所有的线程共享" class="headerlink" title="可以被所有的线程共享"></a>可以被所有的线程共享</h5></li>
-<li><h5 id="包含了所有的Class和static变量"><a href="#包含了所有的Class和static变量" class="headerlink" title="包含了所有的Class和static变量"></a>包含了所有的Class和static变量</h5></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -923,6 +923,29 @@ public static synchronized void plytak ()&#123;
       </tags>
   </entry>
   <entry>
+    <title>接口的定义和实现</title>
+    <url>/224e502b.html</url>
+    <content><![CDATA[<h3 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h3><h5 id="区别："><a href="#区别：" class="headerlink" title="区别："></a>区别：</h5><h5 id="抽象类：只有具体实现"><a href="#抽象类：只有具体实现" class="headerlink" title="抽象类：只有具体实现"></a>抽象类：只有具体实现</h5><h5 id="抽象类：具体实现和规范（抽象方法）都有"><a href="#抽象类：具体实现和规范（抽象方法）都有" class="headerlink" title="抽象类：具体实现和规范（抽象方法）都有"></a>抽象类：具体实现和规范（抽象方法）都有</h5><h5 id="接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程"><a href="#接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程" class="headerlink" title="接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程~"></a>接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程~</h5><h5 id="接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。"><a href="#接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。" class="headerlink" title="接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。"></a>接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。</h5><h5 id="接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。"><a href="#接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。" class="headerlink" title="接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。"></a>接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。</h5><h5 id="精髓就是对对象的抽象，最能体现这一点的就是接口。"><a href="#精髓就是对对象的抽象，最能体现这一点的就是接口。" class="headerlink" title="精髓就是对对象的抽象，最能体现这一点的就是接口。"></a>精髓就是对对象的抽象，最能体现这一点的就是接口。</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//interfa 定义的关键字，接口都需要有实现类	</span></span><br><span class="line"><span class="comment">//接口中所有定义方法其实都是抽象的 public abstract	</span></span><br><span class="line"><span class="comment">//接口中定义的变量(属性)都是常量 public static final</span></span><br><span class="line"><span class="comment">//抽象类：extends  和 接口 实现 implements 接口</span></span><br><span class="line"><span class="comment">//实现了接口的类，就需要重写接口中的方法</span></span><br><span class="line"><span class="comment">//多继承，利用接口实现多继承。 </span></span><br></pre></td></tr></table></figure>
+
+<h4 id="接口的作用："><a href="#接口的作用：" class="headerlink" title="接口的作用："></a>接口的作用：</h4><ol>
+<li><h5 id="约束"><a href="#约束" class="headerlink" title="约束"></a>约束</h5></li>
+<li><h5 id="定义一些方法，让不同的人实现"><a href="#定义一些方法，让不同的人实现" class="headerlink" title="定义一些方法，让不同的人实现~"></a>定义一些方法，让不同的人实现~</h5></li>
+<li><h5 id="public-abstract-抽象"><a href="#public-abstract-抽象" class="headerlink" title="public  abstract 抽象"></a>public  abstract 抽象</h5></li>
+<li><h5 id="public-static-final-常量"><a href="#public-static-final-常量" class="headerlink" title="public static final 常量"></a>public static final 常量</h5></li>
+<li><h5 id="接口不能被实例化-接口中没有构造方法。"><a href="#接口不能被实例化-接口中没有构造方法。" class="headerlink" title="接口不能被实例化~接口中没有构造方法。"></a>接口不能被实例化~接口中没有构造方法。</h5></li>
+<li><h5 id="implements-可以实现多个接口"><a href="#implements-可以实现多个接口" class="headerlink" title="implements 可以实现多个接口"></a>implements 可以实现多个接口</h5></li>
+<li><h5 id="必须要重写接口中的方法-！！！"><a href="#必须要重写接口中的方法-！！！" class="headerlink" title="必须要重写接口中的方法~！！！"></a>必须要重写接口中的方法~！！！</h5></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数组</title>
     <url>/340249a9.html</url>
     <content><![CDATA[<h3 id="数组的定义"><a href="#数组的定义" class="headerlink" title="数组的定义"></a>数组的定义</h3><ul>
@@ -1005,29 +1028,6 @@ public static synchronized void plytak ()&#123;
 </ul>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Arrays;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ArratRet</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//1.创建了一个二位数组 11* 11 0：没有棋子 1：黑棋 2：白棋</span></span><br><span class="line">        <span class="keyword">int</span>[][] array = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">11</span>][<span class="number">11</span>];</span><br><span class="line">        array[<span class="number">1</span>][<span class="number">2</span>] = <span class="number">1</span>;</span><br><span class="line">        array[<span class="number">2</span>][<span class="number">3</span>] = <span class="number">2</span>;</span><br><span class="line">        <span class="comment">//输出原始数组</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span>[] ints : array) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> anInt : ints) &#123;</span><br><span class="line">                System.out.print(anInt + <span class="string">&quot;\t&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.println();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//转换为稀疏数组保存</span></span><br><span class="line">        <span class="comment">//获取有效值</span></span><br><span class="line">        <span class="keyword">int</span> sum = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;<span class="number">11</span> ; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt;<span class="number">11</span> ; j++) &#123;</span><br><span class="line">                <span class="keyword">if</span> (array[i][j]!=<span class="number">0</span>)&#123;</span><br><span class="line">                    sum++;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;有效值个数:&quot;</span>+sum);</span><br><span class="line">        <span class="comment">//创建一个稀疏数组的数组</span></span><br><span class="line">        <span class="keyword">int</span> [][] array1 = <span class="keyword">new</span> <span class="keyword">int</span>[sum+<span class="number">1</span>][<span class="number">3</span>];</span><br><span class="line">        array1[<span class="number">0</span>][<span class="number">0</span>] = <span class="number">11</span>;</span><br><span class="line">        array1[<span class="number">0</span>][<span class="number">1</span>] = <span class="number">11</span>;</span><br><span class="line">        array1[<span class="number">0</span>][<span class="number">2</span>] = sum;</span><br><span class="line">        <span class="comment">//遍历二维数组，将非零的值，存放在稀疏数组中</span></span><br><span class="line">        <span class="keyword">int</span> count = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; array.length; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt;array[i].length ; j++) &#123;</span><br><span class="line">                <span class="keyword">if</span> (array[i][j]!=<span class="number">0</span>)&#123;</span><br><span class="line">                    count++;</span><br><span class="line">                    array1[count][<span class="number">0</span>]=i;</span><br><span class="line">                    array1[count][<span class="number">1</span>]=j;</span><br><span class="line">                    array1[count][<span class="number">2</span>]=array[i][j];</span><br><span class="line"></span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    <span class="comment">//输出稀疏数组</span></span><br><span class="line">        System.out.println(<span class="string">&quot;稀疏数组&quot;</span>);</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;array1.length ; i++) &#123;</span><br><span class="line">            System.out.println(array1[i][<span class="number">0</span>]+<span class="string">&quot;\t&quot;</span></span><br><span class="line">                            + array1[i][<span class="number">1</span>]</span><br><span class="line">                         +<span class="string">&quot;\t&quot;</span>+array1[i][<span class="number">2</span>]+<span class="string">&quot;\t&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;=============&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;还原&quot;</span>);</span><br><span class="line">        <span class="comment">//读取稀疏数组</span></span><br><span class="line">        <span class="keyword">int</span> [][] array2 = <span class="keyword">new</span> <span class="keyword">int</span>[array1[<span class="number">0</span>][<span class="number">0</span>]][array1[<span class="number">0</span>][<span class="number">1</span>]];</span><br><span class="line">        <span class="comment">//给其中的元素还原值</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; array1.length; i++) &#123;</span><br><span class="line">            array2[array1[i][<span class="number">0</span>]][array1[i][<span class="number">1</span>]]=array1[i][<span class="number">2</span>];</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;输出还原的数组&quot;</span>);</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span>[] ints : array2) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> anInt : ints) &#123;</span><br><span class="line">                System.out.print(anInt + <span class="string">&quot;\t&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.println();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>接口的定义和实现</title>
-    <url>/224e502b.html</url>
-    <content><![CDATA[<h3 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h3><h5 id="区别："><a href="#区别：" class="headerlink" title="区别："></a>区别：</h5><h5 id="抽象类：只有具体实现"><a href="#抽象类：只有具体实现" class="headerlink" title="抽象类：只有具体实现"></a>抽象类：只有具体实现</h5><h5 id="抽象类：具体实现和规范（抽象方法）都有"><a href="#抽象类：具体实现和规范（抽象方法）都有" class="headerlink" title="抽象类：具体实现和规范（抽象方法）都有"></a>抽象类：具体实现和规范（抽象方法）都有</h5><h5 id="接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程"><a href="#接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程" class="headerlink" title="接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程~"></a>接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程~</h5><h5 id="接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。"><a href="#接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。" class="headerlink" title="接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。"></a>接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。</h5><h5 id="接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。"><a href="#接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。" class="headerlink" title="接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。"></a>接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。</h5><h5 id="精髓就是对对象的抽象，最能体现这一点的就是接口。"><a href="#精髓就是对对象的抽象，最能体现这一点的就是接口。" class="headerlink" title="精髓就是对对象的抽象，最能体现这一点的就是接口。"></a>精髓就是对对象的抽象，最能体现这一点的就是接口。</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//interfa 定义的关键字，接口都需要有实现类	</span></span><br><span class="line"><span class="comment">//接口中所有定义方法其实都是抽象的 public abstract	</span></span><br><span class="line"><span class="comment">//接口中定义的变量(属性)都是常量 public static final</span></span><br><span class="line"><span class="comment">//抽象类：extends  和 接口 实现 implements 接口</span></span><br><span class="line"><span class="comment">//实现了接口的类，就需要重写接口中的方法</span></span><br><span class="line"><span class="comment">//多继承，利用接口实现多继承。 </span></span><br></pre></td></tr></table></figure>
-
-<h4 id="接口的作用："><a href="#接口的作用：" class="headerlink" title="接口的作用："></a>接口的作用：</h4><ol>
-<li><h5 id="约束"><a href="#约束" class="headerlink" title="约束"></a>约束</h5></li>
-<li><h5 id="定义一些方法，让不同的人实现"><a href="#定义一些方法，让不同的人实现" class="headerlink" title="定义一些方法，让不同的人实现~"></a>定义一些方法，让不同的人实现~</h5></li>
-<li><h5 id="public-abstract-抽象"><a href="#public-abstract-抽象" class="headerlink" title="public  abstract 抽象"></a>public  abstract 抽象</h5></li>
-<li><h5 id="public-static-final-常量"><a href="#public-static-final-常量" class="headerlink" title="public static final 常量"></a>public static final 常量</h5></li>
-<li><h5 id="接口不能被实例化-接口中没有构造方法。"><a href="#接口不能被实例化-接口中没有构造方法。" class="headerlink" title="接口不能被实例化~接口中没有构造方法。"></a>接口不能被实例化~接口中没有构造方法。</h5></li>
-<li><h5 id="implements-可以实现多个接口"><a href="#implements-可以实现多个接口" class="headerlink" title="implements 可以实现多个接口"></a>implements 可以实现多个接口</h5></li>
-<li><h5 id="必须要重写接口中的方法-！！！"><a href="#必须要重写接口中的方法-！！！" class="headerlink" title="必须要重写接口中的方法~！！！"></a>必须要重写接口中的方法~！！！</h5></li>
-</ol>
 ]]></content>
       <categories>
         <category>Java</category>
@@ -1202,31 +1202,6 @@ public static synchronized void plytak ()&#123;
       </tags>
   </entry>
   <entry>
-    <title>递归</title>
-    <url>/a0b50c75.html</url>
-    <content><![CDATA[<h3 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h3><ul>
-<li><h5 id="A方法调用B方法，我们很容易理解"><a href="#A方法调用B方法，我们很容易理解" class="headerlink" title="A方法调用B方法，我们很容易理解"></a>A方法调用B方法，我们很容易理解</h5></li>
-<li><h5 id="递归就是：A方法调用A方法！就是自己调用自己"><a href="#递归就是：A方法调用A方法！就是自己调用自己" class="headerlink" title="递归就是：A方法调用A方法！就是自己调用自己"></a>递归就是：A方法调用A方法！就是自己调用自己</h5></li>
-<li><h5 id="利用递归可以用简单的程序来解决一些复杂的问题。它通常把一个大型复杂的问题层层转化为一个与原问题相似的规模较小的问题来求解，递归策略只需少量的程序就可以描述出解题过程所需要的多次重复计算，大大地较少了程序代码量。递归的能力在于用有限的语句来定义定向的无限集合。"><a href="#利用递归可以用简单的程序来解决一些复杂的问题。它通常把一个大型复杂的问题层层转化为一个与原问题相似的规模较小的问题来求解，递归策略只需少量的程序就可以描述出解题过程所需要的多次重复计算，大大地较少了程序代码量。递归的能力在于用有限的语句来定义定向的无限集合。" class="headerlink" title="利用递归可以用简单的程序来解决一些复杂的问题。它通常把一个大型复杂的问题层层转化为一个与原问题相似的规模较小的问题来求解，递归策略只需少量的程序就可以描述出解题过程所需要的多次重复计算，大大地较少了程序代码量。递归的能力在于用有限的语句来定义定向的无限集合。"></a>利用递归可以用简单的程序来解决一些复杂的问题。它通常把一个大型复杂的问题层层转化为一个与原问题相似的规模较小的问题来求解，递归策略只需少量的程序就可以描述出解题过程所需要的多次重复计算，大大地较少了程序代码量。递归的能力在于用有限的语句来定义定向的无限集合。</h5></li>
-<li><h5 id="递归结构包括两个部分："><a href="#递归结构包括两个部分：" class="headerlink" title="递归结构包括两个部分："></a><u><strong>递归结构包括两个部分：</strong></u></h5><h5 id="递归头：什么时候不调用自身的方法。如果没有头，将陷入死循环。"><a href="#递归头：什么时候不调用自身的方法。如果没有头，将陷入死循环。" class="headerlink" title="递归头：什么时候不调用自身的方法。如果没有头，将陷入死循环。"></a><u><strong>递归头：什么时候不调用自身的方法。如果没有头，将陷入死循环。</strong></u></h5><h5 id="递归体：什么时候需要调用自身方法。"><a href="#递归体：什么时候需要调用自身方法。" class="headerlink" title="递归体：什么时候需要调用自身方法。"></a><u><strong>递归体：什么时候需要调用自身方法。</strong></u></h5><p>递归思想：</p>
-<p>边界条件：边界</p>
-<p>前阶段：</p>
-<p>返回阶段：n*(n-1)</p>
-<p>小阶段的可以使用，大阶段不推荐使用</p>
-</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">DemoFn</span> </span>&#123;   </span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		System.out.println(f(<span class="number">4</span>));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">f</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (n==<span class="number">1</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">        &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> n*f(n-<span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>运算符</title>
     <url>/f29265a7.html</url>
     <content><![CDATA[<h1 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h1><h4 id="JAVA-语言支持如下运算符"><a href="#JAVA-语言支持如下运算符" class="headerlink" title="JAVA 语言支持如下运算符:"></a>JAVA 语言支持如下运算符:</h4><ul>
@@ -1249,6 +1224,31 @@ public static synchronized void plytak ()&#123;
 
 
 
+
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>递归</title>
+    <url>/a0b50c75.html</url>
+    <content><![CDATA[<h3 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h3><ul>
+<li><h5 id="A方法调用B方法，我们很容易理解"><a href="#A方法调用B方法，我们很容易理解" class="headerlink" title="A方法调用B方法，我们很容易理解"></a>A方法调用B方法，我们很容易理解</h5></li>
+<li><h5 id="递归就是：A方法调用A方法！就是自己调用自己"><a href="#递归就是：A方法调用A方法！就是自己调用自己" class="headerlink" title="递归就是：A方法调用A方法！就是自己调用自己"></a>递归就是：A方法调用A方法！就是自己调用自己</h5></li>
+<li><h5 id="利用递归可以用简单的程序来解决一些复杂的问题。它通常把一个大型复杂的问题层层转化为一个与原问题相似的规模较小的问题来求解，递归策略只需少量的程序就可以描述出解题过程所需要的多次重复计算，大大地较少了程序代码量。递归的能力在于用有限的语句来定义定向的无限集合。"><a href="#利用递归可以用简单的程序来解决一些复杂的问题。它通常把一个大型复杂的问题层层转化为一个与原问题相似的规模较小的问题来求解，递归策略只需少量的程序就可以描述出解题过程所需要的多次重复计算，大大地较少了程序代码量。递归的能力在于用有限的语句来定义定向的无限集合。" class="headerlink" title="利用递归可以用简单的程序来解决一些复杂的问题。它通常把一个大型复杂的问题层层转化为一个与原问题相似的规模较小的问题来求解，递归策略只需少量的程序就可以描述出解题过程所需要的多次重复计算，大大地较少了程序代码量。递归的能力在于用有限的语句来定义定向的无限集合。"></a>利用递归可以用简单的程序来解决一些复杂的问题。它通常把一个大型复杂的问题层层转化为一个与原问题相似的规模较小的问题来求解，递归策略只需少量的程序就可以描述出解题过程所需要的多次重复计算，大大地较少了程序代码量。递归的能力在于用有限的语句来定义定向的无限集合。</h5></li>
+<li><h5 id="递归结构包括两个部分："><a href="#递归结构包括两个部分：" class="headerlink" title="递归结构包括两个部分："></a><u><strong>递归结构包括两个部分：</strong></u></h5><h5 id="递归头：什么时候不调用自身的方法。如果没有头，将陷入死循环。"><a href="#递归头：什么时候不调用自身的方法。如果没有头，将陷入死循环。" class="headerlink" title="递归头：什么时候不调用自身的方法。如果没有头，将陷入死循环。"></a><u><strong>递归头：什么时候不调用自身的方法。如果没有头，将陷入死循环。</strong></u></h5><h5 id="递归体：什么时候需要调用自身方法。"><a href="#递归体：什么时候需要调用自身方法。" class="headerlink" title="递归体：什么时候需要调用自身方法。"></a><u><strong>递归体：什么时候需要调用自身方法。</strong></u></h5><p>递归思想：</p>
+<p>边界条件：边界</p>
+<p>前阶段：</p>
+<p>返回阶段：n*(n-1)</p>
+<p>小阶段的可以使用，大阶段不推荐使用</p>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">DemoFn</span> </span>&#123;   </span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		System.out.println(f(<span class="number">4</span>));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">f</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (n==<span class="number">1</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">        &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> n*f(n-<span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
