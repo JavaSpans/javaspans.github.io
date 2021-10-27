@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>html 学习目录(连载中)</title>
-    <url>/c258b0a1.html</url>
+    <url>//c258b0a1.html</url>
     <content><![CDATA[<h1 id="今天开始正式写前端笔记"><a href="#今天开始正式写前端笔记" class="headerlink" title="今天开始正式写前端笔记"></a>今天开始正式写前端笔记</h1><blockquote>
 <h2 id="为什么要写前端笔记？"><a href="#为什么要写前端笔记？" class="headerlink" title="为什么要写前端笔记？"></a>为什么要写前端笔记？</h2></blockquote>
 <blockquote>
@@ -29,7 +29,7 @@
   </entry>
   <entry>
     <title>JAVA 学习目录(连载中)</title>
-    <url>/7bdea972.html</url>
+    <url>//7bdea972.html</url>
     <content><![CDATA[<h1 id="今天开始正式写Java笔记"><a href="#今天开始正式写Java笔记" class="headerlink" title="今天开始正式写Java笔记"></a>今天开始正式写Java笔记</h1><blockquote>
 <h2 id="为什么要写Java笔记？"><a href="#为什么要写Java笔记？" class="headerlink" title="为什么要写Java笔记？"></a>为什么要写Java笔记？</h2></blockquote>
 <blockquote>
@@ -80,7 +80,7 @@
   </entry>
   <entry>
     <title>Java学校笔记(连载中)</title>
-    <url>/df344879.html</url>
+    <url>//df344879.html</url>
     <content><![CDATA[<h5 id=""><a href="#" class="headerlink" title=""></a></h5><ol>
 <li><h5 id="数据类型结构"><a href="#数据类型结构" class="headerlink" title="数据类型结构"></a><a href="https://javaspans.github.io/posts/37015d6b.html">数据类型结构</a></h5></li>
 <li><h5 id="三元运算符和switch"><a href="#三元运算符和switch" class="headerlink" title="三元运算符和switch"></a><a href="https://javaspans.github.io/posts/ef68d2a6.html">三元运算符和switch</a></h5></li>
@@ -118,7 +118,7 @@
   </entry>
   <entry>
     <title>mysql 学习目录(连载中)</title>
-    <url>/6e48d4f4.html</url>
+    <url>//6e48d4f4.html</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>Mysql</category>
@@ -130,7 +130,7 @@
   </entry>
   <entry>
     <title>andirons学校笔记(连载中)</title>
-    <url>/da58cdbf.html</url>
+    <url>//da58cdbf.html</url>
     <content><![CDATA[<h3 id="安卓体系"><a href="#安卓体系" class="headerlink" title="安卓体系"></a>安卓体系</h3><h5 id="应用层Applications"><a href="#应用层Applications" class="headerlink" title="应用层Applications"></a>应用层Applications</h5><h5 id="框架层面APPlication-Framewoork"><a href="#框架层面APPlication-Framewoork" class="headerlink" title="框架层面APPlication Framewoork"></a>框架层面APPlication Framewoork</h5><h5 id="库"><a href="#库" class="headerlink" title="库"></a>库</h5><h4 id="hello项目"><a href="#hello项目" class="headerlink" title="hello项目"></a>hello项目</h4><ol>
 <li><p>包名是标识APP的，必须是唯一的，且一般是公司的域名反向。即com.公司名.项目名</p>
 </li>
@@ -203,7 +203,7 @@
   </entry>
   <entry>
     <title>小程序学校学习(连载中)</title>
-    <url>/d347236.html</url>
+    <url>//d347236.html</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>Java</category>
@@ -215,7 +215,7 @@
   </entry>
   <entry>
     <title>java学校笔记Final关键字</title>
-    <url>/ec8d8377.html</url>
+    <url>//ec8d8377.html</url>
     <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> 学习内容;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Final</span>关键字 </span>&#123;</span><br><span class="line">	<span class="comment">/*</span></span><br><span class="line"><span class="comment">	 * final 关键</span></span><br><span class="line"><span class="comment">	 * public private  --权限修饰符</span></span><br><span class="line"><span class="comment">	 * static --修饰符</span></span><br><span class="line"><span class="comment">	 * void 四种八类 --数据类型</span></span><br><span class="line"><span class="comment">	 * class</span></span><br><span class="line"><span class="comment">	 * this super </span></span><br><span class="line"><span class="comment">	 * final(最终，最后) 关键字 --修饰符</span></span><br><span class="line"><span class="comment">	 * 1.修饰类</span></span><br><span class="line"><span class="comment">	 * 2.修饰方法</span></span><br><span class="line"><span class="comment">	 * 3.修饰变量</span></span><br><span class="line"><span class="comment">	 *	final 修饰的类不能有子类（不能被继承）</span></span><br><span class="line"><span class="comment">	 *	final 修饰的方法不能被重写,但是可以被继承</span></span><br><span class="line"><span class="comment">	 *	final 修饰的变量初始化后就不能重新赋值</span></span><br><span class="line"><span class="comment">	 *	final static int i = 30；这是常量的定义</span></span><br><span class="line"><span class="comment">	 *</span></span><br><span class="line"><span class="comment">	 */</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		Rectangle c = <span class="keyword">new</span> Rectangle();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 ]]></content>
@@ -229,7 +229,7 @@
   </entry>
   <entry>
     <title>java学校笔记Static关键字和代码块</title>
-    <url>/8c6f2d57.html</url>
+    <url>//8c6f2d57.html</url>
     <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> 学习内容;</span><br><span class="line"><span class="comment">// static 修饰的变量属于对象共享的数据，属于静态变量不在再是成员变量。</span></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment"> * static 修饰的变量是属于类的 ，而不是属于对象的。</span></span><br><span class="line"><span class="comment"> * static 修饰的方法属于静态方法。</span></span><br><span class="line"><span class="comment"> * 所以访问静态方法以及静态变量有两种方法：</span></span><br><span class="line"><span class="comment"> * 1.通过对象访问</span></span><br><span class="line"><span class="comment"> * 2.通过类目访问--推荐使用</span></span><br><span class="line"><span class="comment"> * 没有创建对象时，静态方法以及静态变量依然存在。</span></span><br><span class="line"><span class="comment"> * 3.静态无法访问成员变量以及成员方法</span></span><br><span class="line"><span class="comment"> * 静态方法只能访问静态方法以及静态变量。</span></span><br><span class="line"><span class="comment"> * 成员方法可以访问静态方法以及静态变量。</span></span><br><span class="line"><span class="comment"> * </span></span><br><span class="line"><span class="comment"> * </span></span><br><span class="line"><span class="comment"> * 静态代码块 </span></span><br><span class="line"><span class="comment"> * 1.静态代码块的执行优先于构造方法,在创建对象时优先执行。</span></span><br><span class="line"><span class="comment"> * 2.静态代码块只在创建第一次对象的时候执行一次。</span></span><br><span class="line"><span class="comment"> * </span></span><br><span class="line"><span class="comment"> * 格式：</span></span><br><span class="line"><span class="comment"> * static&#123;</span></span><br><span class="line"><span class="comment"> * </span></span><br><span class="line"><span class="comment"> * 	&#125;</span></span><br><span class="line"><span class="comment"> * */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Static</span>关键字和代码块 </span>&#123;</span><br><span class="line">	<span class="keyword">public</span> Static关键字和代码块() &#123;</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> Static关键字和代码块(<span class="keyword">int</span> sTuNo, String name, <span class="keyword">int</span> age) &#123;</span><br><span class="line">	<span class="keyword">super</span>();</span><br><span class="line">	<span class="keyword">this</span>.sTuNo = sTuNo;</span><br><span class="line">	<span class="keyword">this</span>.name = name;</span><br><span class="line">	<span class="keyword">this</span>.age = age;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">int</span> sTuNo;</span><br><span class="line">String name;</span><br><span class="line"><span class="keyword">int</span> age ;</span><br><span class="line"><span class="keyword">static</span> <span class="keyword">int</span> room;</span><br><span class="line"><span class="meta">@Override</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="keyword">return</span> <span class="string">&quot;Stydent [sTuNo=&quot;</span> + sTuNo + <span class="string">&quot;, name=&quot;</span> + name + <span class="string">&quot;, age=&quot;</span> + age + <span class="string">&quot;]&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 ]]></content>
@@ -243,7 +243,7 @@
   </entry>
   <entry>
     <title>java学校笔记三元运算符和switch</title>
-    <url>/ef68d2a6.html</url>
+    <url>//ef68d2a6.html</url>
     <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> 学习内容;</span><br><span class="line"><span class="comment">/*package java01;</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">import java.util.Scanner;</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">public class Class10 &#123;</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">	public static void main(String[] args) &#123;</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">//三元运算符 ？:</span></span><br><span class="line"><span class="comment">		int x = 9;</span></span><br><span class="line"><span class="comment">		/*		int y = 6;</span></span><br><span class="line"><span class="comment">		int max = x&gt;y?x:y;</span></span><br><span class="line"><span class="comment">		System.out.println(max);</span></span><br><span class="line"><span class="comment"> Scanner scan = new Scanner(System.in);</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">	 int c = scan.nextInt();</span></span><br><span class="line"><span class="comment">	 c = x % 2==0?&#x27;t&#x27;:&#x27;f&#x27;;</span></span><br><span class="line"><span class="comment">		System.out.println((char)c);</span></span><br><span class="line"><span class="comment">	&#125; </span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">&#125;</span></span><br><span class="line"><span class="comment">//switch break; default;</span></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">switc注意事项</span></span><br><span class="line"><span class="comment">1.可以直接放数字</span></span><br><span class="line"><span class="comment">2.一种情况只能出现一次</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
 
 ]]></content>
@@ -257,7 +257,7 @@
   </entry>
   <entry>
     <title>java学校笔记数据类型结构</title>
-    <url>/37015d6b.html</url>
+    <url>//37015d6b.html</url>
     <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> 学习内容;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> 数据类型结构 </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123; </span><br><span class="line">		<span class="comment">//1.数据类型：基本数据类型、引用数据类型</span></span><br><span class="line">		<span class="comment">/*基本数据类型：四种八类</span></span><br><span class="line"><span class="comment">		 * （1）整数类型（byte、short、int、long）</span></span><br><span class="line"><span class="comment">		 * （2）浮点数类型（float、double）</span></span><br><span class="line"><span class="comment">		 * （3）字符类型（char）</span></span><br><span class="line"><span class="comment">		 * （4）布尔类型（boolean）</span></span><br><span class="line"><span class="comment">		 */</span></span><br><span class="line">		</span><br><span class="line"></span><br><span class="line">​	<span class="comment">//(1)整数类型</span></span><br><span class="line">​	<span class="comment">/*</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">  * byte：字节型，一个字节（占8位），范围：-2^7~2^7-1   -128~127,默认值0</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">    * short:短整型，二个字节（占16位），范围：-2^15~2^15-1,默认值0</span></span><br><span class="line"><span class="comment">     * int：整型，Java中默认的整数类型，四个字节（占32位），范围：-2^31~2^31-1,默认值0</span></span><br><span class="line"><span class="comment">     * long:长整型，八个字节（占64位），范围：</span></span><br><span class="line"><span class="comment">       */</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">//（2）浮点型</span></span><br><span class="line">    <span class="comment">/*</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">     * 单精度浮点型：float，默认值0.0f，四个字节（占32位）</span></span><br><span class="line"><span class="comment">     * 双精度浮点型：double，默认值0.0d，八个字节（占64位）</span></span><br><span class="line"><span class="comment">     * */</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">//（3）字符类型</span></span><br><span class="line">    <span class="comment">/*</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">     * char:0~65535或&#x27;\u0000&#x27;~&#x27;\uffff&#x27;,默认值0或\u0000</span></span><br><span class="line"><span class="comment">       */</span></span><br><span class="line">       <span class="comment">//(4)布尔类型</span></span><br><span class="line">       <span class="comment">/*</span></span><br><span class="line"><span class="comment">     * boolean:true flase</span></span><br><span class="line"><span class="comment">       */</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">//2.变量：内存单元</span></span><br><span class="line">    Scanner scan = <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">    <span class="keyword">int</span> score = <span class="number">0</span>;</span><br><span class="line">    score = scan.nextInt();</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 ]]></content>
@@ -271,7 +271,7 @@
   </entry>
   <entry>
     <title>Arrays集合</title>
-    <url>/c3c27062.html</url>
+    <url>//c3c27062.html</url>
     <content><![CDATA[<h3 id="Arrays类"><a href="#Arrays类" class="headerlink" title="Arrays类"></a>Arrays类</h3><ul>
 <li><h5 id="数组的工具类包名-java-util-Arrays"><a href="#数组的工具类包名-java-util-Arrays" class="headerlink" title="数组的工具类包名 java.util.Arrays"></a>数组的工具类包名 java.util.Arrays</h5></li>
 <li><h5 id="由于数组对象本身并没有什么方法可以供我们调用，但API中提供了一个工具类Arrays供我们使用，从而可以对数据对象进行一些基本的操作。"><a href="#由于数组对象本身并没有什么方法可以供我们调用，但API中提供了一个工具类Arrays供我们使用，从而可以对数据对象进行一些基本的操作。" class="headerlink" title="由于数组对象本身并没有什么方法可以供我们调用，但API中提供了一个工具类Arrays供我们使用，从而可以对数据对象进行一些基本的操作。"></a>由于数组对象本身并没有什么方法可以供我们调用，但API中提供了一个工具类Arrays供我们使用，从而可以对数据对象进行一些基本的操作。</h5></li>
@@ -302,7 +302,7 @@
   </entry>
   <entry>
     <title>Debug的使用</title>
-    <url>/3f0598a9.html</url>
+    <url>//3f0598a9.html</url>
     <content><![CDATA[<h3 id="Debug的使用-："><a href="#Debug的使用-：" class="headerlink" title="Debug的使用 ："></a>Debug的使用 ：</h3><h4 id="在IDEa或者在eclipse中"><a href="#在IDEa或者在eclipse中" class="headerlink" title="在IDEa或者在eclipse中,"></a>在IDEa或者在eclipse中,</h4><h4 id="1-先点击要检查的代码前面，出现红点或蓝点表示标记成功"><a href="#1-先点击要检查的代码前面，出现红点或蓝点表示标记成功" class="headerlink" title="1.先点击要检查的代码前面，出现红点或蓝点表示标记成功,"></a>1.先点击要检查的代码前面，出现红点或蓝点表示标记成功,</h4><h4 id="2-然后找到选项栏运行图标旁边的-”Debug“"><a href="#2-然后找到选项栏运行图标旁边的-”Debug“" class="headerlink" title="2.然后找到选项栏运行图标旁边的 ”Debug“"></a>2.然后找到选项栏运行图标旁边的 ”Debug“</h4><h4 id="3-点击之后下方窗口会出现控制栏-就可以调试或者一步一步点击下一步看代码运行状态和代码执行内容"><a href="#3-点击之后下方窗口会出现控制栏-就可以调试或者一步一步点击下一步看代码运行状态和代码执行内容" class="headerlink" title="3.点击之后下方窗口会出现控制栏,就可以调试或者一步一步点击下一步看代码运行状态和代码执行内容"></a>3.点击之后下方窗口会出现控制栏,就可以调试或者一步一步点击下一步看代码运行状态和代码执行内容</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//打印五行三角形  5行</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= <span class="number">5</span>; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">5</span>; j &gt;= i; j--) &#123;</span><br><span class="line">                System.out.print(<span class="string">&quot; &quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">1</span>; j &lt;= i;j++)&#123;</span><br><span class="line">                System.out.print(<span class="string">&quot;*&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j =<span class="number">1</span> ; j&lt;i;j++)&#123;</span><br><span class="line">                System.out.print(<span class="string">&quot;*&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.println();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 ]]></content>
@@ -316,7 +316,7 @@
   </entry>
   <entry>
     <title>反编译 class 文件</title>
-    <url>/81406da.html</url>
+    <url>//81406da.html</url>
     <content><![CDATA[<h3 id="反编译-class-文件"><a href="#反编译-class-文件" class="headerlink" title="反编译 class 文件"></a>反编译 class 文件</h3><p>1.找到项目结构 </p>
 <p>project → project compiler output</p>
 <p>2.打开输出out文件夹 把要反编译的class文件拖进</p>
@@ -332,7 +332,7 @@
   </entry>
   <entry>
     <title>方 法</title>
-    <url>/69244af4.html</url>
+    <url>//69244af4.html</url>
     <content><![CDATA[<h3 id="什么是方法"><a href="#什么是方法" class="headerlink" title="什么是方法"></a>什么是方法</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//系统的类.对象.方法</span></span><br><span class="line">System.out.println();</span><br></pre></td></tr></table></figure>
 
 <h4 id="方法是语句的集合，它们在一起执行一个功能。"><a href="#方法是语句的集合，它们在一起执行一个功能。" class="headerlink" title="方法是语句的集合，它们在一起执行一个功能。"></a>方法是语句的集合，它们在一起执行一个功能。</h4><h5 id="1-方法是解决一类问题的步骤的有序组合"><a href="#1-方法是解决一类问题的步骤的有序组合" class="headerlink" title="1.方法是解决一类问题的步骤的有序组合"></a>1.方法是解决一类问题的步骤的有序组合</h5><h5 id="2-方法包含于类或对象中"><a href="#2-方法包含于类或对象中" class="headerlink" title="2.方法包含于类或对象中"></a>2.方法包含于类或对象中</h5><h5 id="3-方法在程序中被创建，在其他地方被引用"><a href="#3-方法在程序中被创建，在其他地方被引用" class="headerlink" title="3.方法在程序中被创建，在其他地方被引用"></a>3.方法在程序中被创建，在其他地方被引用</h5><h4 id="方法的原则"><a href="#方法的原则" class="headerlink" title="方法的原则"></a>方法的原则</h4><h5 id="方法的本意是功能块，就是实现某个功能的语句块的集合，我们在设计方法的时候，最好保证方法的原子性，就是一个方法只完成一个功能，这样利于我们后期的扩展。"><a href="#方法的本意是功能块，就是实现某个功能的语句块的集合，我们在设计方法的时候，最好保证方法的原子性，就是一个方法只完成一个功能，这样利于我们后期的扩展。" class="headerlink" title="方法的本意是功能块，就是实现某个功能的语句块的集合，我们在设计方法的时候，最好保证方法的原子性，就是一个方法只完成一个功能，这样利于我们后期的扩展。"></a>方法的本意是功能块，就是实现某个功能的语句块的集合，我们在设计方法的时候，最好保证方法的原子性，就是一个方法只完成一个功能，这样利于我们后期的扩展。</h5><p>方法的命名：小驼峰 或者大驼峰;</p>
@@ -353,7 +353,7 @@
   </entry>
   <entry>
     <title>Scanner对象</title>
-    <url>/e2abe5ec.html</url>
+    <url>//e2abe5ec.html</url>
     <content><![CDATA[<h3 id="Scanner对象"><a href="#Scanner对象" class="headerlink" title="Scanner对象"></a>Scanner对象</h3><h4 id="是实现人机交互的工具类，通过Scanner类来获取用户的输入。"><a href="#是实现人机交互的工具类，通过Scanner类来获取用户的输入。" class="headerlink" title="是实现人机交互的工具类，通过Scanner类来获取用户的输入。"></a>是实现人机交互的工具类，通过Scanner类来获取用户的输入。</h4><h4 id="基本的语法："><a href="#基本的语法：" class="headerlink" title="基本的语法："></a>基本的语法：</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//创建一个扫描器对象，用于接收键盘数据</span></span><br><span class="line">Scanner s = <span class="keyword">new</span> Scanner(System.in)</span><br></pre></td></tr></table></figure>
 
 <h4 id="通过Scanner类的next-与nextLine-方法获取输入的字符串，在读取前我们一般需要使用-hasNext-与hasNextLine-来判断是否还有输入的数据"><a href="#通过Scanner类的next-与nextLine-方法获取输入的字符串，在读取前我们一般需要使用-hasNext-与hasNextLine-来判断是否还有输入的数据" class="headerlink" title="通过Scanner类的next()与nextLine()方法获取输入的字符串，在读取前我们一般需要使用 hasNext()与hasNextLine()来判断是否还有输入的数据"></a>通过Scanner类的next()与nextLine()方法获取输入的字符串，在读取前我们一般需要使用 hasNext()与hasNextLine()来判断是否还有输入的数据</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//判断用户有没有输入字符</span></span><br><span class="line"><span class="keyword">if</span>(Scanner.hasNext())&#123;</span><br><span class="line"><span class="comment">//使用next方式接收</span></span><br><span class="line">String str = Scanner.next();</span><br><span class="line">System.out.println(<span class="string">&quot;输出的内容为&quot;</span>+str)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//凡是属于IO流的泪如果不关闭会一直占用资源，要养成好习惯用完就关掉</span></span><br><span class="line">scanner.close();</span><br></pre></td></tr></table></figure>
@@ -369,7 +369,7 @@
   </entry>
   <entry>
     <title>static的详情</title>
-    <url>/a6c6c4c.html</url>
+    <url>//a6c6c4c.html</url>
     <content><![CDATA[<h3 id="Static静态"><a href="#Static静态" class="headerlink" title="Static静态"></a>Static静态</h3><h4 id="静态导入包"><a href="#静态导入包" class="headerlink" title="静态导入包"></a>静态导入包</h4><h5 id="import-static-java-lang-Math-random"><a href="#import-static-java-lang-Math-random" class="headerlink" title="import static java.lang.Math.random;"></a>import static java.lang.Math.random;</h5><h5 id="private-static-int-age-静态的变量"><a href="#private-static-int-age-静态的变量" class="headerlink" title="private static int age; //静态的变量"></a>private static int age; //静态的变量</h5><h5 id="private-double-score-非静态的变量"><a href="#private-double-score-非静态的变量" class="headerlink" title="private double score// 非静态的变量"></a>private double score// 非静态的变量</h5><h4 id="匿名代码块"><a href="#匿名代码块" class="headerlink" title="匿名代码块"></a>匿名代码块</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line"><span class="comment">//代码块（匿名代码块）</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
@@ -387,7 +387,7 @@
   </entry>
   <entry>
     <title>关键字以及数据类型(扩展)</title>
-    <url>/1f3c832.html</url>
+    <url>//1f3c832.html</url>
     <content><![CDATA[<h1 id="关键字以及数据类型-扩展"><a href="#关键字以及数据类型-扩展" class="headerlink" title="关键字以及数据类型(扩展)"></a>关键字以及数据类型(扩展)</h1><h4 id="关键字"><a href="#关键字" class="headerlink" title="关键字"></a>关键字</h4><table>
 <thead>
 <tr>
@@ -505,7 +505,7 @@
   </entry>
   <entry>
     <title>其他学习拓展(连载中)</title>
-    <url>/8d422b92.html</url>
+    <url>//8d422b92.html</url>
     <content><![CDATA[<p><a href="https://javaspans.github.io/posts/3f0598a9.html">Debug的使用性</a></p>
 <p><a href="https://javaspans.github.io/posts/81406da.html">反编译 class 文件</a></p>
 <p>1.<a href="https://javaspans.github.io/posts/48c8b89.html">Object类、常用API</a></p>
@@ -530,7 +530,7 @@
   </entry>
   <entry>
     <title>内存分析堆、栈、方法区</title>
-    <url>/5d966776.html</url>
+    <url>//5d966776.html</url>
     <content><![CDATA[<h3 id="Java内存分析："><a href="#Java内存分析：" class="headerlink" title="Java内存分析："></a>Java内存分析：</h3><h4 id="堆："><a href="#堆：" class="headerlink" title="堆："></a>堆：</h4><ul>
 <li><h5 id="凡是new的东西都存储与堆里面-例如对象和数组"><a href="#凡是new的东西都存储与堆里面-例如对象和数组" class="headerlink" title="凡是new的东西都存储与堆里面 例如对象和数组"></a>凡是new的东西都存储与堆里面 例如对象和数组</h5></li>
 <li><h5 id="可以被所有的线程共享不会存放别的对象引用"><a href="#可以被所有的线程共享不会存放别的对象引用" class="headerlink" title="可以被所有的线程共享不会存放别的对象引用"></a>可以被所有的线程共享不会存放别的对象引用</h5></li>
@@ -554,7 +554,7 @@
   </entry>
   <entry>
     <title>内部类</title>
-    <url>/9bc01b38.html</url>
+    <url>//9bc01b38.html</url>
     <content><![CDATA[<h3 id="内部类"><a href="#内部类" class="headerlink" title="内部类"></a>内部类</h3><h4 id="内部类就是在一个类内部在定义一个类，比如，A类中定义一个B类，那么B类相对于A类来说就称为内部类，而A类相对于B类来说就是外部类了。"><a href="#内部类就是在一个类内部在定义一个类，比如，A类中定义一个B类，那么B类相对于A类来说就称为内部类，而A类相对于B类来说就是外部类了。" class="headerlink" title="内部类就是在一个类内部在定义一个类，比如，A类中定义一个B类，那么B类相对于A类来说就称为内部类，而A类相对于B类来说就是外部类了。"></a>内部类就是在一个类内部在定义一个类，比如，A类中定义一个B类，那么B类相对于A类来说就称为内部类，而A类相对于B类来说就是外部类了。</h4><ul>
 <li><h5 id="成员内部类"><a href="#成员内部类" class="headerlink" title="成员内部类"></a>成员内部类</h5></li>
 <li><h5 id="静态内部类"><a href="#静态内部类" class="headerlink" title="静态内部类"></a>静态内部类</h5></li>
@@ -579,7 +579,7 @@
   </entry>
   <entry>
     <title>变量是什么</title>
-    <url>/94320cfe.html</url>
+    <url>//94320cfe.html</url>
     <content><![CDATA[<h1 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h1><h2 id="变量是什么：就是可以变换的量！"><a href="#变量是什么：就是可以变换的量！" class="headerlink" title="变量是什么：就是可以变换的量！"></a>变量是什么：就是可以变换的量！</h2><h3 id="java-是一种强类型语言，每个变量都必须声明其类型。"><a href="#java-是一种强类型语言，每个变量都必须声明其类型。" class="headerlink" title="java 是一种强类型语言，每个变量都必须声明其类型。"></a>java 是一种强类型语言，每个变量都必须声明其类型。</h3><h3 id="java是程序中最基本的存储单元，其要素包括包括变量名，变量类型和作用域。"><a href="#java是程序中最基本的存储单元，其要素包括包括变量名，变量类型和作用域。" class="headerlink" title="java是程序中最基本的存储单元，其要素包括包括变量名，变量类型和作用域。"></a>java是程序中最基本的存储单元，其要素包括包括变量名，变量类型和作用域。</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">type varName  [=value]  [&#123;,varName[=value]&#125;];    </span><br></pre></td></tr></table></figure>
 
 <h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项:"></a>注意事项:</h2><h3 id="1-每个变量都有类型，类型可以是基本类型，也可以是引用类型。"><a href="#1-每个变量都有类型，类型可以是基本类型，也可以是引用类型。" class="headerlink" title="1.每个变量都有类型，类型可以是基本类型，也可以是引用类型。"></a>1.每个变量都有类型，类型可以是基本类型，也可以是引用类型。</h3><h3 id="2-变量名必须是合法的标识符。"><a href="#2-变量名必须是合法的标识符。" class="headerlink" title="2.变量名必须是合法的标识符。"></a>2.变量名必须是合法的标识符。</h3><h3 id="3-变量声明是一条完整的语句，因此每一个声明都必须以分号结束"><a href="#3-变量声明是一条完整的语句，因此每一个声明都必须以分号结束" class="headerlink" title="3.变量声明是一条完整的语句，因此每一个声明都必须以分号结束"></a>3.变量声明是一条完整的语句，因此每一个声明都必须以分号结束</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">	&#x2F;&#x2F;类变量 static</span><br><span class="line"></span><br><span class="line">​	static double salary &#x3D;2500;</span><br><span class="line"></span><br><span class="line">   &#x2F;&#x2F;属性:变量</span><br><span class="line"></span><br><span class="line">​	&#x2F;&#x2F;实例变量：从属于对象；如果不自行初始化，这个类型的默认值  0  0.0；</span><br><span class="line"></span><br><span class="line">​	&#x2F;&#x2F;布尔值： 默认是false</span><br><span class="line"></span><br><span class="line">​	&#x2F;&#x2F;除了基本类型，其余的默认值都是null；</span><br><span class="line"></span><br><span class="line">​	String  name;</span><br><span class="line"></span><br><span class="line">​		int  age;</span><br></pre></td></tr></table></figure>
@@ -601,7 +601,7 @@
   </entry>
   <entry>
     <title>可变参数</title>
-    <url>/6963fb18.html</url>
+    <url>//6963fb18.html</url>
     <content><![CDATA[<h3 id="可变参数-不定项参数"><a href="#可变参数-不定项参数" class="headerlink" title="可变参数(不定项参数)"></a>可变参数(不定项参数)</h3><ul>
 <li><h4 id="在jdk-1-5-开始-，java支持传递同类型的可变参数给一个方法"><a href="#在jdk-1-5-开始-，java支持传递同类型的可变参数给一个方法" class="headerlink" title="在jdk 1.5 开始 ，java支持传递同类型的可变参数给一个方法"></a>在jdk 1.5 开始 ，java支持传递同类型的可变参数给一个方法</h4></li>
 <li><h4 id="在方法声明中，在指定参数类型后加一个省略号-…-本质就是数组"><a href="#在方法声明中，在指定参数类型后加一个省略号-…-本质就是数组" class="headerlink" title="在方法声明中，在指定参数类型后加一个省略号(…),[  本质就是数组  ]"></a>在方法声明中，在指定参数类型后加一个省略号(…),[  本质就是数组  ]</h4></li>
@@ -623,7 +623,7 @@
   </entry>
   <entry>
     <title>java同步</title>
-    <url>/9d32b1d.html</url>
+    <url>//9d32b1d.html</url>
     <content><![CDATA[<h3 id="同步代码块"><a href="#同步代码块" class="headerlink" title="同步代码块"></a>同步代码块</h3><p>解决线程安全问题的一种方案：使用同步代码块</p>
 <p>​    格式：synchronized(锁对象){</p>
 <p>可能会出现线程安全问题的代码(访问共享数据的代码)}</p>
@@ -716,7 +716,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>命令行传参</title>
-    <url>/4a246c51.html</url>
+    <url>//4a246c51.html</url>
     <content><![CDATA[<h3 id="命令行传参"><a href="#命令行传参" class="headerlink" title="命令行传参"></a>命令行传参</h3><h4 id="有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main-函数实现。"><a href="#有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main-函数实现。" class="headerlink" title="有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main()函数实现。"></a>有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main()函数实现。</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ClassDemo01</span> </span>&#123;</span><br><span class="line">    <span class="comment">//主方法 mian方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">      <span class="keyword">for</span>(<span class="keyword">int</span> i =<span class="number">0</span>;i&lt;args.length;i++)&#123;</span><br><span class="line">          <span class="comment">//便利主方法内的数组长度</span></span><br><span class="line">          System.out.println(args[i]);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
 
 <p>命令行下执行</p>
@@ -733,7 +733,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>多态</title>
-    <url>/ac4294eb.html</url>
+    <url>//ac4294eb.html</url>
     <content><![CDATA[<h1 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h1><h2 id="多态的格式："><a href="#多态的格式：" class="headerlink" title="多态的格式："></a>多态的格式：</h2><h3 id="父类名-对象名-new-子类的构造方法-传参"><a href="#父类名-对象名-new-子类的构造方法-传参" class="headerlink" title="父类名  对象名 = new 子类的构造方法(传参);"></a>父类名  对象名 = new 子类的构造方法(传参);</h3><h3 id="接口名-对象名-new-实现类名"><a href="#接口名-对象名-new-实现类名" class="headerlink" title="接口名  对象名 = new  实现类名();"></a>接口名  对象名 = new  实现类名();</h3><h2 id="多态创建的对象有什么特点？"><a href="#多态创建的对象有什么特点？" class="headerlink" title="多态创建的对象有什么特点？"></a>多态创建的对象有什么特点？</h2><ul>
 <li><h4 id="使用变量：使用的是父类中的变量，调用不了子类中的变量"><a href="#使用变量：使用的是父类中的变量，调用不了子类中的变量" class="headerlink" title="使用变量：使用的是父类中的变量，调用不了子类中的变量"></a>使用变量：使用的是父类中的变量，调用不了子类中的变量</h4></li>
 <li><h4 id="调用方法：调用的是子类中重写父类的方法-只有被重写的方法才能被调用到"><a href="#调用方法：调用的是子类中重写父类的方法-只有被重写的方法才能被调用到" class="headerlink" title="调用方法：调用的是子类中重写父类的方法(只有被重写的方法才能被调用到)"></a>调用方法：调用的是子类中重写父类的方法(只有被重写的方法才能被调用到)</h4></li>
@@ -754,7 +754,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>多线程</title>
-    <url>/5729df21.html</url>
+    <url>//5729df21.html</url>
     <content><![CDATA[<h3 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h3><h4 id="并发"><a href="#并发" class="headerlink" title="并发"></a>并发</h4><h5 id="指的是两个或多个事件在同一个时间段内发生。"><a href="#指的是两个或多个事件在同一个时间段内发生。" class="headerlink" title="指的是两个或多个事件在同一个时间段内发生。"></a>指的是两个或多个事件在同一个时间段内发生。</h5><h5 id="并发：交替执行，效率低"><a href="#并发：交替执行，效率低" class="headerlink" title="并发：交替执行，效率低"></a>并发：交替执行，效率低</h5><h4 id="并行"><a href="#并行" class="headerlink" title="并行"></a>并行</h4><h5 id="指的是两个或多个事件在同一时刻发生-同时发生"><a href="#指的是两个或多个事件在同一时刻发生-同时发生" class="headerlink" title="指的是两个或多个事件在同一时刻发生(同时发生)"></a>指的是两个或多个事件在同一时刻发生(同时发生)</h5><h5 id="并行：同时执行，效率高"><a href="#并行：同时执行，效率高" class="headerlink" title="并行：同时执行，效率高"></a>并行：同时执行，效率高</h5><h4 id="进程：是指一个内存中云心的应用程序，没个进程都有一个独立的内存空间，一个应用程序可以同时运行多个进程；进程页是程序的一次执行过程，是系统运行程序的基本单位；系统运行一个程序即是一个进程从创建运行到消亡的过程。"><a href="#进程：是指一个内存中云心的应用程序，没个进程都有一个独立的内存空间，一个应用程序可以同时运行多个进程；进程页是程序的一次执行过程，是系统运行程序的基本单位；系统运行一个程序即是一个进程从创建运行到消亡的过程。" class="headerlink" title="进程：是指一个内存中云心的应用程序，没个进程都有一个独立的内存空间，一个应用程序可以同时运行多个进程；进程页是程序的一次执行过程，是系统运行程序的基本单位；系统运行一个程序即是一个进程从创建运行到消亡的过程。"></a>进程：是指一个内存中云心的应用程序，没个进程都有一个独立的内存空间，一个应用程序可以同时运行多个进程；进程页是程序的一次执行过程，是系统运行程序的基本单位；系统运行一个程序即是一个进程从创建运行到消亡的过程。</h4><h4 id="线程：线程是进程中的一个执行单元，负责当前进程中程序的执行，一个进程中至少有一个线程。一个进程中是可以有多个线程的，这个应用程序也可以称之为多线程程序。"><a href="#线程：线程是进程中的一个执行单元，负责当前进程中程序的执行，一个进程中至少有一个线程。一个进程中是可以有多个线程的，这个应用程序也可以称之为多线程程序。" class="headerlink" title="线程：线程是进程中的一个执行单元，负责当前进程中程序的执行，一个进程中至少有一个线程。一个进程中是可以有多个线程的，这个应用程序也可以称之为多线程程序。"></a>线程：线程是进程中的一个执行单元，负责当前进程中程序的执行，一个进程中至少有一个线程。一个进程中是可以有多个线程的，这个应用程序也可以称之为多线程程序。</h4><h5 id="线程调度"><a href="#线程调度" class="headerlink" title="线程调度:"></a>线程调度:</h5><p>1.分时调度 </p>
 <p>​    所有线程轮流使用cpu的使用权，平均分配每个线程占用cpu的时间。</p>
 <p>2.抢占式调度</p>
@@ -773,7 +773,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>小结回顾</title>
-    <url>/68bb2641.html</url>
+    <url>//68bb2641.html</url>
     <content><![CDATA[<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><h4 id="1-类与对象"><a href="#1-类与对象" class="headerlink" title="1.类与对象"></a>1.类与对象</h4><h5 id="类是一个模板：抽象，-对象是一个具体的实例"><a href="#类是一个模板：抽象，-对象是一个具体的实例" class="headerlink" title="类是一个模板：抽象， 对象是一个具体的实例"></a>类是一个模板：抽象， 对象是一个具体的实例</h5><h4 id="2-方法"><a href="#2-方法" class="headerlink" title="2.方法"></a>2.方法</h4><h5 id="定义、调用！"><a href="#定义、调用！" class="headerlink" title="定义、调用！"></a>定义、调用！</h5><h4 id="3-对应的引用"><a href="#3-对应的引用" class="headerlink" title="3.对应的引用"></a>3.对应的引用</h4><h5 id="引用类型：-基本类型（四种八类）"><a href="#引用类型：-基本类型（四种八类）" class="headerlink" title="引用类型： 基本类型（四种八类）"></a>引用类型： 基本类型（四种八类）</h5><h5 id="对象是通过引用来操作的：栈-—→-堆"><a href="#对象是通过引用来操作的：栈-—→-堆" class="headerlink" title="对象是通过引用来操作的：栈  —→ 堆"></a>对象是通过引用来操作的：栈  —→ 堆</h5><h4 id="4-属性：字段Field-成员变量"><a href="#4-属性：字段Field-成员变量" class="headerlink" title="4.属性：字段Field 成员变量"></a>4.属性：字段Field 成员变量</h4><h5 id="默认初始化："><a href="#默认初始化：" class="headerlink" title="默认初始化："></a>默认初始化：</h5><h5 id="数字-0-0-0"><a href="#数字-0-0-0" class="headerlink" title="数字: 0  0.0"></a>数字: 0  0.0</h5><h5 id="char-u0000"><a href="#char-u0000" class="headerlink" title="char: u0000"></a>char: u0000</h5><h5 id="boolean-false"><a href="#boolean-false" class="headerlink" title="boolean: false"></a>boolean: false</h5><h5 id="引用：null"><a href="#引用：null" class="headerlink" title="引用：null"></a>引用：null</h5><h5 id="修饰符-属性类型-属性名-属性值"><a href="#修饰符-属性类型-属性名-属性值" class="headerlink" title="修饰符   属性类型  属性名 = 属性值"></a>修饰符   属性类型  属性名 = 属性值</h5><h4 id="5-对象的创建和使用"><a href="#5-对象的创建和使用" class="headerlink" title="5. 对象的创建和使用"></a>5. 对象的创建和使用</h4><ul>
 <li><h5 id="必须使用new-关键字创建对象，构造器-Person-person-new-Person"><a href="#必须使用new-关键字创建对象，构造器-Person-person-new-Person" class="headerlink" title="必须使用new 关键字创建对象，构造器 Person  person = new  Person(){}"></a>必须使用new 关键字创建对象，构造器 Person  person = new  Person(){}</h5></li>
 <li><h5 id="对象的属性-person-name"><a href="#对象的属性-person-name" class="headerlink" title="对象的属性 person.name"></a>对象的属性 person.name</h5></li>
@@ -790,7 +790,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>异常的详解</title>
-    <url>/7792860f.html</url>
+    <url>//7792860f.html</url>
     <content><![CDATA[<h3 id="异常机制"><a href="#异常机制" class="headerlink" title="异常机制"></a>异常机制</h3><h4 id="Exception"><a href="#Exception" class="headerlink" title="Exception"></a>Exception</h4><h4 id="什么是异常"><a href="#什么是异常" class="headerlink" title="什么是异常"></a>什么是异常</h4><ul>
 <li><h5 id="实际工作中，遇到的情况不可能是非常完美的。比如说：你写的某个模块，用户输入不一定符合你的要求，你的程序要打开某个文件，这个文件可能不存在或者文件格式不对，你要读取数据库的数据，数据可能是空的等。我们的程序在跑着，内存或者硬盘满了，等问题。"><a href="#实际工作中，遇到的情况不可能是非常完美的。比如说：你写的某个模块，用户输入不一定符合你的要求，你的程序要打开某个文件，这个文件可能不存在或者文件格式不对，你要读取数据库的数据，数据可能是空的等。我们的程序在跑着，内存或者硬盘满了，等问题。" class="headerlink" title="实际工作中，遇到的情况不可能是非常完美的。比如说：你写的某个模块，用户输入不一定符合你的要求，你的程序要打开某个文件，这个文件可能不存在或者文件格式不对，你要读取数据库的数据，数据可能是空的等。我们的程序在跑着，内存或者硬盘满了，等问题。"></a>实际工作中，遇到的情况不可能是非常完美的。比如说：你写的某个模块，用户输入不一定符合你的要求，你的程序要打开某个文件，这个文件可能不存在或者文件格式不对，你要读取数据库的数据，数据可能是空的等。我们的程序在跑着，内存或者硬盘满了，等问题。</h5></li>
 <li><h5 id="软件程序在运行过程中，非常可能遇到刚刚提到的这些异常问题，我们叫异常，英文是Exception，意思是例外。这些，例外情况，或者叫异常，怎么让我们写的程序做出合理的处理，而不至于程序崩溃。"><a href="#软件程序在运行过程中，非常可能遇到刚刚提到的这些异常问题，我们叫异常，英文是Exception，意思是例外。这些，例外情况，或者叫异常，怎么让我们写的程序做出合理的处理，而不至于程序崩溃。" class="headerlink" title="软件程序在运行过程中，非常可能遇到刚刚提到的这些异常问题，我们叫异常，英文是Exception，意思是例外。这些，例外情况，或者叫异常，怎么让我们写的程序做出合理的处理，而不至于程序崩溃。"></a>软件程序在运行过程中，非常可能遇到刚刚提到的这些异常问题，我们叫异常，英文是Exception，意思是例外。这些，例外情况，或者叫异常，怎么让我们写的程序做出合理的处理，而不至于程序崩溃。</h5></li>
@@ -857,7 +857,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>循环结构三大循环</title>
-    <url>/5f91e7e3.html</url>
+    <url>//5f91e7e3.html</url>
     <content><![CDATA[<h3 id="循环结构"><a href="#循环结构" class="headerlink" title="循环结构"></a>循环结构</h3><h4 id="while-循环"><a href="#while-循环" class="headerlink" title="while 循环"></a>while 循环</h4><h4 id="do-while-循环"><a href="#do-while-循环" class="headerlink" title="do while 循环"></a>do while 循环</h4><h4 id="for-循环"><a href="#for-循环" class="headerlink" title="for 循环"></a>for 循环</h4><h5 id="while-是最基本的循环，他的结构为"><a href="#while-是最基本的循环，他的结构为" class="headerlink" title="while 是最基本的循环，他的结构为:"></a>while 是最基本的循环，他的结构为:</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>（不二表达式）&#123;</span><br><span class="line"></span><br><span class="line"><span class="comment">//循环体内容&#125;</span></span><br></pre></td></tr></table></figure>
 
 <h4 id="只要布尔表达式为TRUE，循环就会一直执行下去。"><a href="#只要布尔表达式为TRUE，循环就会一直执行下去。" class="headerlink" title="只要布尔表达式为TRUE，循环就会一直执行下去。"></a>只要布尔表达式为TRUE，循环就会一直执行下去。</h4><h4 id="我们大多数情况是会让循环停止下来的，我们需要一个让表达式失效的方式来结束循环。"><a href="#我们大多数情况是会让循环停止下来的，我们需要一个让表达式失效的方式来结束循环。" class="headerlink" title="我们大多数情况是会让循环停止下来的，我们需要一个让表达式失效的方式来结束循环。"></a>我们大多数情况是会让循环停止下来的，我们需要一个让表达式失效的方式来结束循环。</h4><h4 id="少部分情况需要循环一直执行例如服务器响应监听。"><a href="#少部分情况需要循环一直执行例如服务器响应监听。" class="headerlink" title="少部分情况需要循环一直执行例如服务器响应监听。"></a>少部分情况需要循环一直执行例如服务器响应监听。</h4><h4 id="循环条件一直为TRUE就会造成死循环，我们正常的业务编程中应该尽量避免死循环，会影响程序性能或者造成程序卡死崩溃！"><a href="#循环条件一直为TRUE就会造成死循环，我们正常的业务编程中应该尽量避免死循环，会影响程序性能或者造成程序卡死崩溃！" class="headerlink" title="循环条件一直为TRUE就会造成死循环，我们正常的业务编程中应该尽量避免死循环，会影响程序性能或者造成程序卡死崩溃！"></a>循环条件一直为TRUE就会造成死循环，我们正常的业务编程中应该尽量避免死循环，会影响程序性能或者造成程序卡死崩溃！</h4><h3 id="do-while-循环-1"><a href="#do-while-循环-1" class="headerlink" title="do while 循环"></a>do while 循环</h3><h4 id="对于while-语句而言，如果不满足条件，则不能进入循环。但有时候我们需要即使不满足条件也至少执行一次。"><a href="#对于while-语句而言，如果不满足条件，则不能进入循环。但有时候我们需要即使不满足条件也至少执行一次。" class="headerlink" title="对于while 语句而言，如果不满足条件，则不能进入循环。但有时候我们需要即使不满足条件也至少执行一次。"></a>对于while 语句而言，如果不满足条件，则不能进入循环。但有时候我们需要即使不满足条件也至少执行一次。</h4><h4 id="do-while-循环和while循环相似，不同的是，do-while-循环至少执行一次。"><a href="#do-while-循环和while循环相似，不同的是，do-while-循环至少执行一次。" class="headerlink" title="do while 循环和while循环相似，不同的是，do while 循环至少执行一次。"></a>do while 循环和while循环相似，不同的是，do while 循环至少执行一次。</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">  <span class="keyword">do</span> &#123;</span><br><span class="line"></span><br><span class="line"><span class="comment">//代码语句，循环体&#125;while（布尔表达式）;</span></span><br></pre></td></tr></table></figure>
@@ -907,7 +907,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>抽象类的详情</title>
-    <url>/bcf3512a.html</url>
+    <url>//bcf3512a.html</url>
     <content><![CDATA[<h3 id="抽象类"><a href="#抽象类" class="headerlink" title="抽象类"></a>抽象类</h3><h4 id="abstract-修饰符可以用来修饰方法也可以修饰类，如果修饰方法，那么该方法就是抽象方法；如果修饰类，那么该类就是抽象类。"><a href="#abstract-修饰符可以用来修饰方法也可以修饰类，如果修饰方法，那么该方法就是抽象方法；如果修饰类，那么该类就是抽象类。" class="headerlink" title="abstract 修饰符可以用来修饰方法也可以修饰类，如果修饰方法，那么该方法就是抽象方法；如果修饰类，那么该类就是抽象类。"></a>abstract 修饰符可以用来修饰方法也可以修饰类，如果修饰方法，那么该方法就是抽象方法；如果修饰类，那么该类就是抽象类。</h4><h4 id="抽象类中可以没有抽象方法，但是有抽象方法的类一定要声明为抽象类。"><a href="#抽象类中可以没有抽象方法，但是有抽象方法的类一定要声明为抽象类。" class="headerlink" title="抽象类中可以没有抽象方法，但是有抽象方法的类一定要声明为抽象类。"></a>抽象类中可以没有抽象方法，但是有抽象方法的类一定要声明为抽象类。</h4><h4 id="抽象类，不能使用new关键字来创建对象，它是用来让子类继承的。"><a href="#抽象类，不能使用new关键字来创建对象，它是用来让子类继承的。" class="headerlink" title="抽象类，不能使用new关键字来创建对象，它是用来让子类继承的。"></a>抽象类，不能使用new关键字来创建对象，它是用来让子类继承的。</h4><h4 id="抽象方法，只有方法的声明，没有方法的实现，他是用来让子类实现的，"><a href="#抽象方法，只有方法的声明，没有方法的实现，他是用来让子类实现的，" class="headerlink" title="抽象方法，只有方法的声明，没有方法的实现，他是用来让子类实现的，"></a>抽象方法，只有方法的声明，没有方法的实现，他是用来让子类实现的，</h4><h4 id="子类继承抽象类，那么必须要实现抽象类，没有实现的抽象方法，否则该子类也要声明为抽象类。"><a href="#子类继承抽象类，那么必须要实现抽象类，没有实现的抽象方法，否则该子类也要声明为抽象类。" class="headerlink" title="子类继承抽象类，那么必须要实现抽象类，没有实现的抽象方法，否则该子类也要声明为抽象类。"></a>子类继承抽象类，那么必须要实现抽象类，没有实现的抽象方法，否则该子类也要声明为抽象类。</h4><ol>
 <li><h5 id="抽象类不能new对象，只能靠子类去实现他"><a href="#抽象类不能new对象，只能靠子类去实现他" class="headerlink" title="抽象类不能new对象，只能靠子类去实现他"></a>抽象类不能new对象，只能靠子类去实现他</h5></li>
 <li><h5 id="抽象类中可以写普通方法"><a href="#抽象类中可以写普通方法" class="headerlink" title="抽象类中可以写普通方法"></a>抽象类中可以写普通方法</h5></li>
@@ -924,7 +924,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>接口的定义和实现</title>
-    <url>/224e502b.html</url>
+    <url>//224e502b.html</url>
     <content><![CDATA[<h3 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h3><h5 id="区别："><a href="#区别：" class="headerlink" title="区别："></a>区别：</h5><h5 id="抽象类：只有具体实现"><a href="#抽象类：只有具体实现" class="headerlink" title="抽象类：只有具体实现"></a>抽象类：只有具体实现</h5><h5 id="抽象类：具体实现和规范（抽象方法）都有"><a href="#抽象类：具体实现和规范（抽象方法）都有" class="headerlink" title="抽象类：具体实现和规范（抽象方法）都有"></a>抽象类：具体实现和规范（抽象方法）都有</h5><h5 id="接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程"><a href="#接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程" class="headerlink" title="接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程~"></a>接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程~</h5><h5 id="接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。"><a href="#接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。" class="headerlink" title="接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。"></a>接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。</h5><h5 id="接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。"><a href="#接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。" class="headerlink" title="接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。"></a>接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。</h5><h5 id="精髓就是对对象的抽象，最能体现这一点的就是接口。"><a href="#精髓就是对对象的抽象，最能体现这一点的就是接口。" class="headerlink" title="精髓就是对对象的抽象，最能体现这一点的就是接口。"></a>精髓就是对对象的抽象，最能体现这一点的就是接口。</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//interfa 定义的关键字，接口都需要有实现类	</span></span><br><span class="line"><span class="comment">//接口中所有定义方法其实都是抽象的 public abstract	</span></span><br><span class="line"><span class="comment">//接口中定义的变量(属性)都是常量 public static final</span></span><br><span class="line"><span class="comment">//抽象类：extends  和 接口 实现 implements 接口</span></span><br><span class="line"><span class="comment">//实现了接口的类，就需要重写接口中的方法</span></span><br><span class="line"><span class="comment">//多继承，利用接口实现多继承。 </span></span><br></pre></td></tr></table></figure>
 
 <h4 id="接口的作用："><a href="#接口的作用：" class="headerlink" title="接口的作用："></a>接口的作用：</h4><ol>
@@ -947,7 +947,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>数组</title>
-    <url>/340249a9.html</url>
+    <url>//340249a9.html</url>
     <content><![CDATA[<h3 id="数组的定义"><a href="#数组的定义" class="headerlink" title="数组的定义"></a>数组的定义</h3><ul>
 <li><h5 id="数组是相同类型数据的有序集合"><a href="#数组是相同类型数据的有序集合" class="headerlink" title="数组是相同类型数据的有序集合"></a>数组是相同类型数据的有序集合</h5></li>
 <li><h5 id="数组描述的是相同类型的若干个数据，按照一定的先后顺序排列组合而成。"><a href="#数组描述的是相同类型的若干个数据，按照一定的先后顺序排列组合而成。" class="headerlink" title="数组描述的是相同类型的若干个数据，按照一定的先后顺序排列组合而成。"></a>数组描述的是相同类型的若干个数据，按照一定的先后顺序排列组合而成。</h5></li>
@@ -1039,7 +1039,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>方法的重载</title>
-    <url>/70ec998a.html</url>
+    <url>//70ec998a.html</url>
     <content><![CDATA[<h3 id="方法的重载"><a href="#方法的重载" class="headerlink" title="方法的重载"></a>方法的重载</h3><h4 id="方法的重载就是在一个类里面，有相同的方法名称-函数名称-，但形参不同的函数。"><a href="#方法的重载就是在一个类里面，有相同的方法名称-函数名称-，但形参不同的函数。" class="headerlink" title="方法的重载就是在一个类里面，有相同的方法名称(函数名称)，但形参不同的函数。"></a>方法的重载就是在一个类里面，有相同的方法名称(函数名称)，但形参不同的函数。</h4><h4 id="方法的重载的规则："><a href="#方法的重载的规则：" class="headerlink" title="方法的重载的规则："></a>方法的重载的规则：</h4><ul>
 <li><h5 id="方法名称必须相同。"><a href="#方法名称必须相同。" class="headerlink" title="方法名称必须相同。"></a>方法名称必须相同。</h5></li>
 <li><h5 id="参数列表必须不同-个数不同，或类型不同、参数排列顺序不同等"><a href="#参数列表必须不同-个数不同，或类型不同、参数排列顺序不同等" class="headerlink" title="参数列表必须不同(个数不同，或类型不同、参数排列顺序不同等)"></a>参数列表必须不同(个数不同，或类型不同、参数排列顺序不同等)</h5></li>
@@ -1059,7 +1059,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>类型的转换</title>
-    <url>/6280299f.html</url>
+    <url>//6280299f.html</url>
     <content><![CDATA[<h1 id="类型的转换"><a href="#类型的转换" class="headerlink" title="类型的转换"></a>类型的转换</h1><h4 id="由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换"><a href="#由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换" class="headerlink" title="由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换"></a>由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">由低------------------------------到高</span><br><span class="line">byte → short → char → int → long → float → double</span><br></pre></td></tr></table></figure>
 
 <h4 id="在运算中，不同类型的数据先转化为同一类型，然后进行运算。"><a href="#在运算中，不同类型的数据先转化为同一类型，然后进行运算。" class="headerlink" title="在运算中，不同类型的数据先转化为同一类型，然后进行运算。"></a>在运算中，不同类型的数据先转化为同一类型，然后进行运算。</h4><h3 id="强制类型转换和自动类型转换"><a href="#强制类型转换和自动类型转换" class="headerlink" title="强制类型转换和自动类型转换"></a>强制类型转换和自动类型转换</h3><p>注意点：</p>
@@ -1082,7 +1082,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>html基础</title>
-    <url>/1a147173.html</url>
+    <url>//1a147173.html</url>
     <content><![CDATA[<h3 id="什么是html5和它的优势"><a href="#什么是html5和它的优势" class="headerlink" title="什么是html5和它的优势"></a>什么是html5和它的优势</h3><h6 id="HTML5作为HTML的最新版本，是HTML的传递和延续。经历HTML4-0、XHTML再到HTML5从某种意义上讲，这是HTML超文本标签语言的更新与规范过程。因此，HTML5并没有给用户带来多大的冲击，大部分标签在HTML5版本中依然适用。"><a href="#HTML5作为HTML的最新版本，是HTML的传递和延续。经历HTML4-0、XHTML再到HTML5从某种意义上讲，这是HTML超文本标签语言的更新与规范过程。因此，HTML5并没有给用户带来多大的冲击，大部分标签在HTML5版本中依然适用。" class="headerlink" title="HTML5作为HTML的最新版本，是HTML的传递和延续。经历HTML4.0、XHTML再到HTML5从某种意义上讲，这是HTML超文本标签语言的更新与规范过程。因此，HTML5并没有给用户带来多大的冲击，大部分标签在HTML5版本中依然适用。"></a>HTML5作为HTML的最新版本，是HTML的传递和延续。经历HTML4.0、XHTML再到HTML5从某种意义上讲，这是HTML超文本标签语言的更新与规范过程。因此，HTML5并没有给用户带来多大的冲击，大部分标签在HTML5版本中依然适用。</h6><h6 id="HTML5的优势主要体现在兼容、合理、易用三个方面，本节将做具体介绍。"><a href="#HTML5的优势主要体现在兼容、合理、易用三个方面，本节将做具体介绍。" class="headerlink" title="HTML5的优势主要体现在兼容、合理、易用三个方面，本节将做具体介绍。"></a>HTML5的优势主要体现在兼容、合理、易用三个方面，本节将做具体介绍。</h6><h6 id="HTML5并不是对之前HTML语言颠覆性的革新，它的核心理念就是要保持与过去技术的完美衔接，因此HTML5有很好的兼容性。"><a href="#HTML5并不是对之前HTML语言颠覆性的革新，它的核心理念就是要保持与过去技术的完美衔接，因此HTML5有很好的兼容性。" class="headerlink" title="HTML5并不是对之前HTML语言颠覆性的革新，它的核心理念就是要保持与过去技术的完美衔接，因此HTML5有很好的兼容性。"></a>HTML5并不是对之前HTML语言颠覆性的革新，它的核心理念就是要保持与过去技术的完美衔接，因此HTML5有很好的兼容性。</h6><h6 id="HTML5中增加和删除的标签都是对现有的网页和用户习惯进行分析、概括而推出的作为当下流行的标签语言，HTML5严格遵循-“简单至上”的原则。"><a href="#HTML5中增加和删除的标签都是对现有的网页和用户习惯进行分析、概括而推出的作为当下流行的标签语言，HTML5严格遵循-“简单至上”的原则。" class="headerlink" title="HTML5中增加和删除的标签都是对现有的网页和用户习惯进行分析、概括而推出的作为当下流行的标签语言，HTML5严格遵循 “简单至上”的原则。"></a>HTML5中增加和删除的标签都是对现有的网页和用户习惯进行分析、概括而推出的作为当下流行的标签语言，HTML5严格遵循 “简单至上”的原则。</h6><h5 id="lt-DOCTYPE-gt-标签-位于文档的最前面，用于向浏览器说明当前文档使用哪种-HTML-或-XHTML-标准规范。"><a href="#lt-DOCTYPE-gt-标签-位于文档的最前面，用于向浏览器说明当前文档使用哪种-HTML-或-XHTML-标准规范。" class="headerlink" title="&lt;!DOCTYPE&gt;标签 位于文档的最前面，用于向浏览器说明当前文档使用哪种 HTML 或 XHTML 标准规范。"></a>&lt;!DOCTYPE&gt;标签 位于文档的最前面，用于向浏览器说明当前文档使用哪种 HTML 或 XHTML 标准规范。</h5><h5 id="lt-html’-gt-标签-位于-lt-DOCTYPE-gt-标签之后，也称为根标签，用于告知浏览器其自身是一个-HTML-文档。"><a href="#lt-html’-gt-标签-位于-lt-DOCTYPE-gt-标签之后，也称为根标签，用于告知浏览器其自身是一个-HTML-文档。" class="headerlink" title="&lt;html’&gt; 标签 位于&lt;!DOCTYPE&gt; 标签之后，也称为根标签，用于告知浏览器其自身是一个 HTML 文档。"></a>&lt;html’&gt; 标签 位于&lt;!DOCTYPE&gt; 标签之后，也称为根标签，用于告知浏览器其自身是一个 HTML 文档。</h5><h5 id="lt-head’-gt-标签用于定定义HTML文档的头部信息，也称为头部标签，紧跟在“-lt-html’-gt-”标签之后，主要用来封装其他位于文档头部的标签。"><a href="#lt-head’-gt-标签用于定定义HTML文档的头部信息，也称为头部标签，紧跟在“-lt-html’-gt-”标签之后，主要用来封装其他位于文档头部的标签。" class="headerlink" title="&lt;head’&gt;标签用于定定义HTML文档的头部信息，也称为头部标签，紧跟在“&lt;html’&gt;”标签之后，主要用来封装其他位于文档头部的标签。"></a>&lt;head’&gt;标签用于定定义HTML文档的头部信息，也称为头部标签，紧跟在“&lt;html’&gt;”标签之后，主要用来封装其他位于文档头部的标签。</h5><h5 id="lt-body’-gt-标签用于定定义HTML文档所要显示的内容，也称为主体标签。浏览器中显示的所有文本、图像、音频和视频等信息都必须位于-lt-body’-gt-标签内。"><a href="#lt-body’-gt-标签用于定定义HTML文档所要显示的内容，也称为主体标签。浏览器中显示的所有文本、图像、音频和视频等信息都必须位于-lt-body’-gt-标签内。" class="headerlink" title="&lt;body’&gt;标签用于定定义HTML文档所要显示的内容，也称为主体标签。浏览器中显示的所有文本、图像、音频和视频等信息都必须位于&lt;body’&gt;标签内。"></a>&lt;body’&gt;标签用于定定义HTML文档所要显示的内容，也称为主体标签。浏览器中显示的所有文本、图像、音频和视频等信息都必须位于&lt;body’&gt;标签内。</h5><h5 id="在HTML页面中，带有“-lt-gt-”符号的元素被称为HTML标签，如上面提到的“-lt-html’-gt-”、”-lt-head’-gt-”、”-lt-body’-gt-”都是HTML标签。所谓标签就是放在“-lt-gt-”符号中表示某个功能的编码命令，也称为HTML标签或HTML元素，本书统一称作HTML标签"><a href="#在HTML页面中，带有“-lt-gt-”符号的元素被称为HTML标签，如上面提到的“-lt-html’-gt-”、”-lt-head’-gt-”、”-lt-body’-gt-”都是HTML标签。所谓标签就是放在“-lt-gt-”符号中表示某个功能的编码命令，也称为HTML标签或HTML元素，本书统一称作HTML标签" class="headerlink" title="在HTML页面中，带有“&lt; &gt;”符号的元素被称为HTML标签，如上面提到的“&lt;html’&gt;”、”&lt;head’&gt;”、”&lt;body’&gt;”都是HTML标签。所谓标签就是放在“&lt; &gt;”符号中表示某个功能的编码命令，也称为HTML标签或HTML元素，本书统一称作HTML标签"></a>在HTML页面中，带有“&lt; &gt;”符号的元素被称为HTML标签，如上面提到的“&lt;html’&gt;”、”&lt;head’&gt;”、”&lt;body’&gt;”都是HTML标签。所谓标签就是放在“&lt; &gt;”符号中表示某个功能的编码命令，也称为HTML标签或HTML元素，本书统一称作HTML标签</h5><h4 id="标签概述"><a href="#标签概述" class="headerlink" title="标签概述"></a>标签概述</h4><h5 id="双标签也称体标签，是指由开始和结束两个标签符组成的标签。"><a href="#双标签也称体标签，是指由开始和结束两个标签符组成的标签。" class="headerlink" title="双标签也称体标签，是指由开始和结束两个标签符组成的标签。"></a>双标签也称体标签，是指由开始和结束两个标签符组成的标签。</h5><h5 id="单标签也称空标签，是指用一个标签符号即可完整地描述某个功能的标签。"><a href="#单标签也称空标签，是指用一个标签符号即可完整地描述某个功能的标签。" class="headerlink" title="单标签也称空标签，是指用一个标签符号即可完整地描述某个功能的标签。"></a>单标签也称空标签，是指用一个标签符号即可完整地描述某个功能的标签。</h5><h6 id="HTML标签的作用原理就是选择网页内容，从而进行描述，也就是说需要描述哪个元素，就选择哪个元素，所以才会有双标签的出现，用于定义标签作用的开始与结束。而单标签本身就可以描述一个功能，不需要选择。例如，水平线标签-lt-hr-‘’-gt-按照双标签的语法，它应该写成“-lt-hr’-gt-lt-hr’-gt-”，但是水平线标签不需要选择，本身就代表一条水平线，此时写成双标签就显得有点多余，但是又不能没有结束符号，所以在标签名称后面加一个关闭符，即-lt-标签名-gt-。"><a href="#HTML标签的作用原理就是选择网页内容，从而进行描述，也就是说需要描述哪个元素，就选择哪个元素，所以才会有双标签的出现，用于定义标签作用的开始与结束。而单标签本身就可以描述一个功能，不需要选择。例如，水平线标签-lt-hr-‘’-gt-按照双标签的语法，它应该写成“-lt-hr’-gt-lt-hr’-gt-”，但是水平线标签不需要选择，本身就代表一条水平线，此时写成双标签就显得有点多余，但是又不能没有结束符号，所以在标签名称后面加一个关闭符，即-lt-标签名-gt-。" class="headerlink" title="HTML标签的作用原理就是选择网页内容，从而进行描述，也就是说需要描述哪个元素，就选择哪个元素，所以才会有双标签的出现，用于定义标签作用的开始与结束。而单标签本身就可以描述一个功能，不需要选择。例如，水平线标签&lt;hr /‘’&gt;,按照双标签的语法，它应该写成“&lt;hr’&gt;&lt;/hr’&gt;”，但是水平线标签不需要选择，本身就代表一条水平线，此时写成双标签就显得有点多余，但是又不能没有结束符号，所以在标签名称后面加一个关闭符，即&lt;标签名 /&gt;。"></a>HTML标签的作用原理就是选择网页内容，从而进行描述，也就是说需要描述哪个元素，就选择哪个元素，所以才会有双标签的出现，用于定义标签作用的开始与结束。而单标签本身就可以描述一个功能，不需要选择。例如，水平线标签&lt;hr /‘’&gt;,按照双标签的语法，它应该写成“&lt;hr’&gt;&lt;/hr’&gt;”，但是水平线标签不需要选择，本身就代表一条水平线，此时写成双标签就显得有点多余，但是又不能没有结束符号，所以在标签名称后面加一个关闭符，即&lt;标签名 /&gt;。</h6><h4 id="标签的关系"><a href="#标签的关系" class="headerlink" title="标签的关系"></a>标签的关系</h4><h5 id="并列关系也称为兄弟关系，就是两个标签处于同一级别，并且没有包含关系。例如在HTML5的结构代码中，-lt-head’-gt-标签和-lt-body’-gt-标签就是并列关系。在HTML标签中，无论是单标签还是双标签，都可以拥有并列关系。"><a href="#并列关系也称为兄弟关系，就是两个标签处于同一级别，并且没有包含关系。例如在HTML5的结构代码中，-lt-head’-gt-标签和-lt-body’-gt-标签就是并列关系。在HTML标签中，无论是单标签还是双标签，都可以拥有并列关系。" class="headerlink" title="并列关系也称为兄弟关系，就是两个标签处于同一级别，并且没有包含关系。例如在HTML5的结构代码中，&lt;head’&gt;标签和&lt;body’&gt;标签就是并列关系。在HTML标签中，无论是单标签还是双标签，都可以拥有并列关系。"></a>并列关系也称为兄弟关系，就是两个标签处于同一级别，并且没有包含关系。例如在HTML5的结构代码中，&lt;head’&gt;标签和&lt;body’&gt;标签就是并列关系。在HTML标签中，无论是单标签还是双标签，都可以拥有并列关系。</h5><h4 id="标签的属性"><a href="#标签的属性" class="headerlink" title="标签的属性"></a>标签的属性</h4><h5 id="“键值对”可以理解为对“属性”设置“属性值”。键值对有多种表现形式，例如color-”red”-、width-200px-等，其中color和width即为“键值对”中的“键”（英文key），red和200px为“键值对”中的“值”（英文value）。“键值对”广泛地应用于编程中，HTML属性的定义形式“属性-”属性值””只是“键值对”中的一种。"><a href="#“键值对”可以理解为对“属性”设置“属性值”。键值对有多种表现形式，例如color-”red”-、width-200px-等，其中color和width即为“键值对”中的“键”（英文key），red和200px为“键值对”中的“值”（英文value）。“键值对”广泛地应用于编程中，HTML属性的定义形式“属性-”属性值””只是“键值对”中的一种。" class="headerlink" title="“键值对”可以理解为对“属性”设置“属性值”。键值对有多种表现形式，例如color=”red” 、width:200px;等，其中color和width即为“键值对”中的“键”（英文key），red和200px为“键值对”中的“值”（英文value）。“键值对”广泛地应用于编程中，HTML属性的定义形式“属性=”属性值””只是“键值对”中的一种。"></a>“键值对”可以理解为对“属性”设置“属性值”。键值对有多种表现形式，例如color=”red” 、width:200px;等，其中color和width即为“键值对”中的“键”（英文key），red和200px为“键值对”中的“值”（英文value）。“键值对”广泛地应用于编程中，HTML属性的定义形式“属性=”属性值””只是“键值对”中的一种。</h5><h4 id="HTML5文档头部相关标签"><a href="#HTML5文档头部相关标签" class="headerlink" title="HTML5文档头部相关标签"></a>HTML5文档头部相关标签</h4><h5 id="lt-title‘-gt-标签用于定义HTML页面的标题，即给网页取一个名字，必须位于-lt-head’-gt-标签之内。"><a href="#lt-title‘-gt-标签用于定义HTML页面的标题，即给网页取一个名字，必须位于-lt-head’-gt-标签之内。" class="headerlink" title="&lt;title‘&gt;标签用于定义HTML页面的标题，即给网页取一个名字，必须位于&lt;head’&gt;标签之内。"></a>&lt;title‘&gt;标签用于定义HTML页面的标题，即给网页取一个名字，必须位于&lt;head’&gt;标签之内。</h5><h5 id="lt-‘meta-gt-标签用于定义页面的元信息，可重复出现在-lt-’head’-gt-头部标签中。"><a href="#lt-‘meta-gt-标签用于定义页面的元信息，可重复出现在-lt-’head’-gt-头部标签中。" class="headerlink" title="&lt;‘meta /&gt;标签用于定义页面的元信息，可重复出现在&lt;’head’&gt;头部标签中。"></a>&lt;‘meta /&gt;标签用于定义页面的元信息，可重复出现在&lt;’head’&gt;头部标签中。</h5><h5 id="一个HTML文档只能含有一对-lt-title‘-gt-lt-title’-gt-标签，-lt-title‘-gt-lt-title’-gt-之间的内容将显示在浏览器窗口的标题栏中。"><a href="#一个HTML文档只能含有一对-lt-title‘-gt-lt-title’-gt-标签，-lt-title‘-gt-lt-title’-gt-之间的内容将显示在浏览器窗口的标题栏中。" class="headerlink" title="一个HTML文档只能含有一对&lt;title‘&gt;&lt;/title’&gt;标签，&lt;title‘&gt;&lt;/title’&gt;之间的内容将显示在浏览器窗口的标题栏中。"></a>一个HTML文档只能含有一对&lt;title‘&gt;&lt;/title’&gt;标签，&lt;title‘&gt;&lt;/title’&gt;之间的内容将显示在浏览器窗口的标题栏中。</h5><h5 id="lt-title‘-gt-网页标题名称-lt-title’-gt"><a href="#lt-title‘-gt-网页标题名称-lt-title’-gt" class="headerlink" title="&lt;title‘&gt;网页标题名称&lt;/title’&gt;"></a>&lt;title‘&gt;网页标题名称&lt;/title’&gt;</h5><h4 id="文本控制标签"><a href="#文本控制标签" class="headerlink" title="文本控制标签"></a>文本控制标签</h4><h5 id="无论网页内容如何丰富，文字自始至终都是网页中最基本的元素。为了使文字排版整齐、结构清晰，HTML中提供了一系列文本控制标签，如标题标签-lt-h1‘-gt-lt-h6’-gt-、段落标签-lt-P‘-gt-等"><a href="#无论网页内容如何丰富，文字自始至终都是网页中最基本的元素。为了使文字排版整齐、结构清晰，HTML中提供了一系列文本控制标签，如标题标签-lt-h1‘-gt-lt-h6’-gt-、段落标签-lt-P‘-gt-等" class="headerlink" title="无论网页内容如何丰富，文字自始至终都是网页中最基本的元素。为了使文字排版整齐、结构清晰，HTML中提供了一系列文本控制标签，如标题标签&lt;h1‘&gt;~&lt;h6’&gt;、段落标签&lt;P‘&gt;等"></a>无论网页内容如何丰富，文字自始至终都是网页中最基本的元素。为了使文字排版整齐、结构清晰，HTML中提供了一系列文本控制标签，如标题标签&lt;h1‘&gt;~&lt;h6’&gt;、段落标签&lt;P‘&gt;等</h5><h4 id="页面格式化标签"><a href="#页面格式化标签" class="headerlink" title="页面格式化标签"></a>页面格式化标签</h4><h5 id="HTML提供了6个等级的标题，即-lt-h1’-gt-、-lt-h2‘-gt-、-lt-h3’-gt-、-lt-h4‘-gt-、-lt-h5’-gt-和-lt-h6‘-gt-，从-lt-h1’-gt-到-lt-h6‘-gt-标题的重要性依次递减。"><a href="#HTML提供了6个等级的标题，即-lt-h1’-gt-、-lt-h2‘-gt-、-lt-h3’-gt-、-lt-h4‘-gt-、-lt-h5’-gt-和-lt-h6‘-gt-，从-lt-h1’-gt-到-lt-h6‘-gt-标题的重要性依次递减。" class="headerlink" title="HTML提供了6个等级的标题，即&lt;h1’&gt;、&lt;h2‘&gt;、&lt;h3’&gt;、&lt;h4‘&gt;、&lt;h5’&gt;和&lt;h6‘&gt;，从&lt;h1’&gt;到&lt;h6‘&gt;标题的重要性依次递减。"></a>HTML提供了6个等级的标题，即&lt;h1’&gt;、&lt;h2‘&gt;、&lt;h3’&gt;、&lt;h4‘&gt;、&lt;h5’&gt;和&lt;h6‘&gt;，从&lt;h1’&gt;到&lt;h6‘&gt;标题的重要性依次递减。</h5><h4 id="页面格式化标签-1"><a href="#页面格式化标签-1" class="headerlink" title="页面格式化标签"></a>页面格式化标签</h4><h5 id="在网页中使用标签来定义段落。-lt-p’-gt-标签是HTML文档中最常见的标签，默认情况下，文本在一个段落中会根据浏览器窗口的大小自动换行。"><a href="#在网页中使用标签来定义段落。-lt-p’-gt-标签是HTML文档中最常见的标签，默认情况下，文本在一个段落中会根据浏览器窗口的大小自动换行。" class="headerlink" title="在网页中使用标签来定义段落。&lt;p’&gt;标签是HTML文档中最常见的标签，默认情况下，文本在一个段落中会根据浏览器窗口的大小自动换行。"></a>在网页中使用<p>标签来定义段落。&lt;p’&gt;标签是HTML文档中最常见的标签，默认情况下，文本在一个段落中会根据浏览器窗口的大小自动换行。</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">align</span>=<span class="string">&quot;对齐方式&quot;</span>&gt;</span>段落文本<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
 <h5 id="在网页中常常看到一些水平线将段落与段落之间隔开，使得文档结构清晰，层次分明。水平线可以通过-lt-hr-’-gt-标签来定义。"><a href="#在网页中常常看到一些水平线将段落与段落之间隔开，使得文档结构清晰，层次分明。水平线可以通过-lt-hr-’-gt-标签来定义。" class="headerlink" title="在网页中常常看到一些水平线将段落与段落之间隔开，使得文档结构清晰，层次分明。水平线可以通过&lt;hr /’&gt;标签来定义。"></a>在网页中常常看到一些水平线将段落与段落之间隔开，使得文档结构清晰，层次分明。水平线可以通过&lt;hr /’&gt;标签来定义。</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">hr</span> 属性=<span class="string">&quot;属性值&quot;</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">水平线标签</span><br><span class="line">在网页中常常看到一些水平线将段落与段落之间隔开，使得文档结构清晰，层次分明。水平线可以通过<span class="tag">&lt;<span class="name">hr</span> /&gt;</span>标签来定义。</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
@@ -1173,7 +1173,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>自定义异常</title>
-    <url>/5f2e64d3.html</url>
+    <url>//5f2e64d3.html</url>
     <content><![CDATA[<h3 id="自定义异常"><a href="#自定义异常" class="headerlink" title="自定义异常"></a>自定义异常</h3><h4 id="使用Java-内置的异常类可以描述在编程时出现的大部分异常情况。除此之外，用户还可以自定义异常。用户自定义异常类，只需要继承Exception类即可。"><a href="#使用Java-内置的异常类可以描述在编程时出现的大部分异常情况。除此之外，用户还可以自定义异常。用户自定义异常类，只需要继承Exception类即可。" class="headerlink" title="使用Java 内置的异常类可以描述在编程时出现的大部分异常情况。除此之外，用户还可以自定义异常。用户自定义异常类，只需要继承Exception类即可。"></a>使用Java 内置的异常类可以描述在编程时出现的大部分异常情况。除此之外，用户还可以自定义异常。用户自定义异常类，只需要继承Exception类即可。</h4><h4 id="在程序中使用自定义异常类，大体可分为以下几个步骤"><a href="#在程序中使用自定义异常类，大体可分为以下几个步骤" class="headerlink" title="在程序中使用自定义异常类，大体可分为以下几个步骤:"></a>在程序中使用自定义异常类，大体可分为以下几个步骤:</h4><ul>
 <li><h5 id="创建自定义异常类"><a href="#创建自定义异常类" class="headerlink" title="创建自定义异常类"></a>创建自定义异常类</h5></li>
 <li><h5 id="在方法中通过throw关键字抛出异常对象"><a href="#在方法中通过throw关键字抛出异常对象" class="headerlink" title="在方法中通过throw关键字抛出异常对象"></a>在方法中通过throw关键字抛出异常对象</h5></li>
@@ -1203,7 +1203,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>运算符</title>
-    <url>/f29265a7.html</url>
+    <url>//f29265a7.html</url>
     <content><![CDATA[<h1 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h1><h4 id="JAVA-语言支持如下运算符"><a href="#JAVA-语言支持如下运算符" class="headerlink" title="JAVA 语言支持如下运算符:"></a>JAVA 语言支持如下运算符:</h4><ul>
 <li>算术运算符: +, -, * ,  /, %, ++, –</li>
 <li>赋值运算符 =</li>
@@ -1236,7 +1236,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>递归</title>
-    <url>/a0b50c75.html</url>
+    <url>//a0b50c75.html</url>
     <content><![CDATA[<h3 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h3><ul>
 <li><h5 id="A方法调用B方法，我们很容易理解"><a href="#A方法调用B方法，我们很容易理解" class="headerlink" title="A方法调用B方法，我们很容易理解"></a>A方法调用B方法，我们很容易理解</h5></li>
 <li><h5 id="递归就是：A方法调用A方法！就是自己调用自己"><a href="#递归就是：A方法调用A方法！就是自己调用自己" class="headerlink" title="递归就是：A方法调用A方法！就是自己调用自己"></a>递归就是：A方法调用A方法！就是自己调用自己</h5></li>
@@ -1261,7 +1261,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>面向对象</title>
-    <url>/28239a8d.html</url>
+    <url>//28239a8d.html</url>
     <content><![CDATA[<h3 id="面向过程-amp-面向对象"><a href="#面向过程-amp-面向对象" class="headerlink" title="面向过程&amp;面向对象"></a>面向过程&amp;面向对象</h3><ul>
 <li><h4 id="面向过程思想"><a href="#面向过程思想" class="headerlink" title="面向过程思想"></a>面向过程思想</h4><ul>
 <li><h5 id="步骤清晰简单，第一步做什么，第二步做什么"><a href="#步骤清晰简单，第一步做什么，第二步做什么" class="headerlink" title="步骤清晰简单，第一步做什么，第二步做什么"></a>步骤清晰简单，第一步做什么，第二步做什么</h5></li>
@@ -1324,7 +1324,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>对象的面对对象的三大特性</title>
-    <url>/bf990afe.html</url>
+    <url>//bf990afe.html</url>
     <content><![CDATA[<h3 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h3><ul>
 <li><h4 id="该露的露，该藏的藏"><a href="#该露的露，该藏的藏" class="headerlink" title="该露的露，该藏的藏"></a>该露的露，该藏的藏</h4><ul>
 <li><h5 id="我们程序设计要追求“高内聚，低耦合”。高内聚就是累的内部数据操作细节自己完成，不允许外部干涉；低耦合：仅暴露少量的方法给外部使用。"><a href="#我们程序设计要追求“高内聚，低耦合”。高内聚就是累的内部数据操作细节自己完成，不允许外部干涉；低耦合：仅暴露少量的方法给外部使用。" class="headerlink" title="我们程序设计要追求“高内聚，低耦合”。高内聚就是累的内部数据操作细节自己完成，不允许外部干涉；低耦合：仅暴露少量的方法给外部使用。"></a>我们程序设计要追求“高内聚，低耦合”。高内聚就是累的内部数据操作细节自己完成，不允许外部干涉；低耦合：仅暴露少量的方法给外部使用。</h5></li>
@@ -1408,7 +1408,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>顺序结构和IF选择结构</title>
-    <url>/d7363e83.html</url>
+    <url>//d7363e83.html</url>
     <content><![CDATA[<p>​        </p>
 <h3 id="顺序结构"><a href="#顺序结构" class="headerlink" title="顺序结构"></a>顺序结构</h3><ul>
 <li><h4 id="Java-的基本结构就是顺序结构，除非特别指明，否则这就按照顺序一句一句执行。"><a href="#Java-的基本结构就是顺序结构，除非特别指明，否则这就按照顺序一句一句执行。" class="headerlink" title="Java 的基本结构就是顺序结构，除非特别指明，否则这就按照顺序一句一句执行。"></a>Java 的基本结构就是顺序结构，除非特别指明，否则这就按照顺序一句一句执行。</h4></li>
@@ -1443,7 +1443,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>html初步了解</title>
-    <url>/d7e9d6a9.html</url>
+    <url>//d7e9d6a9.html</url>
     <content><![CDATA[<h3 id="html初步了解"><a href="#html初步了解" class="headerlink" title="html初步了解"></a>html初步了解</h3><h5 id="（1）PPT指出互联网中相关的一些专业术语。"><a href="#（1）PPT指出互联网中相关的一些专业术语。" class="headerlink" title="（1）PPT指出互联网中相关的一些专业术语。"></a>（1）PPT指出互联网中相关的一些专业术语。</h5><h5 id="（2）展示PPT，对“Internet网络、WWW、URL、DNS、HTTP、Web、W3C组织”等专业术语进行详细讲解，并举例说明。"><a href="#（2）展示PPT，对“Internet网络、WWW、URL、DNS、HTTP、Web、W3C组织”等专业术语进行详细讲解，并举例说明。" class="headerlink" title="（2）展示PPT，对“Internet网络、WWW、URL、DNS、HTTP、Web、W3C组织”等专业术语进行详细讲解，并举例说明。"></a>（2）展示PPT，对“Internet网络、WWW、URL、DNS、HTTP、Web、W3C组织”等专业术语进行详细讲解，并举例说明。</h5><h5 id="所谓Internet网络就是通常所说的互联网，是由一些使用公用语言互相通信的计算机连接而成的网络。简单地说，互联网就是将世界范围内不同国家、不同地区的众多计算机连接起来形成的结果。"><a href="#所谓Internet网络就是通常所说的互联网，是由一些使用公用语言互相通信的计算机连接而成的网络。简单地说，互联网就是将世界范围内不同国家、不同地区的众多计算机连接起来形成的结果。" class="headerlink" title="所谓Internet网络就是通常所说的互联网，是由一些使用公用语言互相通信的计算机连接而成的网络。简单地说，互联网就是将世界范围内不同国家、不同地区的众多计算机连接起来形成的结果。"></a>所谓Internet网络就是通常所说的互联网，是由一些使用公用语言互相通信的计算机连接而成的网络。简单地说，互联网就是将世界范围内不同国家、不同地区的众多计算机连接起来形成的结果。</h5><h5 id="互联网实现了全球信息资源的共享，形成了一个能够共同参与、相互交流的互动平台。通过互联网远在千里之外的朋友可以相互发送邮件、共同完成一项工作、共同娱乐。因此，互联网最大的成功之处并不在于技术层面，而在于对人类生活的影响，可以说互联网的出现是人类通信技术史上的一次革命。"><a href="#互联网实现了全球信息资源的共享，形成了一个能够共同参与、相互交流的互动平台。通过互联网远在千里之外的朋友可以相互发送邮件、共同完成一项工作、共同娱乐。因此，互联网最大的成功之处并不在于技术层面，而在于对人类生活的影响，可以说互联网的出现是人类通信技术史上的一次革命。" class="headerlink" title="互联网实现了全球信息资源的共享，形成了一个能够共同参与、相互交流的互动平台。通过互联网远在千里之外的朋友可以相互发送邮件、共同完成一项工作、共同娱乐。因此，互联网最大的成功之处并不在于技术层面，而在于对人类生活的影响，可以说互联网的出现是人类通信技术史上的一次革命。"></a>互联网实现了全球信息资源的共享，形成了一个能够共同参与、相互交流的互动平台。通过互联网远在千里之外的朋友可以相互发送邮件、共同完成一项工作、共同娱乐。因此，互联网最大的成功之处并不在于技术层面，而在于对人类生活的影响，可以说互联网的出现是人类通信技术史上的一次革命。</h5><h5 id="WWW（英文World-Wide-Web的缩写）中文译为“万维网”。但WWW不是网络，也不代表Internet，它只是Internet提供的一种服务——即网页浏览服务，我们上网时通过浏览器阅读网页信息就是在使用WWW服务。WWW是Internet上最主要的服务，其他许多网络功能，如网上聊天、网上购物等，都是基于WWW服务的。"><a href="#WWW（英文World-Wide-Web的缩写）中文译为“万维网”。但WWW不是网络，也不代表Internet，它只是Internet提供的一种服务——即网页浏览服务，我们上网时通过浏览器阅读网页信息就是在使用WWW服务。WWW是Internet上最主要的服务，其他许多网络功能，如网上聊天、网上购物等，都是基于WWW服务的。" class="headerlink" title="WWW（英文World Wide Web的缩写）中文译为“万维网”。但WWW不是网络，也不代表Internet，它只是Internet提供的一种服务——即网页浏览服务，我们上网时通过浏览器阅读网页信息就是在使用WWW服务。WWW是Internet上最主要的服务，其他许多网络功能，如网上聊天、网上购物等，都是基于WWW服务的。"></a>WWW（英文World Wide Web的缩写）中文译为“万维网”。但WWW不是网络，也不代表Internet，它只是Internet提供的一种服务——即网页浏览服务，我们上网时通过浏览器阅读网页信息就是在使用WWW服务。WWW是Internet上最主要的服务，其他许多网络功能，如网上聊天、网上购物等，都是基于WWW服务的。</h5><h5 id="URL（英文Uniform-Resource-Locator的缩写）中文译为“统一资源定位符”。URL其实就是Web地址，俗称“网址”。URL可以是“本地磁盘”，也可以是局域网上的某一台计算机，更多的是Internet上的站点，比如http-www-itcast-cn就是传智播客的网址"><a href="#URL（英文Uniform-Resource-Locator的缩写）中文译为“统一资源定位符”。URL其实就是Web地址，俗称“网址”。URL可以是“本地磁盘”，也可以是局域网上的某一台计算机，更多的是Internet上的站点，比如http-www-itcast-cn就是传智播客的网址" class="headerlink" title="URL（英文Uniform Resource Locator的缩写）中文译为“统一资源定位符”。URL其实就是Web地址，俗称“网址”。URL可以是“本地磁盘”，也可以是局域网上的某一台计算机，更多的是Internet上的站点，比如http://www.itcast.cn就是传智播客的网址"></a>URL（英文Uniform Resource Locator的缩写）中文译为“统一资源定位符”。URL其实就是Web地址，俗称“网址”。URL可以是“本地磁盘”，也可以是局域网上的某一台计算机，更多的是Internet上的站点，比如<a href="http://www.itcast.cn就是传智播客的网址/">http://www.itcast.cn就是传智播客的网址</a></h5><h5 id="DNS-（英文Domain-Name-System的缩写）是域名解析系统。在Internet上域名与IP地址之间是一一对应的，域名（例如传智播客的域名www-itcast-cn）虽然便于人们记忆，但计算机只认识IP地址，将好记的域名转换成IP的过程被称为域名解析。DNS就是进行域名解析的系统。"><a href="#DNS-（英文Domain-Name-System的缩写）是域名解析系统。在Internet上域名与IP地址之间是一一对应的，域名（例如传智播客的域名www-itcast-cn）虽然便于人们记忆，但计算机只认识IP地址，将好记的域名转换成IP的过程被称为域名解析。DNS就是进行域名解析的系统。" class="headerlink" title="DNS （英文Domain Name System的缩写）是域名解析系统。在Internet上域名与IP地址之间是一一对应的，域名（例如传智播客的域名www.itcast.cn）虽然便于人们记忆，但计算机只认识IP地址，将好记的域名转换成IP的过程被称为域名解析。DNS就是进行域名解析的系统。"></a>DNS （英文Domain Name System的缩写）是域名解析系统。在Internet上域名与IP地址之间是一一对应的，域名（例如传智播客的域名<a href="http://www.itcast.cn)虽然便于人们记忆,但计算机只认识ip地址,将好记的域名转换成ip的过程被称为域名解析.dns就是进行域名解析的系统./">www.itcast.cn）虽然便于人们记忆，但计算机只认识IP地址，将好记的域名转换成IP的过程被称为域名解析。DNS就是进行域名解析的系统。</a></h5><h5 id="HTTP-英文Hypertext-transfer-protocol的缩写-中文译为超文本传输协议。它是一种详细规定了浏览器和万维网服务器之间互相通信的规则。HTTP是非常可靠的协议，它具有强大的自检能力，所有用户请求的文件到达客户端时，一定是准确无误的。"><a href="#HTTP-英文Hypertext-transfer-protocol的缩写-中文译为超文本传输协议。它是一种详细规定了浏览器和万维网服务器之间互相通信的规则。HTTP是非常可靠的协议，它具有强大的自检能力，所有用户请求的文件到达客户端时，一定是准确无误的。" class="headerlink" title="HTTP (英文Hypertext transfer protocol的缩写) 中文译为超文本传输协议。它是一种详细规定了浏览器和万维网服务器之间互相通信的规则。HTTP是非常可靠的协议，它具有强大的自检能力，所有用户请求的文件到达客户端时，一定是准确无误的。"></a>HTTP (英文Hypertext transfer protocol的缩写) 中文译为超文本传输协议。它是一种详细规定了浏览器和万维网服务器之间互相通信的规则。HTTP是非常可靠的协议，它具有强大的自检能力，所有用户请求的文件到达客户端时，一定是准确无误的。</h5><h5 id="Web本意是蜘蛛网和网的意思。对于普通用户来说，Web仅仅只是一种环境——互联网的使用环境、氛围、内容等。而对于网站设计、制作者来说，它是一系列技术的复合总称（包括网站的前台布局、后台程序、美工、数据库开发等），我们称它为网页。"><a href="#Web本意是蜘蛛网和网的意思。对于普通用户来说，Web仅仅只是一种环境——互联网的使用环境、氛围、内容等。而对于网站设计、制作者来说，它是一系列技术的复合总称（包括网站的前台布局、后台程序、美工、数据库开发等），我们称它为网页。" class="headerlink" title="Web本意是蜘蛛网和网的意思。对于普通用户来说，Web仅仅只是一种环境——互联网的使用环境、氛围、内容等。而对于网站设计、制作者来说，它是一系列技术的复合总称（包括网站的前台布局、后台程序、美工、数据库开发等），我们称它为网页。"></a>Web本意是蜘蛛网和网的意思。对于普通用户来说，Web仅仅只是一种环境——互联网的使用环境、氛围、内容等。而对于网站设计、制作者来说，它是一系列技术的复合总称（包括网站的前台布局、后台程序、美工、数据库开发等），我们称它为网页。</h5><h5 id="W3C（英文World-Wide-Web-Consortium的缩写）中文译为“万维网联盟”。万维网联盟是国际最著名的标准化组织。W3C最重要的工作是发展Web规范，自1994年成立以来，已经发布了200多项影响深远的Web技术标准及实施指南，如超文本标记语言（HTML）、可扩展标记语言（XML）等。这些规范有效地促进了Web技术的兼容，对互联网的发展和应用起到了基础性和根本性的支撑作用。"><a href="#W3C（英文World-Wide-Web-Consortium的缩写）中文译为“万维网联盟”。万维网联盟是国际最著名的标准化组织。W3C最重要的工作是发展Web规范，自1994年成立以来，已经发布了200多项影响深远的Web技术标准及实施指南，如超文本标记语言（HTML）、可扩展标记语言（XML）等。这些规范有效地促进了Web技术的兼容，对互联网的发展和应用起到了基础性和根本性的支撑作用。" class="headerlink" title="W3C（英文World Wide Web Consortium的缩写）中文译为“万维网联盟”。万维网联盟是国际最著名的标准化组织。W3C最重要的工作是发展Web规范，自1994年成立以来，已经发布了200多项影响深远的Web技术标准及实施指南，如超文本标记语言（HTML）、可扩展标记语言（XML）等。这些规范有效地促进了Web技术的兼容，对互联网的发展和应用起到了基础性和根本性的支撑作用。"></a>W3C（英文World Wide Web Consortium的缩写）中文译为“万维网联盟”。万维网联盟是国际最著名的标准化组织。W3C最重要的工作是发展Web规范，自1994年成立以来，已经发布了200多项影响深远的Web技术标准及实施指南，如超文本标记语言（HTML）、可扩展标记语言（XML）等。这些规范有效地促进了Web技术的兼容，对互联网的发展和应用起到了基础性和根本性的支撑作用。</h5><h4 id=""><a href="#" class="headerlink" title=""></a></h4><h3 id="四、了解web标准"><a href="#四、了解web标准" class="headerlink" title="四、了解web标准"></a>四、了解web标准</h3><h5 id="（1）展示PPT对“Web标准”制定的原因及背景进行讲解。"><a href="#（1）展示PPT对“Web标准”制定的原因及背景进行讲解。" class="headerlink" title="（1）展示PPT对“Web标准”制定的原因及背景进行讲解。"></a>（1）展示PPT对“Web标准”制定的原因及背景进行讲解。</h5><h5 id="（2）Web标准并不是某一个标准，而是一系列标准的集合，主要包括结构（Structure）、表现（Presentation）和行为（Behavior）三个方面。分别对Web标准的“结构标准”、“表现标准”及“行为标准”进行详细讲解，并分别举例说明。"><a href="#（2）Web标准并不是某一个标准，而是一系列标准的集合，主要包括结构（Structure）、表现（Presentation）和行为（Behavior）三个方面。分别对Web标准的“结构标准”、“表现标准”及“行为标准”进行详细讲解，并分别举例说明。" class="headerlink" title="（2）Web标准并不是某一个标准，而是一系列标准的集合，主要包括结构（Structure）、表现（Presentation）和行为（Behavior）三个方面。分别对Web标准的“结构标准”、“表现标准”及“行为标准”进行详细讲解，并分别举例说明。"></a>（2）Web标准并不是某一个标准，而是一系列标准的集合，主要包括结构（Structure）、表现（Presentation）和行为（Behavior）三个方面。分别对Web标准的“结构标准”、“表现标准”及“行为标准”进行详细讲解，并分别举例说明。</h5><h4 id="结构标准"><a href="#结构标准" class="headerlink" title="结构标准"></a>结构标准</h4><h5 id="结构用于对网页元素进行整理和分类，主要包括XML和XHTML两个部分，具体区别如下："><a href="#结构用于对网页元素进行整理和分类，主要包括XML和XHTML两个部分，具体区别如下：" class="headerlink" title="结构用于对网页元素进行整理和分类，主要包括XML和XHTML两个部分，具体区别如下："></a>结构用于对网页元素进行整理和分类，主要包括XML和XHTML两个部分，具体区别如下：</h5><h5 id="XML（英文The-Extensible-Markup-Language-的缩写）是一种可扩展标记语言。XML最初的目的是为了弥补HTML的不足，它具有强大的扩展性，可用于数据的转换和描述。"><a href="#XML（英文The-Extensible-Markup-Language-的缩写）是一种可扩展标记语言。XML最初的目的是为了弥补HTML的不足，它具有强大的扩展性，可用于数据的转换和描述。" class="headerlink" title="XML（英文The Extensible Markup Language 的缩写）是一种可扩展标记语言。XML最初的目的是为了弥补HTML的不足，它具有强大的扩展性，可用于数据的转换和描述。"></a>XML（英文The Extensible Markup Language 的缩写）是一种可扩展标记语言。XML最初的目的是为了弥补HTML的不足，它具有强大的扩展性，可用于数据的转换和描述。</h5><h5 id="XHTML（英文The-Extensible-HyperText-Markup-Language的缩写）是可扩展超文本标识语言。XHTML是基于XML的标识语言，是在HTML4-0的基础上，用XML的规则对其进行扩展建立起来的，它实现了HTML向XML的过渡。"><a href="#XHTML（英文The-Extensible-HyperText-Markup-Language的缩写）是可扩展超文本标识语言。XHTML是基于XML的标识语言，是在HTML4-0的基础上，用XML的规则对其进行扩展建立起来的，它实现了HTML向XML的过渡。" class="headerlink" title="XHTML（英文The Extensible HyperText Markup Language的缩写）是可扩展超文本标识语言。XHTML是基于XML的标识语言，是在HTML4.0的基础上，用XML的规则对其进行扩展建立起来的，它实现了HTML向XML的过渡。"></a>XHTML（英文The Extensible HyperText Markup Language的缩写）是可扩展超文本标识语言。XHTML是基于XML的标识语言，是在HTML4.0的基础上，用XML的规则对其进行扩展建立起来的，它实现了HTML向XML的过渡。</h5><h4 id="表现标准"><a href="#表现标准" class="headerlink" title="表现标准"></a>表现标准</h4><h5 id="表现用于设置网页元素的版式、颜色、大小等外观样式，主要指的是CSS，具体介绍如下："><a href="#表现用于设置网页元素的版式、颜色、大小等外观样式，主要指的是CSS，具体介绍如下：" class="headerlink" title="表现用于设置网页元素的版式、颜色、大小等外观样式，主要指的是CSS，具体介绍如下："></a>表现用于设置网页元素的版式、颜色、大小等外观样式，主要指的是CSS，具体介绍如下：</h5><h5 id="CSS（英文Cascading-Style-Sheet的缩写）是层叠样式表。CSS标准建立的目的是以CSS为基础进行网页布局，控制网页的表现。CSS布局与XHTML结构语言相结合，可以实现表现与结构的分离，使网站的访问及维护更加容易。"><a href="#CSS（英文Cascading-Style-Sheet的缩写）是层叠样式表。CSS标准建立的目的是以CSS为基础进行网页布局，控制网页的表现。CSS布局与XHTML结构语言相结合，可以实现表现与结构的分离，使网站的访问及维护更加容易。" class="headerlink" title="CSS（英文Cascading Style Sheet的缩写）是层叠样式表。CSS标准建立的目的是以CSS为基础进行网页布局，控制网页的表现。CSS布局与XHTML结构语言相结合，可以实现表现与结构的分离，使网站的访问及维护更加容易。"></a>CSS（英文Cascading Style Sheet的缩写）是层叠样式表。CSS标准建立的目的是以CSS为基础进行网页布局，控制网页的表现。CSS布局与XHTML结构语言相结合，可以实现表现与结构的分离，使网站的访问及维护更加容易。</h5><h4 id="行为标准"><a href="#行为标准" class="headerlink" title="行为标准"></a>行为标准</h4><h5 id="行为是指网页模型的定义及交互的编写，主要包括DOM和ECMAScript两个部分。具体区别如下："><a href="#行为是指网页模型的定义及交互的编写，主要包括DOM和ECMAScript两个部分。具体区别如下：" class="headerlink" title="行为是指网页模型的定义及交互的编写，主要包括DOM和ECMAScript两个部分。具体区别如下："></a>行为是指网页模型的定义及交互的编写，主要包括DOM和ECMAScript两个部分。具体区别如下：</h5><h5 id="DOM（英文Document-Object-Model的缩写）是文档对象模型。W3C-文档对象模型-（DOM）-是中立于平台和语言的接口，它允许程序和脚本动态地访问和更新文档的内容、结构和样式。"><a href="#DOM（英文Document-Object-Model的缩写）是文档对象模型。W3C-文档对象模型-（DOM）-是中立于平台和语言的接口，它允许程序和脚本动态地访问和更新文档的内容、结构和样式。" class="headerlink" title="DOM（英文Document Object Model的缩写）是文档对象模型。W3C 文档对象模型 （DOM） 是中立于平台和语言的接口，它允许程序和脚本动态地访问和更新文档的内容、结构和样式。"></a>DOM（英文Document Object Model的缩写）是文档对象模型。W3C 文档对象模型 （DOM） 是中立于平台和语言的接口，它允许程序和脚本动态地访问和更新文档的内容、结构和样式。</h5><h5 id="ECMAScript是ECMA（英文European-Computer-Manufacturers-Association的缩写）国际以JavaScript为基础制定的标准脚本语言。JavaScript是一种基于对象和事件驱动，并具有相对安全性的客户端脚本语言，广泛用于Web开发，常用来给HTML网页添加动态功能，比如响应用户的各种操作。"><a href="#ECMAScript是ECMA（英文European-Computer-Manufacturers-Association的缩写）国际以JavaScript为基础制定的标准脚本语言。JavaScript是一种基于对象和事件驱动，并具有相对安全性的客户端脚本语言，广泛用于Web开发，常用来给HTML网页添加动态功能，比如响应用户的各种操作。" class="headerlink" title="ECMAScript是ECMA（英文European Computer Manufacturers Association的缩写）国际以JavaScript为基础制定的标准脚本语言。JavaScript是一种基于对象和事件驱动，并具有相对安全性的客户端脚本语言，广泛用于Web开发，常用来给HTML网页添加动态功能，比如响应用户的各种操作。"></a>ECMAScript是ECMA（英文European Computer Manufacturers Association的缩写）国际以JavaScript为基础制定的标准脚本语言。JavaScript是一种基于对象和事件驱动，并具有相对安全性的客户端脚本语言，广泛用于Web开发，常用来给HTML网页添加动态功能，比如响应用户的各种操作。</h5><h4 id="五、HTML简介"><a href="#五、HTML简介" class="headerlink" title="五、HTML简介"></a>五、HTML简介</h4><h5 id="（1）展示PPT对“HTML语言”的概念及作用进行简单介绍。"><a href="#（1）展示PPT对“HTML语言”的概念及作用进行简单介绍。" class="headerlink" title="（1）展示PPT对“HTML语言”的概念及作用进行简单介绍。"></a>（1）展示PPT对“HTML语言”的概念及作用进行简单介绍。</h5><h5 id="HTML（英文Hyper-Text-Markup-Language的缩写）中文译为“超文本标记语言”，主要是通过HTML标记对网页中的文本、图片、声音等内容进行描述。HTML提供了许多标记，如段落标记、标题标记、超链接标记、图片标记等，网页中需要定义什么内容，就用相应的HTML标记描述即可。"><a href="#HTML（英文Hyper-Text-Markup-Language的缩写）中文译为“超文本标记语言”，主要是通过HTML标记对网页中的文本、图片、声音等内容进行描述。HTML提供了许多标记，如段落标记、标题标记、超链接标记、图片标记等，网页中需要定义什么内容，就用相应的HTML标记描述即可。" class="headerlink" title="HTML（英文Hyper Text Markup Language的缩写）中文译为“超文本标记语言”，主要是通过HTML标记对网页中的文本、图片、声音等内容进行描述。HTML提供了许多标记，如段落标记、标题标记、超链接标记、图片标记等，网页中需要定义什么内容，就用相应的HTML标记描述即可。"></a>HTML（英文Hyper Text Markup Language的缩写）中文译为“超文本标记语言”，主要是通过HTML标记对网页中的文本、图片、声音等内容进行描述。HTML提供了许多标记，如段落标记、标题标记、超链接标记、图片标记等，网页中需要定义什么内容，就用相应的HTML标记描述即可。</h5><h5 id="HTML之所以称为超文本标记语言，不仅是因为它通过标记描述网页内容，同时也由于文本中包含了所谓的“超级链接”点。通过超链接将网站与网页以及各种网页元素链接起来，构成了丰富多彩的Web页面。"><a href="#HTML之所以称为超文本标记语言，不仅是因为它通过标记描述网页内容，同时也由于文本中包含了所谓的“超级链接”点。通过超链接将网站与网页以及各种网页元素链接起来，构成了丰富多彩的Web页面。" class="headerlink" title="HTML之所以称为超文本标记语言，不仅是因为它通过标记描述网页内容，同时也由于文本中包含了所谓的“超级链接”点。通过超链接将网站与网页以及各种网页元素链接起来，构成了丰富多彩的Web页面。"></a>HTML之所以称为超文本标记语言，不仅是因为它通过标记描述网页内容，同时也由于文本中包含了所谓的“超级链接”点。通过超链接将网站与网页以及各种网页元素链接起来，构成了丰富多彩的Web页面。</h5><h5 id="（2）通过查看“百度”网页的源代码，分析HTML语言中包含的标记。"><a href="#（2）通过查看“百度”网页的源代码，分析HTML语言中包含的标记。" class="headerlink" title="（2）通过查看“百度”网页的源代码，分析HTML语言中包含的标记。"></a>（2）通过查看“百度”网页的源代码，分析HTML语言中包含的标记。</h5><h5 id="（3）展示PPT对“HTML语言发展的历程”进行讲解，并指出各个版本中HTML标记的变化。HTML语言发展至今，经历了六个版本，这个过程中新增了许多HTML标记，同时也淘汰了一些标记，具体历程如下："><a href="#（3）展示PPT对“HTML语言发展的历程”进行讲解，并指出各个版本中HTML标记的变化。HTML语言发展至今，经历了六个版本，这个过程中新增了许多HTML标记，同时也淘汰了一些标记，具体历程如下：" class="headerlink" title="（3）展示PPT对“HTML语言发展的历程”进行讲解，并指出各个版本中HTML标记的变化。HTML语言发展至今，经历了六个版本，这个过程中新增了许多HTML标记，同时也淘汰了一些标记，具体历程如下："></a>（3）展示PPT对“HTML语言发展的历程”进行讲解，并指出各个版本中HTML标记的变化。HTML语言发展至今，经历了六个版本，这个过程中新增了许多HTML标记，同时也淘汰了一些标记，具体历程如下：</h5><h5 id="超文本标记语言（第一版）——在1993年6月作为互联网工程工作小组（IETF）工作草案发布。"><a href="#超文本标记语言（第一版）——在1993年6月作为互联网工程工作小组（IETF）工作草案发布。" class="headerlink" title="超文本标记语言（第一版）——在1993年6月作为互联网工程工作小组（IETF）工作草案发布。"></a>超文本标记语言（第一版）——在1993年6月作为互联网工程工作小组（IETF）工作草案发布。</h5><h5 id="HTML-2-0——1995年11月作为RFC-1866发布，在RFC-2854于2000年6月发布之后被宣布已经过时。"><a href="#HTML-2-0——1995年11月作为RFC-1866发布，在RFC-2854于2000年6月发布之后被宣布已经过时。" class="headerlink" title="HTML 2.0——1995年11月作为RFC 1866发布，在RFC 2854于2000年6月发布之后被宣布已经过时。"></a>HTML 2.0——1995年11月作为RFC 1866发布，在RFC 2854于2000年6月发布之后被宣布已经过时。</h5><h5 id="HTML-3-2——1997年1月14日，W3C推荐标准。"><a href="#HTML-3-2——1997年1月14日，W3C推荐标准。" class="headerlink" title="HTML 3.2——1997年1月14日，W3C推荐标准。"></a>HTML 3.2——1997年1月14日，W3C推荐标准。</h5><h5 id="HTML-4-0——1997年12月18日，W3C推荐标准。"><a href="#HTML-4-0——1997年12月18日，W3C推荐标准。" class="headerlink" title="HTML 4.0——1997年12月18日，W3C推荐标准。"></a>HTML 4.0——1997年12月18日，W3C推荐标准。</h5><h5 id="HTML-4-01（微小改进）——1999年12月24日，W3C推荐标准。"><a href="#HTML-4-01（微小改进）——1999年12月24日，W3C推荐标准。" class="headerlink" title="HTML 4.01（微小改进）——1999年12月24日，W3C推荐标准。"></a>HTML 4.01（微小改进）——1999年12月24日，W3C推荐标准。</h5><h5 id="HTML-5的第一份正式草案于2008年1月22日公布，2014年10月底定稿。"><a href="#HTML-5的第一份正式草案于2008年1月22日公布，2014年10月底定稿。" class="headerlink" title="HTML 5的第一份正式草案于2008年1月22日公布，2014年10月底定稿。"></a>HTML 5的第一份正式草案于2008年1月22日公布，2014年10月底定稿。</h5><h4 id="六、CSS简介"><a href="#六、CSS简介" class="headerlink" title="六、CSS简介"></a>六、CSS简介</h4><h5 id="（1）展示PPT对“CSS语言”的概念进行简单介绍。"><a href="#（1）展示PPT对“CSS语言”的概念进行简单介绍。" class="headerlink" title="（1）展示PPT对“CSS语言”的概念进行简单介绍。"></a>（1）展示PPT对“CSS语言”的概念进行简单介绍。</h5><h5 id="CSS通常称为CSS样式或样式表，主要用于设置HTML页面中的文本内容（字体、大小、对齐方式等）、图片的外形（宽高、边框样式、边距等）以及版面的布局等外观显示样式。"><a href="#CSS通常称为CSS样式或样式表，主要用于设置HTML页面中的文本内容（字体、大小、对齐方式等）、图片的外形（宽高、边框样式、边距等）以及版面的布局等外观显示样式。" class="headerlink" title="CSS通常称为CSS样式或样式表，主要用于设置HTML页面中的文本内容（字体、大小、对齐方式等）、图片的外形（宽高、边框样式、边距等）以及版面的布局等外观显示样式。"></a>CSS通常称为CSS样式或样式表，主要用于设置HTML页面中的文本内容（字体、大小、对齐方式等）、图片的外形（宽高、边框样式、边距等）以及版面的布局等外观显示样式。</h5><h5 id="（2）展示PPT，对CSS语言的作用及发展历程进行讲解，并对CSS控制的网页效果进行展示。"><a href="#（2）展示PPT，对CSS语言的作用及发展历程进行讲解，并对CSS控制的网页效果进行展示。" class="headerlink" title="（2）展示PPT，对CSS语言的作用及发展历程进行讲解，并对CSS控制的网页效果进行展示。"></a>（2）展示PPT，对CSS语言的作用及发展历程进行讲解，并对CSS控制的网页效果进行展示。</h5><h5 id="-1"><a href="#-1" class="headerlink" title=""></a></h5><h4 id="七、JavaScript简介"><a href="#七、JavaScript简介" class="headerlink" title="七、JavaScript简介"></a>七、JavaScript简介</h4><h5 id="（1）展示PPT对“JavaScript语言”的概念进行简单介绍。"><a href="#（1）展示PPT对“JavaScript语言”的概念进行简单介绍。" class="headerlink" title="（1）展示PPT对“JavaScript语言”的概念进行简单介绍。"></a>（1）展示PPT对“JavaScript语言”的概念进行简单介绍。</h5><h5 id="JavaScript是Web页面中的一种脚本语言，通过JavaScript可以将静态页面转变成支持用户交互并响应相应事件的动态页面。"><a href="#JavaScript是Web页面中的一种脚本语言，通过JavaScript可以将静态页面转变成支持用户交互并响应相应事件的动态页面。" class="headerlink" title="JavaScript是Web页面中的一种脚本语言，通过JavaScript可以将静态页面转变成支持用户交互并响应相应事件的动态页面。"></a>JavaScript是Web页面中的一种脚本语言，通过JavaScript可以将静态页面转变成支持用户交互并响应相应事件的动态页面。</h5><h5 id="（2）展示PPT，对JavaScript语言的作用及发展历程进行讲解，并对JavaScript控制的网页效果进行展示。"><a href="#（2）展示PPT，对JavaScript语言的作用及发展历程进行讲解，并对JavaScript控制的网页效果进行展示。" class="headerlink" title="（2）展示PPT，对JavaScript语言的作用及发展历程进行讲解，并对JavaScript控制的网页效果进行展示。"></a>（2）展示PPT，对JavaScript语言的作用及发展历程进行讲解，并对JavaScript控制的网页效果进行展示。</h5>]]></content>
       <categories>
         <category>html</category>
@@ -1455,7 +1455,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>Mysql</title>
-    <url>/54e1373e.html</url>
+    <url>//54e1373e.html</url>
     <content><![CDATA[<h3 id="Mysql"><a href="#Mysql" class="headerlink" title="Mysql"></a>Mysql</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">-- 查询所有住在南昌的女学生</span><br><span class="line">SELECT * from yd_student where sex&#x3D;&#39;女&#39; and  address &#x3D; &#39;南昌&#39;;</span><br><span class="line">-- 查询所有男生的信息</span><br><span class="line">SELECT * FROM yd_student WHERE sex&#x3D;&#39;男&#39;;</span><br><span class="line">-- 查询所有女生的姓名，学号，地址</span><br><span class="line">SELECT name,sno,address FROM yd_student WHERE sex&#x3D;&#39;女&#39;;</span><br><span class="line">-- 把南昌的女的学生删除</span><br><span class="line">DELETE from yd_student where sex&#x3D;&#39;女&#39; and  address&#x3D;&#39;南昌&#39;;</span><br><span class="line"></span><br><span class="line">-- 查询yd_user 按年龄排序</span><br><span class="line">SELECT * FROM yd_user ORDER BY age DESC;  -- 降序(大到小)</span><br><span class="line">SELECT * FROM yd_user ORDER BY age ASC;   -- 升序</span><br><span class="line"></span><br><span class="line">-- 分组查询</span><br><span class="line">SELECT * from yd_user GROUP BY sex,id;-- 分组查询</span><br><span class="line">-- 分组查询所有男生女生各有多少人</span><br><span class="line">SELECT sex,COUNT(sex) FROM yd_user GROUP BY sex;</span><br><span class="line">SELECT COUNT(*) from yd_user; -- 统计查询</span><br><span class="line">-- 分组查询，并且设置分组条件</span><br><span class="line">-- 1.查询按照性别分组后数量大于2的那个性别，输出性别及数量</span><br><span class="line">SELECT sex,COUNT(sex) from yd_user GROUP BY sex;</span><br><span class="line">HAVING COUNT(sex)&gt;2;</span><br><span class="line">-- 2.查询按照性别分组后年龄大于两岁，数量大于2的那个性别，输出性别及数量</span><br><span class="line">SELECT sex,COUNT(sex) from yd_user where age&gt;2 GROUP BY sex;</span><br><span class="line">HAVING COUNT(sex)&gt;2;</span><br><span class="line"></span><br><span class="line">-- 限制查询数量 limit</span><br><span class="line">-- 1.查前面两个人数据</span><br><span class="line">SELECT * from yd_user LIMIT 2;</span><br><span class="line">SELECT * from yd_user LIMIT 0,2;</span><br><span class="line">-- 2.查询从第二开始查询两条数据  前面的数字代表从第几条开始，后面的数字代表查询几条</span><br><span class="line">SELECT * from yd_user LIMIT 2,2;</span><br><span class="line">-- 3.查询从第二开始查询两条数据中的男的</span><br><span class="line">SELECT * from yd_user where sex&#x3D;&#39;男&#39; LIMIT 2,2;</span><br><span class="line">-- 4查询从第二开始查询两条数据中的男的并按照年龄排序</span><br><span class="line">SELECT * from yd_user where sex&#x3D;&#39;男&#39; ORDER BY age DESC LIMIT 0,3;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-- 去除重复</span><br><span class="line">SELECT address from yd_student; -- 去除来自重复的地址</span><br><span class="line">SELECT DISTINCT address from yd_student; -- 地址</span><br><span class="line">SELECT DISTINCT name from yd_student;-- 名字</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-- 别名</span><br><span class="line">SELECT s.sex as &#39;性别&#39;,COUNT(*) as &#39;总人数&#39; from yd_student as s GROUP BY sex;-- 查询男生女生个有多少人数</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">SELECT name as &#39;姓名&#39;,sex as&#39;性别&#39;,address as &#39;地址&#39; from yd_student;</span><br><span class="line"></span><br><span class="line">#查询工资&gt;12000的员工信息</span><br><span class="line">SELECT * from employees where salary&gt;12000;</span><br><span class="line">#查询部门编号不等于90的员工名和部门编号</span><br><span class="line">SELECT first_name,department_id from </span><br><span class="line">employees where department_id !&#x3D;90;</span><br><span class="line">#查询工资在10000到20000之间的员工名、工资以及奖金</span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary&gt;10000 and salary&lt;20000;</span><br><span class="line"></span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary BETWEEN 10000 and 20000;</span><br><span class="line">#查询部门编号不是在90到100之间，或者工资高于15000的员工信息</span><br><span class="line">SELECT * from employees where </span><br><span class="line">(department_id&lt;&#x3D;90 and department_id&gt;&#x3D;100) or salary&gt;15000;</span><br><span class="line">#查询员工last_name中包含字符a的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;%a%&quot;;</span><br><span class="line">#查询员工last_name的第二个字符为a，第五个字符为e的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;_a__e%&quot;;</span><br><span class="line">#查询员工last_name的第二个字符为_的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;_\_%&quot;;</span><br><span class="line">#查询工资在10000到20000之间的员工名、工资以及奖金</span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary&gt;10000 and salary&lt;20000;</span><br><span class="line">#查询员工的工种编号为 IT_PROG，AD_VP，AD_PRES中的一个的员工信息</span><br><span class="line">SELECT * from employees where </span><br><span class="line">job_id in(&#39;IT_PROG&#39;,&#39;AD_VP&#39;,&#39;AD_PRES&#39;);</span><br><span class="line"></span><br><span class="line">#查询没有奖金的员工信息</span><br><span class="line">select * from employees where commission_pct is null;</span><br><span class="line">#查询有奖金的员工信息</span><br><span class="line">select * from employees where commission_pct is not null; </span><br><span class="line">#查询员工号为176的员工的姓名、部门号和年薪</span><br><span class="line">select last_name,first_name,job_id from employees where employee_id &#x3D; 176;</span><br><span class="line"></span><br><span class="line">#查询年龄最大的那个人</span><br><span class="line"></span><br><span class="line">Select max(age) from yd_user ;</span><br><span class="line"></span><br><span class="line">#查询年纪最小的那个人</span><br><span class="line"></span><br><span class="line">select min(min) from yd_user;</span><br><span class="line"></span><br><span class="line">#统计所有岁数的和</span><br><span class="line">select SUM(age) from yd_user;</span><br><span class="line"></span><br><span class="line">#查询数据库yd_users age 内为 2，3，30</span><br><span class="line">SELECT * FROM yd_users WHERE age in(2,3,30);</span><br><span class="line">#查询数据库yd_users age 内不为 2，3，30</span><br><span class="line">SELECT * FROM yd_users WHERE age  NOT	in(2,3,30);</span><br><span class="line">#查询数据库yd_users age 内字符串为空</span><br><span class="line">SELECT * FROM yd_users WHERE age &#x3D; &#39; &#39;;</span><br><span class="line">#查询数据库yd_users age 内为null的值</span><br><span class="line">SELECT *FROM yd_users WHERE age is NULL;</span><br><span class="line">#查询数据库yd_users age 内为不为null的值</span><br><span class="line">SELECT * FROM yd_users WHERE age is not null;</span><br><span class="line">#查询性别不是男的人</span><br><span class="line">SELECT * FROM yd_users WHERE sex !&#x3D; &#39;男&#39;;</span><br><span class="line">SELECT * FROM yd_users WHERE sex &lt;&gt; &#39;男&#39;;</span><br><span class="line">#模糊查询</span><br><span class="line">#查询名字是包含e的人</span><br><span class="line">SELECT * FROM yd_study WHERE name LIKE &#39;%e%&#39;;</span><br><span class="line">#查询名字是J开头的人</span><br><span class="line">SELECT * FROM yd_study WHERE name like &#39;j%&#39;;</span><br><span class="line">#查询身份证号减去年龄等于360109的人</span><br><span class="line">SELECT * FROM yd_study WHERE idcard-age &#x3D; 360109;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 ]]></content>
@@ -1469,7 +1469,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>Markdown学习</title>
-    <url>/82d7ef45.html</url>
+    <url>//82d7ef45.html</url>
     <content><![CDATA[<h1 id="Markdown学习"><a href="#Markdown学习" class="headerlink" title="Markdown学习"></a>Markdown学习</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><p>一级标题使用 #加空格</p>
 <p>二级标题使用两个#加空格</p>
 <p>三级标题使用三个#加空格</p>
@@ -1492,7 +1492,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>File类、递归</title>
-    <url>/cdb4f0f7.html</url>
+    <url>//cdb4f0f7.html</url>
     <content><![CDATA[<h1 id="day08【File类、递归】"><a href="#day08【File类、递归】" class="headerlink" title="day08【File类、递归】"></a>day08【File类、递归】</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><ul>
 <li> File类</li>
 <li> 递归</li>
@@ -1667,7 +1667,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>Object类、常用API</title>
-    <url>/48c8b89.html</url>
+    <url>//48c8b89.html</url>
     <content><![CDATA[<h1 id="day01【Object类、常用API】"><a href="#day01【Object类、常用API】" class="headerlink" title="day01【Object类、常用API】"></a>day01【Object类、常用API】</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><ul>
 <li>Object类</li>
 <li>Date类</li>
@@ -2065,7 +2065,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>Object类、常用API2</title>
-    <url>/8eb50902.html</url>
+    <url>//8eb50902.html</url>
     <content><![CDATA[<h1 id="day01【Object类、常用API】"><a href="#day01【Object类、常用API】" class="headerlink" title="day01【Object类、常用API】"></a>day01【Object类、常用API】</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><ul>
 <li>Object类</li>
 <li>Date类</li>
@@ -2463,7 +2463,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>Collection、泛型</title>
-    <url>/a69633d1.html</url>
+    <url>//a69633d1.html</url>
     <content><![CDATA[<h1 id="day02【Collection、泛型】"><a href="#day02【Collection、泛型】" class="headerlink" title="day02【Collection、泛型】"></a>day02【Collection、泛型】</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><ul>
 <li>Collection集合</li>
 <li>迭代器</li>
@@ -2676,7 +2676,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>List、Set、数据结构、Collections</title>
-    <url>/206428c3.html</url>
+    <url>//206428c3.html</url>
     <content><![CDATA[<h1 id="day03-【List、Set、数据结构、Collections】"><a href="#day03-【List、Set、数据结构、Collections】" class="headerlink" title="day03 【List、Set、数据结构、Collections】"></a>day03 【List、Set、数据结构、Collections】</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><ul>
 <li>数据结构</li>
 <li>List集合</li>
@@ -2966,7 +2966,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>Map</title>
-    <url>/abe0ec5b.html</url>
+    <url>//abe0ec5b.html</url>
     <content><![CDATA[<h1 id="day04-【Map】"><a href="#day04-【Map】" class="headerlink" title="day04 【Map】"></a>day04 【Map】</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><ul>
 <li> Map集合</li>
 </ul>
@@ -3192,7 +3192,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>异常、线程</title>
-    <url>/580b947d.html</url>
+    <url>//580b947d.html</url>
     <content><![CDATA[<h1 id="day05-【异常、线程】"><a href="#day05-【异常、线程】" class="headerlink" title="day05 【异常、线程】"></a>day05 【异常、线程】</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><ul>
 <li>异常、线程</li>
 </ul>
@@ -3448,7 +3448,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>线程池、Lambda表达式</title>
-    <url>/d2b27c03.html</url>
+    <url>//d2b27c03.html</url>
     <content><![CDATA[<h1 id="day07【线程池、Lambda表达式】"><a href="#day07【线程池、Lambda表达式】" class="headerlink" title="day07【线程池、Lambda表达式】"></a>day07【线程池、Lambda表达式】</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><ul>
 <li>  等待与唤醒案例</li>
 <li>  线程池</li>
@@ -3714,7 +3714,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>字节流、字符流</title>
-    <url>/39666f99.html</url>
+    <url>//39666f99.html</url>
     <content><![CDATA[<h1 id="day09【字节流、字符流】"><a href="#day09【字节流、字符流】" class="headerlink" title="day09【字节流、字符流】"></a>day09【字节流、字符流】</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><ul>
 <li>IO流</li>
 <li>字节流</li>
@@ -4058,7 +4058,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>缓冲流、转换流、序列化流</title>
-    <url>/9b6019cd.html</url>
+    <url>//9b6019cd.html</url>
     <content><![CDATA[<h1 id="day10【缓冲流、转换流、序列化流】"><a href="#day10【缓冲流、转换流、序列化流】" class="headerlink" title="day10【缓冲流、转换流、序列化流】"></a>day10【缓冲流、转换流、序列化流】</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><ul>
 <li> 缓冲流</li>
 <li> 转换流</li>
@@ -4291,7 +4291,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>网络编程</title>
-    <url>/f6491cfb.html</url>
+    <url>//f6491cfb.html</url>
     <content><![CDATA[<h1 id="day11【网络编程】"><a href="#day11【网络编程】" class="headerlink" title="day11【网络编程】"></a>day11【网络编程】</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><ul>
 <li> 软件架构CS／BS</li>
 <li> 网络通信三要素</li>
@@ -4565,7 +4565,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>API和常用类</title>
-    <url>/d84486e7.html</url>
+    <url>//d84486e7.html</url>
     <content><![CDATA[<h3 id="Object类"><a href="#Object类" class="headerlink" title="Object类"></a>Object类</h3><h5 id="java-lang-Object类是JAVA语言中，即所有类的父类。所有的子类都实现了Object类中的方法。"><a href="#java-lang-Object类是JAVA语言中，即所有类的父类。所有的子类都实现了Object类中的方法。" class="headerlink" title="java.lang.Object类是JAVA语言中，即所有类的父类。所有的子类都实现了Object类中的方法。"></a>java.lang.Object类是JAVA语言中，即所有类的父类。所有的子类都实现了Object类中的方法。</h5><h5 id="Object-是类层次结构的根-最顶层-类。每个类都是用Object作为超-父-类。"><a href="#Object-是类层次结构的根-最顶层-类。每个类都是用Object作为超-父-类。" class="headerlink" title="Object 是类层次结构的根(最顶层)类。每个类都是用Object作为超(父)类。"></a>Object 是类层次结构的根(最顶层)类。每个类都是用Object作为超(父)类。</h5><h5 id="所有对象-包括数组-都实现这个类的方法。"><a href="#所有对象-包括数组-都实现这个类的方法。" class="headerlink" title="所有对象(包括数组)都实现这个类的方法。"></a>所有对象(包括数组)都实现这个类的方法。</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> oop.demo01;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Person</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Person</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Person</span><span class="params">(String name, <span class="keyword">int</span> age)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">        <span class="keyword">this</span>.age = age;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;Person&#123;&quot;</span> +</span><br><span class="line">                <span class="string">&quot;name=&#x27;&quot;</span> + name + <span class="string">&#x27;\&#x27;&#x27;</span> +</span><br><span class="line">                <span class="string">&quot;, age=&quot;</span> + age +</span><br><span class="line">                <span class="string">&#x27;&#125;&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getAge</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> age;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setAge</span><span class="params">(<span class="keyword">int</span> age)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.age = age;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 
