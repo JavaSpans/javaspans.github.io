@@ -131,18 +131,6 @@
       </tags>
   </entry>
   <entry>
-    <title>小程序学校学习(连载中)</title>
-    <url>/posts/d347236.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>学校笔记</tag>
-        <tag>小程序</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>andirons学校笔记(连载中)</title>
     <url>/posts/da58cdbf.html</url>
     <content><![CDATA[<h3 id="安卓体系"><a href="#安卓体系" class="headerlink" title="安卓体系"></a>安卓体系</h3><h5 id="应用层Applications"><a href="#应用层Applications" class="headerlink" title="应用层Applications"></a>应用层Applications</h5><h5 id="框架层面APPlication-Framewoork"><a href="#框架层面APPlication-Framewoork" class="headerlink" title="框架层面APPlication Framewoork"></a>框架层面APPlication Framewoork</h5><h5 id="库"><a href="#库" class="headerlink" title="库"></a>库</h5><h4 id="hello项目"><a href="#hello项目" class="headerlink" title="hello项目"></a>hello项目</h4><ol>
@@ -216,23 +204,21 @@
       </tags>
   </entry>
   <entry>
-    <title>java学校笔记Final关键字</title>
-    <url>/posts/ec8d8377.html</url>
-    <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> 学习内容;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Final</span>关键字 </span>&#123;</span><br><span class="line">	<span class="comment">/*</span></span><br><span class="line"><span class="comment">	 * final 关键</span></span><br><span class="line"><span class="comment">	 * public private  --权限修饰符</span></span><br><span class="line"><span class="comment">	 * static --修饰符</span></span><br><span class="line"><span class="comment">	 * void 四种八类 --数据类型</span></span><br><span class="line"><span class="comment">	 * class</span></span><br><span class="line"><span class="comment">	 * this super </span></span><br><span class="line"><span class="comment">	 * final(最终，最后) 关键字 --修饰符</span></span><br><span class="line"><span class="comment">	 * 1.修饰类</span></span><br><span class="line"><span class="comment">	 * 2.修饰方法</span></span><br><span class="line"><span class="comment">	 * 3.修饰变量</span></span><br><span class="line"><span class="comment">	 *	final 修饰的类不能有子类（不能被继承）</span></span><br><span class="line"><span class="comment">	 *	final 修饰的方法不能被重写,但是可以被继承</span></span><br><span class="line"><span class="comment">	 *	final 修饰的变量初始化后就不能重新赋值</span></span><br><span class="line"><span class="comment">	 *	final static int i = 30；这是常量的定义</span></span><br><span class="line"><span class="comment">	 *</span></span><br><span class="line"><span class="comment">	 */</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		Rectangle c = <span class="keyword">new</span> Rectangle();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-]]></content>
+    <title>小程序学校学习(连载中)</title>
+    <url>/posts/d347236.html</url>
+    <content><![CDATA[]]></content>
       <categories>
         <category>Java</category>
       </categories>
       <tags>
-        <tag>Java</tag>
         <tag>学校笔记</tag>
+        <tag>小程序</tag>
       </tags>
   </entry>
   <entry>
-    <title>java学校笔记三元运算符和switch</title>
-    <url>/posts/ef68d2a6.html</url>
-    <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> 学习内容;</span><br><span class="line"><span class="comment">/*package java01;</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">import java.util.Scanner;</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">public class Class10 &#123;</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">	public static void main(String[] args) &#123;</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">//三元运算符 ？:</span></span><br><span class="line"><span class="comment">		int x = 9;</span></span><br><span class="line"><span class="comment">		/*		int y = 6;</span></span><br><span class="line"><span class="comment">		int max = x&gt;y?x:y;</span></span><br><span class="line"><span class="comment">		System.out.println(max);</span></span><br><span class="line"><span class="comment"> Scanner scan = new Scanner(System.in);</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">	 int c = scan.nextInt();</span></span><br><span class="line"><span class="comment">	 c = x % 2==0?&#x27;t&#x27;:&#x27;f&#x27;;</span></span><br><span class="line"><span class="comment">		System.out.println((char)c);</span></span><br><span class="line"><span class="comment">	&#125; </span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">&#125;</span></span><br><span class="line"><span class="comment">//switch break; default;</span></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">switc注意事项</span></span><br><span class="line"><span class="comment">1.可以直接放数字</span></span><br><span class="line"><span class="comment">2.一种情况只能出现一次</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
+    <title>java学校笔记Final关键字</title>
+    <url>/posts/ec8d8377.html</url>
+    <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> 学习内容;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Final</span>关键字 </span>&#123;</span><br><span class="line">	<span class="comment">/*</span></span><br><span class="line"><span class="comment">	 * final 关键</span></span><br><span class="line"><span class="comment">	 * public private  --权限修饰符</span></span><br><span class="line"><span class="comment">	 * static --修饰符</span></span><br><span class="line"><span class="comment">	 * void 四种八类 --数据类型</span></span><br><span class="line"><span class="comment">	 * class</span></span><br><span class="line"><span class="comment">	 * this super </span></span><br><span class="line"><span class="comment">	 * final(最终，最后) 关键字 --修饰符</span></span><br><span class="line"><span class="comment">	 * 1.修饰类</span></span><br><span class="line"><span class="comment">	 * 2.修饰方法</span></span><br><span class="line"><span class="comment">	 * 3.修饰变量</span></span><br><span class="line"><span class="comment">	 *	final 修饰的类不能有子类（不能被继承）</span></span><br><span class="line"><span class="comment">	 *	final 修饰的方法不能被重写,但是可以被继承</span></span><br><span class="line"><span class="comment">	 *	final 修饰的变量初始化后就不能重新赋值</span></span><br><span class="line"><span class="comment">	 *	final static int i = 30；这是常量的定义</span></span><br><span class="line"><span class="comment">	 *</span></span><br><span class="line"><span class="comment">	 */</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		Rectangle c = <span class="keyword">new</span> Rectangle();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
@@ -258,9 +244,9 @@
       </tags>
   </entry>
   <entry>
-    <title>java学校笔记数据类型结构</title>
-    <url>/posts/37015d6b.html</url>
-    <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> 学习内容;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> 数据类型结构 </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123; </span><br><span class="line">		<span class="comment">//1.数据类型：基本数据类型、引用数据类型</span></span><br><span class="line">		<span class="comment">/*基本数据类型：四种八类</span></span><br><span class="line"><span class="comment">		 * （1）整数类型（byte、short、int、long）</span></span><br><span class="line"><span class="comment">		 * （2）浮点数类型（float、double）</span></span><br><span class="line"><span class="comment">		 * （3）字符类型（char）</span></span><br><span class="line"><span class="comment">		 * （4）布尔类型（boolean）</span></span><br><span class="line"><span class="comment">		 */</span></span><br><span class="line">		</span><br><span class="line"></span><br><span class="line">​	<span class="comment">//(1)整数类型</span></span><br><span class="line">​	<span class="comment">/*</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">  * byte：字节型，一个字节（占8位），范围：-2^7~2^7-1   -128~127,默认值0</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">    * short:短整型，二个字节（占16位），范围：-2^15~2^15-1,默认值0</span></span><br><span class="line"><span class="comment">     * int：整型，Java中默认的整数类型，四个字节（占32位），范围：-2^31~2^31-1,默认值0</span></span><br><span class="line"><span class="comment">     * long:长整型，八个字节（占64位），范围：</span></span><br><span class="line"><span class="comment">       */</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">//（2）浮点型</span></span><br><span class="line">    <span class="comment">/*</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">     * 单精度浮点型：float，默认值0.0f，四个字节（占32位）</span></span><br><span class="line"><span class="comment">     * 双精度浮点型：double，默认值0.0d，八个字节（占64位）</span></span><br><span class="line"><span class="comment">     * */</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">//（3）字符类型</span></span><br><span class="line">    <span class="comment">/*</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">     * char:0~65535或&#x27;\u0000&#x27;~&#x27;\uffff&#x27;,默认值0或\u0000</span></span><br><span class="line"><span class="comment">       */</span></span><br><span class="line">       <span class="comment">//(4)布尔类型</span></span><br><span class="line">       <span class="comment">/*</span></span><br><span class="line"><span class="comment">     * boolean:true flase</span></span><br><span class="line"><span class="comment">       */</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">//2.变量：内存单元</span></span><br><span class="line">    Scanner scan = <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">    <span class="keyword">int</span> score = <span class="number">0</span>;</span><br><span class="line">    score = scan.nextInt();</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+    <title>java学校笔记三元运算符和switch</title>
+    <url>/posts/ef68d2a6.html</url>
+    <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> 学习内容;</span><br><span class="line"><span class="comment">/*package java01;</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">import java.util.Scanner;</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">public class Class10 &#123;</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">	public static void main(String[] args) &#123;</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">//三元运算符 ？:</span></span><br><span class="line"><span class="comment">		int x = 9;</span></span><br><span class="line"><span class="comment">		/*		int y = 6;</span></span><br><span class="line"><span class="comment">		int max = x&gt;y?x:y;</span></span><br><span class="line"><span class="comment">		System.out.println(max);</span></span><br><span class="line"><span class="comment"> Scanner scan = new Scanner(System.in);</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">	 int c = scan.nextInt();</span></span><br><span class="line"><span class="comment">	 c = x % 2==0?&#x27;t&#x27;:&#x27;f&#x27;;</span></span><br><span class="line"><span class="comment">		System.out.println((char)c);</span></span><br><span class="line"><span class="comment">	&#125; </span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">&#125;</span></span><br><span class="line"><span class="comment">//switch break; default;</span></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">switc注意事项</span></span><br><span class="line"><span class="comment">1.可以直接放数字</span></span><br><span class="line"><span class="comment">2.一种情况只能出现一次</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
@@ -272,17 +258,17 @@
       </tags>
   </entry>
   <entry>
-    <title>Mysql</title>
-    <url>/posts/54e1373e.html</url>
-    <content><![CDATA[<h3 id="Mysql"><a href="#Mysql" class="headerlink" title="Mysql"></a>Mysql</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">-- 查询所有住在南昌的女学生</span><br><span class="line">SELECT * from yd_student where sex&#x3D;&#39;女&#39; and  address &#x3D; &#39;南昌&#39;;</span><br><span class="line">-- 查询所有男生的信息</span><br><span class="line">SELECT * FROM yd_student WHERE sex&#x3D;&#39;男&#39;;</span><br><span class="line">-- 查询所有女生的姓名，学号，地址</span><br><span class="line">SELECT name,sno,address FROM yd_student WHERE sex&#x3D;&#39;女&#39;;</span><br><span class="line">-- 把南昌的女的学生删除</span><br><span class="line">DELETE from yd_student where sex&#x3D;&#39;女&#39; and  address&#x3D;&#39;南昌&#39;;</span><br><span class="line"></span><br><span class="line">-- 查询yd_user 按年龄排序</span><br><span class="line">SELECT * FROM yd_user ORDER BY age DESC;  -- 降序(大到小)</span><br><span class="line">SELECT * FROM yd_user ORDER BY age ASC;   -- 升序</span><br><span class="line"></span><br><span class="line">-- 分组查询</span><br><span class="line">SELECT * from yd_user GROUP BY sex,id;-- 分组查询</span><br><span class="line">-- 分组查询所有男生女生各有多少人</span><br><span class="line">SELECT sex,COUNT(sex) FROM yd_user GROUP BY sex;</span><br><span class="line">SELECT COUNT(*) from yd_user; -- 统计查询</span><br><span class="line">-- 分组查询，并且设置分组条件</span><br><span class="line">-- 1.查询按照性别分组后数量大于2的那个性别，输出性别及数量</span><br><span class="line">SELECT sex,COUNT(sex) from yd_user GROUP BY sex;</span><br><span class="line">HAVING COUNT(sex)&gt;2;</span><br><span class="line">-- 2.查询按照性别分组后年龄大于两岁，数量大于2的那个性别，输出性别及数量</span><br><span class="line">SELECT sex,COUNT(sex) from yd_user where age&gt;2 GROUP BY sex;</span><br><span class="line">HAVING COUNT(sex)&gt;2;</span><br><span class="line"></span><br><span class="line">-- 限制查询数量 limit</span><br><span class="line">-- 1.查前面两个人数据</span><br><span class="line">SELECT * from yd_user LIMIT 2;</span><br><span class="line">SELECT * from yd_user LIMIT 0,2;</span><br><span class="line">-- 2.查询从第二开始查询两条数据  前面的数字代表从第几条开始，后面的数字代表查询几条</span><br><span class="line">SELECT * from yd_user LIMIT 2,2;</span><br><span class="line">-- 3.查询从第二开始查询两条数据中的男的</span><br><span class="line">SELECT * from yd_user where sex&#x3D;&#39;男&#39; LIMIT 2,2;</span><br><span class="line">-- 4查询从第二开始查询两条数据中的男的并按照年龄排序</span><br><span class="line">SELECT * from yd_user where sex&#x3D;&#39;男&#39; ORDER BY age DESC LIMIT 0,3;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-- 去除重复</span><br><span class="line">SELECT address from yd_student; -- 去除来自重复的地址</span><br><span class="line">SELECT DISTINCT address from yd_student; -- 地址</span><br><span class="line">SELECT DISTINCT name from yd_student;-- 名字</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-- 别名</span><br><span class="line">SELECT s.sex as &#39;性别&#39;,COUNT(*) as &#39;总人数&#39; from yd_student as s GROUP BY sex;-- 查询男生女生个有多少人数</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">SELECT name as &#39;姓名&#39;,sex as&#39;性别&#39;,address as &#39;地址&#39; from yd_student;</span><br><span class="line"></span><br><span class="line">#查询工资&gt;12000的员工信息</span><br><span class="line">SELECT * from employees where salary&gt;12000;</span><br><span class="line">#查询部门编号不等于90的员工名和部门编号</span><br><span class="line">SELECT first_name,department_id from </span><br><span class="line">employees where department_id !&#x3D;90;</span><br><span class="line">#查询工资在10000到20000之间的员工名、工资以及奖金</span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary&gt;10000 and salary&lt;20000;</span><br><span class="line"></span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary BETWEEN 10000 and 20000;</span><br><span class="line">#查询部门编号不是在90到100之间，或者工资高于15000的员工信息</span><br><span class="line">SELECT * from employees where </span><br><span class="line">(department_id&lt;&#x3D;90 and department_id&gt;&#x3D;100) or salary&gt;15000;</span><br><span class="line">#查询员工last_name中包含字符a的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;%a%&quot;;</span><br><span class="line">#查询员工last_name的第二个字符为a，第五个字符为e的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;_a__e%&quot;;</span><br><span class="line">#查询员工last_name的第二个字符为_的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;_\_%&quot;;</span><br><span class="line">#查询工资在10000到20000之间的员工名、工资以及奖金</span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary&gt;10000 and salary&lt;20000;</span><br><span class="line">#查询员工的工种编号为 IT_PROG，AD_VP，AD_PRES中的一个的员工信息</span><br><span class="line">SELECT * from employees where </span><br><span class="line">job_id in(&#39;IT_PROG&#39;,&#39;AD_VP&#39;,&#39;AD_PRES&#39;);</span><br><span class="line"></span><br><span class="line">#查询没有奖金的员工信息</span><br><span class="line">select * from employees where commission_pct is null;</span><br><span class="line">#查询有奖金的员工信息</span><br><span class="line">select * from employees where commission_pct is not null; </span><br><span class="line">#查询员工号为176的员工的姓名、部门号和年薪</span><br><span class="line">select last_name,first_name,job_id from employees where employee_id &#x3D; 176;</span><br><span class="line"></span><br><span class="line">#查询年龄最大的那个人</span><br><span class="line"></span><br><span class="line">Select max(age) from yd_user ;</span><br><span class="line"></span><br><span class="line">#查询年纪最小的那个人</span><br><span class="line"></span><br><span class="line">select min(min) from yd_user;</span><br><span class="line"></span><br><span class="line">#统计所有岁数的和</span><br><span class="line">select SUM(age) from yd_user;</span><br><span class="line"></span><br><span class="line">#查询数据库yd_users age 内为 2，3，30</span><br><span class="line">SELECT * FROM yd_users WHERE age in(2,3,30);</span><br><span class="line">#查询数据库yd_users age 内不为 2，3，30</span><br><span class="line">SELECT * FROM yd_users WHERE age  NOT	in(2,3,30);</span><br><span class="line">#查询数据库yd_users age 内字符串为空</span><br><span class="line">SELECT * FROM yd_users WHERE age &#x3D; &#39; &#39;;</span><br><span class="line">#查询数据库yd_users age 内为null的值</span><br><span class="line">SELECT *FROM yd_users WHERE age is NULL;</span><br><span class="line">#查询数据库yd_users age 内为不为null的值</span><br><span class="line">SELECT * FROM yd_users WHERE age is not null;</span><br><span class="line">#查询性别不是男的人</span><br><span class="line">SELECT * FROM yd_users WHERE sex !&#x3D; &#39;男&#39;;</span><br><span class="line">SELECT * FROM yd_users WHERE sex &lt;&gt; &#39;男&#39;;</span><br><span class="line">#模糊查询</span><br><span class="line">#查询名字是包含e的人</span><br><span class="line">SELECT * FROM yd_study WHERE name LIKE &#39;%e%&#39;;</span><br><span class="line">#查询名字是J开头的人</span><br><span class="line">SELECT * FROM yd_study WHERE name like &#39;j%&#39;;</span><br><span class="line">#查询身份证号减去年龄等于360109的人</span><br><span class="line">SELECT * FROM yd_study WHERE idcard-age &#x3D; 360109;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+    <title>java学校笔记数据类型结构</title>
+    <url>/posts/37015d6b.html</url>
+    <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> 学习内容;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> 数据类型结构 </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123; </span><br><span class="line">		<span class="comment">//1.数据类型：基本数据类型、引用数据类型</span></span><br><span class="line">		<span class="comment">/*基本数据类型：四种八类</span></span><br><span class="line"><span class="comment">		 * （1）整数类型（byte、short、int、long）</span></span><br><span class="line"><span class="comment">		 * （2）浮点数类型（float、double）</span></span><br><span class="line"><span class="comment">		 * （3）字符类型（char）</span></span><br><span class="line"><span class="comment">		 * （4）布尔类型（boolean）</span></span><br><span class="line"><span class="comment">		 */</span></span><br><span class="line">		</span><br><span class="line"></span><br><span class="line">​	<span class="comment">//(1)整数类型</span></span><br><span class="line">​	<span class="comment">/*</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">  * byte：字节型，一个字节（占8位），范围：-2^7~2^7-1   -128~127,默认值0</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">    * short:短整型，二个字节（占16位），范围：-2^15~2^15-1,默认值0</span></span><br><span class="line"><span class="comment">     * int：整型，Java中默认的整数类型，四个字节（占32位），范围：-2^31~2^31-1,默认值0</span></span><br><span class="line"><span class="comment">     * long:长整型，八个字节（占64位），范围：</span></span><br><span class="line"><span class="comment">       */</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">//（2）浮点型</span></span><br><span class="line">    <span class="comment">/*</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">     * 单精度浮点型：float，默认值0.0f，四个字节（占32位）</span></span><br><span class="line"><span class="comment">     * 双精度浮点型：double，默认值0.0d，八个字节（占64位）</span></span><br><span class="line"><span class="comment">     * */</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">//（3）字符类型</span></span><br><span class="line">    <span class="comment">/*</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">     * char:0~65535或&#x27;\u0000&#x27;~&#x27;\uffff&#x27;,默认值0或\u0000</span></span><br><span class="line"><span class="comment">       */</span></span><br><span class="line">       <span class="comment">//(4)布尔类型</span></span><br><span class="line">       <span class="comment">/*</span></span><br><span class="line"><span class="comment">     * boolean:true flase</span></span><br><span class="line"><span class="comment">       */</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">//2.变量：内存单元</span></span><br><span class="line">    Scanner scan = <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">    <span class="keyword">int</span> score = <span class="number">0</span>;</span><br><span class="line">    score = scan.nextInt();</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
-        <category>Mysql</category>
+        <category>Java</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
-        <tag>Mysql</tag>
+        <tag>Java</tag>
+        <tag>学校笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -331,6 +317,22 @@
       </tags>
   </entry>
   <entry>
+    <title>反编译 class 文件</title>
+    <url>/posts/81406da.html</url>
+    <content><![CDATA[<h3 id="反编译-class-文件"><a href="#反编译-class-文件" class="headerlink" title="反编译 class 文件"></a>反编译 class 文件</h3><p>1.找到项目结构 </p>
+<p>project → project compiler output</p>
+<p>2.打开输出out文件夹 把要反编译的class文件拖进</p>
+<p>3.在idea项目内就可以打开反编译文件了。</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>方 法</title>
     <url>/posts/69244af4.html</url>
     <content><![CDATA[<h3 id="什么是方法"><a href="#什么是方法" class="headerlink" title="什么是方法"></a>什么是方法</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//系统的类.对象.方法</span></span><br><span class="line">System.out.println();</span><br></pre></td></tr></table></figure>
@@ -342,22 +344,6 @@
 
 <p>“一个命令就像一个房间。“在 Java 编程语言中，命令不能单独存在。它是函数的一部分（在 Java 语言中，‘函数’也称为‘方法’）。方法是类的一分。换句话说，类被划分为多个方法，而方法被划分为多个命令。”</p>
 <p>因此，类就是一个公寓楼，函数/方法是一个公寓，而命令是一个房间。</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>反编译 class 文件</title>
-    <url>/posts/81406da.html</url>
-    <content><![CDATA[<h3 id="反编译-class-文件"><a href="#反编译-class-文件" class="headerlink" title="反编译 class 文件"></a>反编译 class 文件</h3><p>1.找到项目结构 </p>
-<p>project → project compiler output</p>
-<p>2.打开输出out文件夹 把要反编译的class文件拖进</p>
-<p>3.在idea项目内就可以打开反编译文件了。</p>
 ]]></content>
       <categories>
         <category>Java</category>
@@ -567,24 +553,6 @@
       </tags>
   </entry>
   <entry>
-    <title>static的详情</title>
-    <url>/posts/a6c6c4c.html</url>
-    <content><![CDATA[<h3 id="Static静态"><a href="#Static静态" class="headerlink" title="Static静态"></a>Static静态</h3><h4 id="静态导入包"><a href="#静态导入包" class="headerlink" title="静态导入包"></a>静态导入包</h4><h5 id="import-static-java-lang-Math-random"><a href="#import-static-java-lang-Math-random" class="headerlink" title="import static java.lang.Math.random;"></a>import static java.lang.Math.random;</h5><h5 id="private-static-int-age-静态的变量"><a href="#private-static-int-age-静态的变量" class="headerlink" title="private static int age; //静态的变量"></a>private static int age; //静态的变量</h5><h5 id="private-double-score-非静态的变量"><a href="#private-double-score-非静态的变量" class="headerlink" title="private double score// 非静态的变量"></a>private double score// 非静态的变量</h5><h4 id="匿名代码块"><a href="#匿名代码块" class="headerlink" title="匿名代码块"></a>匿名代码块</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line"><span class="comment">//代码块（匿名代码块）</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="静态代码块"><a href="#静态代码块" class="headerlink" title="静态代码块"></a>静态代码块</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">static</span>&#123;</span><br><span class="line">    <span class="comment">//静态代码块</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id=""><a href="#" class="headerlink" title=""></a></h4>]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>关键字以及数据类型(扩展)</title>
     <url>/posts/1f3c832.html</url>
     <content><![CDATA[<h1 id="关键字以及数据类型-扩展"><a href="#关键字以及数据类型-扩展" class="headerlink" title="关键字以及数据类型(扩展)"></a>关键字以及数据类型(扩展)</h1><h4 id="关键字"><a href="#关键字" class="headerlink" title="关键字"></a>关键字</h4><table>
@@ -703,6 +671,24 @@
       </tags>
   </entry>
   <entry>
+    <title>static的详情</title>
+    <url>/posts/a6c6c4c.html</url>
+    <content><![CDATA[<h3 id="Static静态"><a href="#Static静态" class="headerlink" title="Static静态"></a>Static静态</h3><h4 id="静态导入包"><a href="#静态导入包" class="headerlink" title="静态导入包"></a>静态导入包</h4><h5 id="import-static-java-lang-Math-random"><a href="#import-static-java-lang-Math-random" class="headerlink" title="import static java.lang.Math.random;"></a>import static java.lang.Math.random;</h5><h5 id="private-static-int-age-静态的变量"><a href="#private-static-int-age-静态的变量" class="headerlink" title="private static int age; //静态的变量"></a>private static int age; //静态的变量</h5><h5 id="private-double-score-非静态的变量"><a href="#private-double-score-非静态的变量" class="headerlink" title="private double score// 非静态的变量"></a>private double score// 非静态的变量</h5><h4 id="匿名代码块"><a href="#匿名代码块" class="headerlink" title="匿名代码块"></a>匿名代码块</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line"><span class="comment">//代码块（匿名代码块）</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="静态代码块"><a href="#静态代码块" class="headerlink" title="静态代码块"></a>静态代码块</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">static</span>&#123;</span><br><span class="line">    <span class="comment">//静态代码块</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id=""><a href="#" class="headerlink" title=""></a></h4>]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>其他学习拓展(连载中)</title>
     <url>/posts/8d422b92.html</url>
     <content><![CDATA[<p><a href="https://javaspans.github.io/posts/3f0598a9.html">Debug的使用性</a></p>
@@ -777,28 +763,6 @@
       </tags>
   </entry>
   <entry>
-    <title>可变参数</title>
-    <url>/posts/6963fb18.html</url>
-    <content><![CDATA[<h3 id="可变参数-不定项参数"><a href="#可变参数-不定项参数" class="headerlink" title="可变参数(不定项参数)"></a>可变参数(不定项参数)</h3><ul>
-<li><h4 id="在jdk-1-5-开始-，java支持传递同类型的可变参数给一个方法"><a href="#在jdk-1-5-开始-，java支持传递同类型的可变参数给一个方法" class="headerlink" title="在jdk 1.5 开始 ，java支持传递同类型的可变参数给一个方法"></a>在jdk 1.5 开始 ，java支持传递同类型的可变参数给一个方法</h4></li>
-<li><h4 id="在方法声明中，在指定参数类型后加一个省略号-…-本质就是数组"><a href="#在方法声明中，在指定参数类型后加一个省略号-…-本质就是数组" class="headerlink" title="在方法声明中，在指定参数类型后加一个省略号(…),[  本质就是数组  ]"></a>在方法声明中，在指定参数类型后加一个省略号(…),[  本质就是数组  ]</h4></li>
-<li><h4 id="一个方法中只能指定一个可变参数，他必须是方法最后一个参数，任何普通的参数必须在它之前声明。"><a href="#一个方法中只能指定一个可变参数，他必须是方法最后一个参数，任何普通的参数必须在它之前声明。" class="headerlink" title="一个方法中只能指定一个可变参数，他必须是方法最后一个参数，任何普通的参数必须在它之前声明。"></a>一个方法中只能指定一个可变参数，他必须是方法最后一个参数，任何普通的参数必须在它之前声明。</h4></li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ClassDemo01</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">    ClassDemo01 demo = <span class="keyword">new</span> ClassDemo01();</span><br><span class="line">    	demo.test();</span><br><span class="line">    &#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test</span><span class="params">(<span class="keyword">int</span>... i)</span></span>&#123;</span><br><span class="line">   		System.out.println(i[<span class="number">0</span>]);  </span><br><span class="line"> &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>实例：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">CLassDemo0</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">            printlnMax(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">6</span>,<span class="number">5</span>,<span class="number">9</span>,<span class="number">45</span>,<span class="number">465</span>,<span class="number">456</span>,<span class="number">465</span>);</span><br><span class="line">            printlnMax(<span class="number">3333</span>,<span class="number">333</span>,<span class="number">33</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">33</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">33</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">33</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">printlnMax</span><span class="params">(<span class="keyword">double</span> ...nbm)</span></span>&#123;</span><br><span class="line">            <span class="keyword">if</span> (nbm.length == <span class="number">0</span>)&#123;</span><br><span class="line">                System.out.println(<span class="string">&quot;数据出错&quot;</span>);</span><br><span class="line">                <span class="keyword">return</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">double</span> res = nbm[<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; nbm.length; i++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (nbm[i]&gt;res)&#123;</span><br><span class="line">                res = nbm[i];</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;最大&quot;</span>+res);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>变量是什么</title>
     <url>/posts/94320cfe.html</url>
     <content><![CDATA[<h1 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h1><h2 id="变量是什么：就是可以变换的量！"><a href="#变量是什么：就是可以变换的量！" class="headerlink" title="变量是什么：就是可以变换的量！"></a>变量是什么：就是可以变换的量！</h2><h3 id="java-是一种强类型语言，每个变量都必须声明其类型。"><a href="#java-是一种强类型语言，每个变量都必须声明其类型。" class="headerlink" title="java 是一种强类型语言，每个变量都必须声明其类型。"></a>java 是一种强类型语言，每个变量都必须声明其类型。</h3><h3 id="java是程序中最基本的存储单元，其要素包括包括变量名，变量类型和作用域。"><a href="#java是程序中最基本的存储单元，其要素包括包括变量名，变量类型和作用域。" class="headerlink" title="java是程序中最基本的存储单元，其要素包括包括变量名，变量类型和作用域。"></a>java是程序中最基本的存储单元，其要素包括包括变量名，变量类型和作用域。</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">type varName  [=value]  [&#123;,varName[=value]&#125;];    </span><br></pre></td></tr></table></figure>
@@ -812,6 +776,28 @@
 <h4 id="常量名一般用大写字符。"><a href="#常量名一般用大写字符。" class="headerlink" title="常量名一般用大写字符。"></a>常量名一般用大写字符。</h4><h3 id="常量是一个一次赋值不可改变的值；"><a href="#常量是一个一次赋值不可改变的值；" class="headerlink" title="常量是一个一次赋值不可改变的值；"></a>常量是一个一次赋值不可改变的值；</h3><h3 id="常量的名-一定要大写；"><a href="#常量的名-一定要大写；" class="headerlink" title="常量的名 一定要大写；"></a>常量的名 一定要大写；</h3><h3 id="常量格式：static-static-类型-值；"><a href="#常量格式：static-static-类型-值；" class="headerlink" title="常量格式：static static 类型=值；"></a>常量格式：static static 类型=值；</h3><h3 id="变量的命名规范"><a href="#变量的命名规范" class="headerlink" title="变量的命名规范"></a>变量的命名规范</h3><pre><code>1.所有的变量、方法、类名：见名知意
 </code></pre>
 <h4 id="2-类成员变量：首字母小写和驼峰原则：monthSalary-除了第一个单词意外，后面的单词首字母大写"><a href="#2-类成员变量：首字母小写和驼峰原则：monthSalary-除了第一个单词意外，后面的单词首字母大写" class="headerlink" title="2.类成员变量：首字母小写和驼峰原则：monthSalary 除了第一个单词意外，后面的单词首字母大写"></a>2.类成员变量：首字母小写和驼峰原则：monthSalary 除了第一个单词意外，后面的单词首字母大写</h4><h4 id="3-局部变量：首字母小写和驼峰原则"><a href="#3-局部变量：首字母小写和驼峰原则" class="headerlink" title="3.局部变量：首字母小写和驼峰原则"></a>3.局部变量：首字母小写和驼峰原则</h4><h4 id="4-常量：大写字母和下划线-MAX-VALUE"><a href="#4-常量：大写字母和下划线-MAX-VALUE" class="headerlink" title="4.常量：大写字母和下划线:MAX_VALUE"></a>4.常量：大写字母和下划线:MAX_VALUE</h4><h4 id="5-类名：首字母大写和驼峰原则：Man，GoodMan"><a href="#5-类名：首字母大写和驼峰原则：Man，GoodMan" class="headerlink" title="5.类名：首字母大写和驼峰原则：Man，GoodMan"></a>5.类名：首字母大写和驼峰原则：Man，GoodMan</h4><h4 id="6-方法名：首字母小写和驼峰原则-：run-runRun"><a href="#6-方法名：首字母小写和驼峰原则-：run-runRun" class="headerlink" title="6. 方法名：首字母小写和驼峰原则 ：run(), runRun()"></a>6. 方法名：首字母小写和驼峰原则 ：run(), runRun()</h4>]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>可变参数</title>
+    <url>/posts/6963fb18.html</url>
+    <content><![CDATA[<h3 id="可变参数-不定项参数"><a href="#可变参数-不定项参数" class="headerlink" title="可变参数(不定项参数)"></a>可变参数(不定项参数)</h3><ul>
+<li><h4 id="在jdk-1-5-开始-，java支持传递同类型的可变参数给一个方法"><a href="#在jdk-1-5-开始-，java支持传递同类型的可变参数给一个方法" class="headerlink" title="在jdk 1.5 开始 ，java支持传递同类型的可变参数给一个方法"></a>在jdk 1.5 开始 ，java支持传递同类型的可变参数给一个方法</h4></li>
+<li><h4 id="在方法声明中，在指定参数类型后加一个省略号-…-本质就是数组"><a href="#在方法声明中，在指定参数类型后加一个省略号-…-本质就是数组" class="headerlink" title="在方法声明中，在指定参数类型后加一个省略号(…),[  本质就是数组  ]"></a>在方法声明中，在指定参数类型后加一个省略号(…),[  本质就是数组  ]</h4></li>
+<li><h4 id="一个方法中只能指定一个可变参数，他必须是方法最后一个参数，任何普通的参数必须在它之前声明。"><a href="#一个方法中只能指定一个可变参数，他必须是方法最后一个参数，任何普通的参数必须在它之前声明。" class="headerlink" title="一个方法中只能指定一个可变参数，他必须是方法最后一个参数，任何普通的参数必须在它之前声明。"></a>一个方法中只能指定一个可变参数，他必须是方法最后一个参数，任何普通的参数必须在它之前声明。</h4></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ClassDemo01</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">    ClassDemo01 demo = <span class="keyword">new</span> ClassDemo01();</span><br><span class="line">    	demo.test();</span><br><span class="line">    &#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">test</span><span class="params">(<span class="keyword">int</span>... i)</span></span>&#123;</span><br><span class="line">   		System.out.println(i[<span class="number">0</span>]);  </span><br><span class="line"> &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>实例：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">CLassDemo0</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">            printlnMax(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">6</span>,<span class="number">5</span>,<span class="number">9</span>,<span class="number">45</span>,<span class="number">465</span>,<span class="number">456</span>,<span class="number">465</span>);</span><br><span class="line">            printlnMax(<span class="number">3333</span>,<span class="number">333</span>,<span class="number">33</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">33</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">33</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">33</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">printlnMax</span><span class="params">(<span class="keyword">double</span> ...nbm)</span></span>&#123;</span><br><span class="line">            <span class="keyword">if</span> (nbm.length == <span class="number">0</span>)&#123;</span><br><span class="line">                System.out.println(<span class="string">&quot;数据出错&quot;</span>);</span><br><span class="line">                <span class="keyword">return</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">double</span> res = nbm[<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; nbm.length; i++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (nbm[i]&gt;res)&#123;</span><br><span class="line">                res = nbm[i];</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;最大&quot;</span>+res);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
       <categories>
         <category>Java</category>
       </categories>
@@ -952,23 +938,6 @@ public static synchronized void plytak ()&#123;
       </tags>
   </entry>
   <entry>
-    <title>小结回顾</title>
-    <url>/posts/68bb2641.html</url>
-    <content><![CDATA[<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><h4 id="1-类与对象"><a href="#1-类与对象" class="headerlink" title="1.类与对象"></a>1.类与对象</h4><h5 id="类是一个模板：抽象，-对象是一个具体的实例"><a href="#类是一个模板：抽象，-对象是一个具体的实例" class="headerlink" title="类是一个模板：抽象， 对象是一个具体的实例"></a>类是一个模板：抽象， 对象是一个具体的实例</h5><h4 id="2-方法"><a href="#2-方法" class="headerlink" title="2.方法"></a>2.方法</h4><h5 id="定义、调用！"><a href="#定义、调用！" class="headerlink" title="定义、调用！"></a>定义、调用！</h5><h4 id="3-对应的引用"><a href="#3-对应的引用" class="headerlink" title="3.对应的引用"></a>3.对应的引用</h4><h5 id="引用类型：-基本类型（四种八类）"><a href="#引用类型：-基本类型（四种八类）" class="headerlink" title="引用类型： 基本类型（四种八类）"></a>引用类型： 基本类型（四种八类）</h5><h5 id="对象是通过引用来操作的：栈-—→-堆"><a href="#对象是通过引用来操作的：栈-—→-堆" class="headerlink" title="对象是通过引用来操作的：栈  —→ 堆"></a>对象是通过引用来操作的：栈  —→ 堆</h5><h4 id="4-属性：字段Field-成员变量"><a href="#4-属性：字段Field-成员变量" class="headerlink" title="4.属性：字段Field 成员变量"></a>4.属性：字段Field 成员变量</h4><h5 id="默认初始化："><a href="#默认初始化：" class="headerlink" title="默认初始化："></a>默认初始化：</h5><h5 id="数字-0-0-0"><a href="#数字-0-0-0" class="headerlink" title="数字: 0  0.0"></a>数字: 0  0.0</h5><h5 id="char-u0000"><a href="#char-u0000" class="headerlink" title="char: u0000"></a>char: u0000</h5><h5 id="boolean-false"><a href="#boolean-false" class="headerlink" title="boolean: false"></a>boolean: false</h5><h5 id="引用：null"><a href="#引用：null" class="headerlink" title="引用：null"></a>引用：null</h5><h5 id="修饰符-属性类型-属性名-属性值"><a href="#修饰符-属性类型-属性名-属性值" class="headerlink" title="修饰符   属性类型  属性名 = 属性值"></a>修饰符   属性类型  属性名 = 属性值</h5><h4 id="5-对象的创建和使用"><a href="#5-对象的创建和使用" class="headerlink" title="5. 对象的创建和使用"></a>5. 对象的创建和使用</h4><ul>
-<li><h5 id="必须使用new-关键字创建对象，构造器-Person-person-new-Person"><a href="#必须使用new-关键字创建对象，构造器-Person-person-new-Person" class="headerlink" title="必须使用new 关键字创建对象，构造器 Person  person = new  Person(){}"></a>必须使用new 关键字创建对象，构造器 Person  person = new  Person(){}</h5></li>
-<li><h5 id="对象的属性-person-name"><a href="#对象的属性-person-name" class="headerlink" title="对象的属性 person.name"></a>对象的属性 person.name</h5></li>
-<li><h5 id="对象的方法-person-sleep"><a href="#对象的方法-person-sleep" class="headerlink" title="对象的方法 person.sleep()"></a>对象的方法 person.sleep()</h5></li>
-</ul>
-<h4 id="6-类："><a href="#6-类：" class="headerlink" title="6.类："></a>6.类：</h4><h5 id="静态的属性-属性"><a href="#静态的属性-属性" class="headerlink" title="静态的属性        属性"></a>静态的属性        属性</h5><h5 id="动态的行为-方法"><a href="#动态的行为-方法" class="headerlink" title="动态的行为        方法"></a>动态的行为        方法</h5><h5 id="特性：-封装、继承、多态。"><a href="#特性：-封装、继承、多态。" class="headerlink" title="特性： 封装、继承、多态。"></a>特性： 封装、继承、多态。</h5>]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>多线程</title>
     <url>/posts/5729df21.html</url>
     <content><![CDATA[<h3 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h3><h4 id="并发"><a href="#并发" class="headerlink" title="并发"></a>并发</h4><h5 id="指的是两个或多个事件在同一个时间段内发生。"><a href="#指的是两个或多个事件在同一个时间段内发生。" class="headerlink" title="指的是两个或多个事件在同一个时间段内发生。"></a>指的是两个或多个事件在同一个时间段内发生。</h5><h5 id="并发：交替执行，效率低"><a href="#并发：交替执行，效率低" class="headerlink" title="并发：交替执行，效率低"></a>并发：交替执行，效率低</h5><h4 id="并行"><a href="#并行" class="headerlink" title="并行"></a>并行</h4><h5 id="指的是两个或多个事件在同一时刻发生-同时发生"><a href="#指的是两个或多个事件在同一时刻发生-同时发生" class="headerlink" title="指的是两个或多个事件在同一时刻发生(同时发生)"></a>指的是两个或多个事件在同一时刻发生(同时发生)</h5><h5 id="并行：同时执行，效率高"><a href="#并行：同时执行，效率高" class="headerlink" title="并行：同时执行，效率高"></a>并行：同时执行，效率高</h5><h4 id="进程：是指一个内存中云心的应用程序，没个进程都有一个独立的内存空间，一个应用程序可以同时运行多个进程；进程页是程序的一次执行过程，是系统运行程序的基本单位；系统运行一个程序即是一个进程从创建运行到消亡的过程。"><a href="#进程：是指一个内存中云心的应用程序，没个进程都有一个独立的内存空间，一个应用程序可以同时运行多个进程；进程页是程序的一次执行过程，是系统运行程序的基本单位；系统运行一个程序即是一个进程从创建运行到消亡的过程。" class="headerlink" title="进程：是指一个内存中云心的应用程序，没个进程都有一个独立的内存空间，一个应用程序可以同时运行多个进程；进程页是程序的一次执行过程，是系统运行程序的基本单位；系统运行一个程序即是一个进程从创建运行到消亡的过程。"></a>进程：是指一个内存中云心的应用程序，没个进程都有一个独立的内存空间，一个应用程序可以同时运行多个进程；进程页是程序的一次执行过程，是系统运行程序的基本单位；系统运行一个程序即是一个进程从创建运行到消亡的过程。</h4><h4 id="线程：线程是进程中的一个执行单元，负责当前进程中程序的执行，一个进程中至少有一个线程。一个进程中是可以有多个线程的，这个应用程序也可以称之为多线程程序。"><a href="#线程：线程是进程中的一个执行单元，负责当前进程中程序的执行，一个进程中至少有一个线程。一个进程中是可以有多个线程的，这个应用程序也可以称之为多线程程序。" class="headerlink" title="线程：线程是进程中的一个执行单元，负责当前进程中程序的执行，一个进程中至少有一个线程。一个进程中是可以有多个线程的，这个应用程序也可以称之为多线程程序。"></a>线程：线程是进程中的一个执行单元，负责当前进程中程序的执行，一个进程中至少有一个线程。一个进程中是可以有多个线程的，这个应用程序也可以称之为多线程程序。</h4><h5 id="线程调度"><a href="#线程调度" class="headerlink" title="线程调度:"></a>线程调度:</h5><p>1.分时调度 </p>
@@ -979,6 +948,23 @@ public static synchronized void plytak ()&#123;
 <p>单线程程序：java程序中只有一个线程</p>
 <p>执行冲main方法开始，从上到下依次执行。</p>
 ]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小结回顾</title>
+    <url>/posts/68bb2641.html</url>
+    <content><![CDATA[<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><h4 id="1-类与对象"><a href="#1-类与对象" class="headerlink" title="1.类与对象"></a>1.类与对象</h4><h5 id="类是一个模板：抽象，-对象是一个具体的实例"><a href="#类是一个模板：抽象，-对象是一个具体的实例" class="headerlink" title="类是一个模板：抽象， 对象是一个具体的实例"></a>类是一个模板：抽象， 对象是一个具体的实例</h5><h4 id="2-方法"><a href="#2-方法" class="headerlink" title="2.方法"></a>2.方法</h4><h5 id="定义、调用！"><a href="#定义、调用！" class="headerlink" title="定义、调用！"></a>定义、调用！</h5><h4 id="3-对应的引用"><a href="#3-对应的引用" class="headerlink" title="3.对应的引用"></a>3.对应的引用</h4><h5 id="引用类型：-基本类型（四种八类）"><a href="#引用类型：-基本类型（四种八类）" class="headerlink" title="引用类型： 基本类型（四种八类）"></a>引用类型： 基本类型（四种八类）</h5><h5 id="对象是通过引用来操作的：栈-—→-堆"><a href="#对象是通过引用来操作的：栈-—→-堆" class="headerlink" title="对象是通过引用来操作的：栈  —→ 堆"></a>对象是通过引用来操作的：栈  —→ 堆</h5><h4 id="4-属性：字段Field-成员变量"><a href="#4-属性：字段Field-成员变量" class="headerlink" title="4.属性：字段Field 成员变量"></a>4.属性：字段Field 成员变量</h4><h5 id="默认初始化："><a href="#默认初始化：" class="headerlink" title="默认初始化："></a>默认初始化：</h5><h5 id="数字-0-0-0"><a href="#数字-0-0-0" class="headerlink" title="数字: 0  0.0"></a>数字: 0  0.0</h5><h5 id="char-u0000"><a href="#char-u0000" class="headerlink" title="char: u0000"></a>char: u0000</h5><h5 id="boolean-false"><a href="#boolean-false" class="headerlink" title="boolean: false"></a>boolean: false</h5><h5 id="引用：null"><a href="#引用：null" class="headerlink" title="引用：null"></a>引用：null</h5><h5 id="修饰符-属性类型-属性名-属性值"><a href="#修饰符-属性类型-属性名-属性值" class="headerlink" title="修饰符   属性类型  属性名 = 属性值"></a>修饰符   属性类型  属性名 = 属性值</h5><h4 id="5-对象的创建和使用"><a href="#5-对象的创建和使用" class="headerlink" title="5. 对象的创建和使用"></a>5. 对象的创建和使用</h4><ul>
+<li><h5 id="必须使用new-关键字创建对象，构造器-Person-person-new-Person"><a href="#必须使用new-关键字创建对象，构造器-Person-person-new-Person" class="headerlink" title="必须使用new 关键字创建对象，构造器 Person  person = new  Person(){}"></a>必须使用new 关键字创建对象，构造器 Person  person = new  Person(){}</h5></li>
+<li><h5 id="对象的属性-person-name"><a href="#对象的属性-person-name" class="headerlink" title="对象的属性 person.name"></a>对象的属性 person.name</h5></li>
+<li><h5 id="对象的方法-person-sleep"><a href="#对象的方法-person-sleep" class="headerlink" title="对象的方法 person.sleep()"></a>对象的方法 person.sleep()</h5></li>
+</ul>
+<h4 id="6-类："><a href="#6-类：" class="headerlink" title="6.类："></a>6.类：</h4><h5 id="静态的属性-属性"><a href="#静态的属性-属性" class="headerlink" title="静态的属性        属性"></a>静态的属性        属性</h5><h5 id="动态的行为-方法"><a href="#动态的行为-方法" class="headerlink" title="动态的行为        方法"></a>动态的行为        方法</h5><h5 id="特性：-封装、继承、多态。"><a href="#特性：-封装、继承、多态。" class="headerlink" title="特性： 封装、继承、多态。"></a>特性： 封装、继承、多态。</h5>]]></content>
       <categories>
         <category>Java</category>
       </categories>
@@ -1105,6 +1091,23 @@ public static synchronized void plytak ()&#123;
       </tags>
   </entry>
   <entry>
+    <title>抽象类的详情</title>
+    <url>/posts/bcf3512a.html</url>
+    <content><![CDATA[<h3 id="抽象类"><a href="#抽象类" class="headerlink" title="抽象类"></a>抽象类</h3><h4 id="abstract-修饰符可以用来修饰方法也可以修饰类，如果修饰方法，那么该方法就是抽象方法；如果修饰类，那么该类就是抽象类。"><a href="#abstract-修饰符可以用来修饰方法也可以修饰类，如果修饰方法，那么该方法就是抽象方法；如果修饰类，那么该类就是抽象类。" class="headerlink" title="abstract 修饰符可以用来修饰方法也可以修饰类，如果修饰方法，那么该方法就是抽象方法；如果修饰类，那么该类就是抽象类。"></a>abstract 修饰符可以用来修饰方法也可以修饰类，如果修饰方法，那么该方法就是抽象方法；如果修饰类，那么该类就是抽象类。</h4><h4 id="抽象类中可以没有抽象方法，但是有抽象方法的类一定要声明为抽象类。"><a href="#抽象类中可以没有抽象方法，但是有抽象方法的类一定要声明为抽象类。" class="headerlink" title="抽象类中可以没有抽象方法，但是有抽象方法的类一定要声明为抽象类。"></a>抽象类中可以没有抽象方法，但是有抽象方法的类一定要声明为抽象类。</h4><h4 id="抽象类，不能使用new关键字来创建对象，它是用来让子类继承的。"><a href="#抽象类，不能使用new关键字来创建对象，它是用来让子类继承的。" class="headerlink" title="抽象类，不能使用new关键字来创建对象，它是用来让子类继承的。"></a>抽象类，不能使用new关键字来创建对象，它是用来让子类继承的。</h4><h4 id="抽象方法，只有方法的声明，没有方法的实现，他是用来让子类实现的，"><a href="#抽象方法，只有方法的声明，没有方法的实现，他是用来让子类实现的，" class="headerlink" title="抽象方法，只有方法的声明，没有方法的实现，他是用来让子类实现的，"></a>抽象方法，只有方法的声明，没有方法的实现，他是用来让子类实现的，</h4><h4 id="子类继承抽象类，那么必须要实现抽象类，没有实现的抽象方法，否则该子类也要声明为抽象类。"><a href="#子类继承抽象类，那么必须要实现抽象类，没有实现的抽象方法，否则该子类也要声明为抽象类。" class="headerlink" title="子类继承抽象类，那么必须要实现抽象类，没有实现的抽象方法，否则该子类也要声明为抽象类。"></a>子类继承抽象类，那么必须要实现抽象类，没有实现的抽象方法，否则该子类也要声明为抽象类。</h4><ol>
+<li><h5 id="抽象类不能new对象，只能靠子类去实现他"><a href="#抽象类不能new对象，只能靠子类去实现他" class="headerlink" title="抽象类不能new对象，只能靠子类去实现他"></a>抽象类不能new对象，只能靠子类去实现他</h5></li>
+<li><h5 id="抽象类中可以写普通方法"><a href="#抽象类中可以写普通方法" class="headerlink" title="抽象类中可以写普通方法"></a>抽象类中可以写普通方法</h5></li>
+<li><h5 id="抽象方法必须在抽象类中。"><a href="#抽象方法必须在抽象类中。" class="headerlink" title="抽象方法必须在抽象类中。"></a>抽象方法必须在抽象类中。</h5></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>接口的定义和实现</title>
     <url>/posts/224e502b.html</url>
     <content><![CDATA[<h3 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h3><h5 id="区别："><a href="#区别：" class="headerlink" title="区别："></a>区别：</h5><h5 id="抽象类：只有具体实现"><a href="#抽象类：只有具体实现" class="headerlink" title="抽象类：只有具体实现"></a>抽象类：只有具体实现</h5><h5 id="抽象类：具体实现和规范（抽象方法）都有"><a href="#抽象类：具体实现和规范（抽象方法）都有" class="headerlink" title="抽象类：具体实现和规范（抽象方法）都有"></a>抽象类：具体实现和规范（抽象方法）都有</h5><h5 id="接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程"><a href="#接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程" class="headerlink" title="接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程~"></a>接口：只有规范！自己无法写方法，专业的约束！约束和实现分离；面向接口编程~</h5><h5 id="接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。"><a href="#接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。" class="headerlink" title="接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。"></a>接口就是规范，定义的是一组规则，体现了现实世界中“如果你是…则必须能…”的思想。如果你是天使，则必须能飞。如果你是汽车，则必须能跑。如果你好人，则必须干掉坏人；如果你是坏人，则必须欺负好人。</h5><h5 id="接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。"><a href="#接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。" class="headerlink" title="接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。"></a>接口的本质是契约，就像我们人的法律一样。制定好后大家都遵守。</h5><h5 id="精髓就是对对象的抽象，最能体现这一点的就是接口。"><a href="#精髓就是对对象的抽象，最能体现这一点的就是接口。" class="headerlink" title="精髓就是对对象的抽象，最能体现这一点的就是接口。"></a>精髓就是对对象的抽象，最能体现这一点的就是接口。</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//interfa 定义的关键字，接口都需要有实现类	</span></span><br><span class="line"><span class="comment">//接口中所有定义方法其实都是抽象的 public abstract	</span></span><br><span class="line"><span class="comment">//接口中定义的变量(属性)都是常量 public static final</span></span><br><span class="line"><span class="comment">//抽象类：extends  和 接口 实现 implements 接口</span></span><br><span class="line"><span class="comment">//实现了接口的类，就需要重写接口中的方法</span></span><br><span class="line"><span class="comment">//多继承，利用接口实现多继承。 </span></span><br></pre></td></tr></table></figure>
@@ -1117,23 +1120,6 @@ public static synchronized void plytak ()&#123;
 <li><h5 id="接口不能被实例化-接口中没有构造方法。"><a href="#接口不能被实例化-接口中没有构造方法。" class="headerlink" title="接口不能被实例化~接口中没有构造方法。"></a>接口不能被实例化~接口中没有构造方法。</h5></li>
 <li><h5 id="implements-可以实现多个接口"><a href="#implements-可以实现多个接口" class="headerlink" title="implements 可以实现多个接口"></a>implements 可以实现多个接口</h5></li>
 <li><h5 id="必须要重写接口中的方法-！！！"><a href="#必须要重写接口中的方法-！！！" class="headerlink" title="必须要重写接口中的方法~！！！"></a>必须要重写接口中的方法~！！！</h5></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>抽象类的详情</title>
-    <url>/posts/bcf3512a.html</url>
-    <content><![CDATA[<h3 id="抽象类"><a href="#抽象类" class="headerlink" title="抽象类"></a>抽象类</h3><h4 id="abstract-修饰符可以用来修饰方法也可以修饰类，如果修饰方法，那么该方法就是抽象方法；如果修饰类，那么该类就是抽象类。"><a href="#abstract-修饰符可以用来修饰方法也可以修饰类，如果修饰方法，那么该方法就是抽象方法；如果修饰类，那么该类就是抽象类。" class="headerlink" title="abstract 修饰符可以用来修饰方法也可以修饰类，如果修饰方法，那么该方法就是抽象方法；如果修饰类，那么该类就是抽象类。"></a>abstract 修饰符可以用来修饰方法也可以修饰类，如果修饰方法，那么该方法就是抽象方法；如果修饰类，那么该类就是抽象类。</h4><h4 id="抽象类中可以没有抽象方法，但是有抽象方法的类一定要声明为抽象类。"><a href="#抽象类中可以没有抽象方法，但是有抽象方法的类一定要声明为抽象类。" class="headerlink" title="抽象类中可以没有抽象方法，但是有抽象方法的类一定要声明为抽象类。"></a>抽象类中可以没有抽象方法，但是有抽象方法的类一定要声明为抽象类。</h4><h4 id="抽象类，不能使用new关键字来创建对象，它是用来让子类继承的。"><a href="#抽象类，不能使用new关键字来创建对象，它是用来让子类继承的。" class="headerlink" title="抽象类，不能使用new关键字来创建对象，它是用来让子类继承的。"></a>抽象类，不能使用new关键字来创建对象，它是用来让子类继承的。</h4><h4 id="抽象方法，只有方法的声明，没有方法的实现，他是用来让子类实现的，"><a href="#抽象方法，只有方法的声明，没有方法的实现，他是用来让子类实现的，" class="headerlink" title="抽象方法，只有方法的声明，没有方法的实现，他是用来让子类实现的，"></a>抽象方法，只有方法的声明，没有方法的实现，他是用来让子类实现的，</h4><h4 id="子类继承抽象类，那么必须要实现抽象类，没有实现的抽象方法，否则该子类也要声明为抽象类。"><a href="#子类继承抽象类，那么必须要实现抽象类，没有实现的抽象方法，否则该子类也要声明为抽象类。" class="headerlink" title="子类继承抽象类，那么必须要实现抽象类，没有实现的抽象方法，否则该子类也要声明为抽象类。"></a>子类继承抽象类，那么必须要实现抽象类，没有实现的抽象方法，否则该子类也要声明为抽象类。</h4><ol>
-<li><h5 id="抽象类不能new对象，只能靠子类去实现他"><a href="#抽象类不能new对象，只能靠子类去实现他" class="headerlink" title="抽象类不能new对象，只能靠子类去实现他"></a>抽象类不能new对象，只能靠子类去实现他</h5></li>
-<li><h5 id="抽象类中可以写普通方法"><a href="#抽象类中可以写普通方法" class="headerlink" title="抽象类中可以写普通方法"></a>抽象类中可以写普通方法</h5></li>
-<li><h5 id="抽象方法必须在抽象类中。"><a href="#抽象方法必须在抽象类中。" class="headerlink" title="抽象方法必须在抽象类中。"></a>抽象方法必须在抽象类中。</h5></li>
 </ol>
 ]]></content>
       <categories>
@@ -1389,6 +1375,29 @@ public static synchronized void plytak ()&#123;
       </tags>
   </entry>
   <entry>
+    <title>类型的转换</title>
+    <url>/posts/6280299f.html</url>
+    <content><![CDATA[<h1 id="类型的转换"><a href="#类型的转换" class="headerlink" title="类型的转换"></a>类型的转换</h1><h4 id="由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换"><a href="#由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换" class="headerlink" title="由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换"></a>由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">由低------------------------------到高</span><br><span class="line">byte → short → char → int → long → float → double</span><br></pre></td></tr></table></figure>
+
+<h4 id="在运算中，不同类型的数据先转化为同一类型，然后进行运算。"><a href="#在运算中，不同类型的数据先转化为同一类型，然后进行运算。" class="headerlink" title="在运算中，不同类型的数据先转化为同一类型，然后进行运算。"></a>在运算中，不同类型的数据先转化为同一类型，然后进行运算。</h4><h3 id="强制类型转换和自动类型转换"><a href="#强制类型转换和自动类型转换" class="headerlink" title="强制类型转换和自动类型转换"></a>强制类型转换和自动类型转换</h3><p>注意点：</p>
+<ol>
+<li>不能对布尔值进行转换</li>
+<li>不能把对象类型转换位不相干的类型</li>
+<li>在把高容量转换到低容量的时候，强制转换</li>
+<li>在转换的时候可能存在内存溢出，或者精度问题！</li>
+</ol>
+<h4 id="强制转换"><a href="#强制转换" class="headerlink" title="强制转换"></a>强制转换</h4><p>(类型)变量名     高到低</p>
+<h4 id="自动转换"><a href="#自动转换" class="headerlink" title="自动转换"></a>自动转换</h4><p>由低—–高</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>html基础</title>
     <url>/posts/1a147173.html</url>
     <content><![CDATA[<h3 id="什么是html5和它的优势"><a href="#什么是html5和它的优势" class="headerlink" title="什么是html5和它的优势"></a>什么是html5和它的优势</h3><h6 id="HTML5作为HTML的最新版本，是HTML的传递和延续。经历HTML4-0、XHTML再到HTML5从某种意义上讲，这是HTML超文本标签语言的更新与规范过程。因此，HTML5并没有给用户带来多大的冲击，大部分标签在HTML5版本中依然适用。"><a href="#HTML5作为HTML的最新版本，是HTML的传递和延续。经历HTML4-0、XHTML再到HTML5从某种意义上讲，这是HTML超文本标签语言的更新与规范过程。因此，HTML5并没有给用户带来多大的冲击，大部分标签在HTML5版本中依然适用。" class="headerlink" title="HTML5作为HTML的最新版本，是HTML的传递和延续。经历HTML4.0、XHTML再到HTML5从某种意义上讲，这是HTML超文本标签语言的更新与规范过程。因此，HTML5并没有给用户带来多大的冲击，大部分标签在HTML5版本中依然适用。"></a>HTML5作为HTML的最新版本，是HTML的传递和延续。经历HTML4.0、XHTML再到HTML5从某种意义上讲，这是HTML超文本标签语言的更新与规范过程。因此，HTML5并没有给用户带来多大的冲击，大部分标签在HTML5版本中依然适用。</h6><h6 id="HTML5的优势主要体现在兼容、合理、易用三个方面，本节将做具体介绍。"><a href="#HTML5的优势主要体现在兼容、合理、易用三个方面，本节将做具体介绍。" class="headerlink" title="HTML5的优势主要体现在兼容、合理、易用三个方面，本节将做具体介绍。"></a>HTML5的优势主要体现在兼容、合理、易用三个方面，本节将做具体介绍。</h6><h6 id="HTML5并不是对之前HTML语言颠覆性的革新，它的核心理念就是要保持与过去技术的完美衔接，因此HTML5有很好的兼容性。"><a href="#HTML5并不是对之前HTML语言颠覆性的革新，它的核心理念就是要保持与过去技术的完美衔接，因此HTML5有很好的兼容性。" class="headerlink" title="HTML5并不是对之前HTML语言颠覆性的革新，它的核心理念就是要保持与过去技术的完美衔接，因此HTML5有很好的兼容性。"></a>HTML5并不是对之前HTML语言颠覆性的革新，它的核心理念就是要保持与过去技术的完美衔接，因此HTML5有很好的兼容性。</h6><h6 id="HTML5中增加和删除的标签都是对现有的网页和用户习惯进行分析、概括而推出的作为当下流行的标签语言，HTML5严格遵循-“简单至上”的原则。"><a href="#HTML5中增加和删除的标签都是对现有的网页和用户习惯进行分析、概括而推出的作为当下流行的标签语言，HTML5严格遵循-“简单至上”的原则。" class="headerlink" title="HTML5中增加和删除的标签都是对现有的网页和用户习惯进行分析、概括而推出的作为当下流行的标签语言，HTML5严格遵循 “简单至上”的原则。"></a>HTML5中增加和删除的标签都是对现有的网页和用户习惯进行分析、概括而推出的作为当下流行的标签语言，HTML5严格遵循 “简单至上”的原则。</h6><h5 id="lt-DOCTYPE-gt-标签-位于文档的最前面，用于向浏览器说明当前文档使用哪种-HTML-或-XHTML-标准规范。"><a href="#lt-DOCTYPE-gt-标签-位于文档的最前面，用于向浏览器说明当前文档使用哪种-HTML-或-XHTML-标准规范。" class="headerlink" title="&lt;!DOCTYPE&gt;标签 位于文档的最前面，用于向浏览器说明当前文档使用哪种 HTML 或 XHTML 标准规范。"></a>&lt;!DOCTYPE&gt;标签 位于文档的最前面，用于向浏览器说明当前文档使用哪种 HTML 或 XHTML 标准规范。</h5><h5 id="lt-html’-gt-标签-位于-lt-DOCTYPE-gt-标签之后，也称为根标签，用于告知浏览器其自身是一个-HTML-文档。"><a href="#lt-html’-gt-标签-位于-lt-DOCTYPE-gt-标签之后，也称为根标签，用于告知浏览器其自身是一个-HTML-文档。" class="headerlink" title="&lt;html’&gt; 标签 位于&lt;!DOCTYPE&gt; 标签之后，也称为根标签，用于告知浏览器其自身是一个 HTML 文档。"></a>&lt;html’&gt; 标签 位于&lt;!DOCTYPE&gt; 标签之后，也称为根标签，用于告知浏览器其自身是一个 HTML 文档。</h5><h5 id="lt-head’-gt-标签用于定定义HTML文档的头部信息，也称为头部标签，紧跟在“-lt-html’-gt-”标签之后，主要用来封装其他位于文档头部的标签。"><a href="#lt-head’-gt-标签用于定定义HTML文档的头部信息，也称为头部标签，紧跟在“-lt-html’-gt-”标签之后，主要用来封装其他位于文档头部的标签。" class="headerlink" title="&lt;head’&gt;标签用于定定义HTML文档的头部信息，也称为头部标签，紧跟在“&lt;html’&gt;”标签之后，主要用来封装其他位于文档头部的标签。"></a>&lt;head’&gt;标签用于定定义HTML文档的头部信息，也称为头部标签，紧跟在“&lt;html’&gt;”标签之后，主要用来封装其他位于文档头部的标签。</h5><h5 id="lt-body’-gt-标签用于定定义HTML文档所要显示的内容，也称为主体标签。浏览器中显示的所有文本、图像、音频和视频等信息都必须位于-lt-body’-gt-标签内。"><a href="#lt-body’-gt-标签用于定定义HTML文档所要显示的内容，也称为主体标签。浏览器中显示的所有文本、图像、音频和视频等信息都必须位于-lt-body’-gt-标签内。" class="headerlink" title="&lt;body’&gt;标签用于定定义HTML文档所要显示的内容，也称为主体标签。浏览器中显示的所有文本、图像、音频和视频等信息都必须位于&lt;body’&gt;标签内。"></a>&lt;body’&gt;标签用于定定义HTML文档所要显示的内容，也称为主体标签。浏览器中显示的所有文本、图像、音频和视频等信息都必须位于&lt;body’&gt;标签内。</h5><h5 id="在HTML页面中，带有“-lt-gt-”符号的元素被称为HTML标签，如上面提到的“-lt-html’-gt-”、”-lt-head’-gt-”、”-lt-body’-gt-”都是HTML标签。所谓标签就是放在“-lt-gt-”符号中表示某个功能的编码命令，也称为HTML标签或HTML元素，本书统一称作HTML标签"><a href="#在HTML页面中，带有“-lt-gt-”符号的元素被称为HTML标签，如上面提到的“-lt-html’-gt-”、”-lt-head’-gt-”、”-lt-body’-gt-”都是HTML标签。所谓标签就是放在“-lt-gt-”符号中表示某个功能的编码命令，也称为HTML标签或HTML元素，本书统一称作HTML标签" class="headerlink" title="在HTML页面中，带有“&lt; &gt;”符号的元素被称为HTML标签，如上面提到的“&lt;html’&gt;”、”&lt;head’&gt;”、”&lt;body’&gt;”都是HTML标签。所谓标签就是放在“&lt; &gt;”符号中表示某个功能的编码命令，也称为HTML标签或HTML元素，本书统一称作HTML标签"></a>在HTML页面中，带有“&lt; &gt;”符号的元素被称为HTML标签，如上面提到的“&lt;html’&gt;”、”&lt;head’&gt;”、”&lt;body’&gt;”都是HTML标签。所谓标签就是放在“&lt; &gt;”符号中表示某个功能的编码命令，也称为HTML标签或HTML元素，本书统一称作HTML标签</h5><h4 id="标签概述"><a href="#标签概述" class="headerlink" title="标签概述"></a>标签概述</h4><h5 id="双标签也称体标签，是指由开始和结束两个标签符组成的标签。"><a href="#双标签也称体标签，是指由开始和结束两个标签符组成的标签。" class="headerlink" title="双标签也称体标签，是指由开始和结束两个标签符组成的标签。"></a>双标签也称体标签，是指由开始和结束两个标签符组成的标签。</h5><h5 id="单标签也称空标签，是指用一个标签符号即可完整地描述某个功能的标签。"><a href="#单标签也称空标签，是指用一个标签符号即可完整地描述某个功能的标签。" class="headerlink" title="单标签也称空标签，是指用一个标签符号即可完整地描述某个功能的标签。"></a>单标签也称空标签，是指用一个标签符号即可完整地描述某个功能的标签。</h5><h6 id="HTML标签的作用原理就是选择网页内容，从而进行描述，也就是说需要描述哪个元素，就选择哪个元素，所以才会有双标签的出现，用于定义标签作用的开始与结束。而单标签本身就可以描述一个功能，不需要选择。例如，水平线标签-lt-hr-‘’-gt-按照双标签的语法，它应该写成“-lt-hr’-gt-lt-hr’-gt-”，但是水平线标签不需要选择，本身就代表一条水平线，此时写成双标签就显得有点多余，但是又不能没有结束符号，所以在标签名称后面加一个关闭符，即-lt-标签名-gt-。"><a href="#HTML标签的作用原理就是选择网页内容，从而进行描述，也就是说需要描述哪个元素，就选择哪个元素，所以才会有双标签的出现，用于定义标签作用的开始与结束。而单标签本身就可以描述一个功能，不需要选择。例如，水平线标签-lt-hr-‘’-gt-按照双标签的语法，它应该写成“-lt-hr’-gt-lt-hr’-gt-”，但是水平线标签不需要选择，本身就代表一条水平线，此时写成双标签就显得有点多余，但是又不能没有结束符号，所以在标签名称后面加一个关闭符，即-lt-标签名-gt-。" class="headerlink" title="HTML标签的作用原理就是选择网页内容，从而进行描述，也就是说需要描述哪个元素，就选择哪个元素，所以才会有双标签的出现，用于定义标签作用的开始与结束。而单标签本身就可以描述一个功能，不需要选择。例如，水平线标签&lt;hr /‘’&gt;,按照双标签的语法，它应该写成“&lt;hr’&gt;&lt;/hr’&gt;”，但是水平线标签不需要选择，本身就代表一条水平线，此时写成双标签就显得有点多余，但是又不能没有结束符号，所以在标签名称后面加一个关闭符，即&lt;标签名 /&gt;。"></a>HTML标签的作用原理就是选择网页内容，从而进行描述，也就是说需要描述哪个元素，就选择哪个元素，所以才会有双标签的出现，用于定义标签作用的开始与结束。而单标签本身就可以描述一个功能，不需要选择。例如，水平线标签&lt;hr /‘’&gt;,按照双标签的语法，它应该写成“&lt;hr’&gt;&lt;/hr’&gt;”，但是水平线标签不需要选择，本身就代表一条水平线，此时写成双标签就显得有点多余，但是又不能没有结束符号，所以在标签名称后面加一个关闭符，即&lt;标签名 /&gt;。</h6><h4 id="标签的关系"><a href="#标签的关系" class="headerlink" title="标签的关系"></a>标签的关系</h4><h5 id="并列关系也称为兄弟关系，就是两个标签处于同一级别，并且没有包含关系。例如在HTML5的结构代码中，-lt-head’-gt-标签和-lt-body’-gt-标签就是并列关系。在HTML标签中，无论是单标签还是双标签，都可以拥有并列关系。"><a href="#并列关系也称为兄弟关系，就是两个标签处于同一级别，并且没有包含关系。例如在HTML5的结构代码中，-lt-head’-gt-标签和-lt-body’-gt-标签就是并列关系。在HTML标签中，无论是单标签还是双标签，都可以拥有并列关系。" class="headerlink" title="并列关系也称为兄弟关系，就是两个标签处于同一级别，并且没有包含关系。例如在HTML5的结构代码中，&lt;head’&gt;标签和&lt;body’&gt;标签就是并列关系。在HTML标签中，无论是单标签还是双标签，都可以拥有并列关系。"></a>并列关系也称为兄弟关系，就是两个标签处于同一级别，并且没有包含关系。例如在HTML5的结构代码中，&lt;head’&gt;标签和&lt;body’&gt;标签就是并列关系。在HTML标签中，无论是单标签还是双标签，都可以拥有并列关系。</h5><h4 id="标签的属性"><a href="#标签的属性" class="headerlink" title="标签的属性"></a>标签的属性</h4><h5 id="“键值对”可以理解为对“属性”设置“属性值”。键值对有多种表现形式，例如color-”red”-、width-200px-等，其中color和width即为“键值对”中的“键”（英文key），red和200px为“键值对”中的“值”（英文value）。“键值对”广泛地应用于编程中，HTML属性的定义形式“属性-”属性值””只是“键值对”中的一种。"><a href="#“键值对”可以理解为对“属性”设置“属性值”。键值对有多种表现形式，例如color-”red”-、width-200px-等，其中color和width即为“键值对”中的“键”（英文key），red和200px为“键值对”中的“值”（英文value）。“键值对”广泛地应用于编程中，HTML属性的定义形式“属性-”属性值””只是“键值对”中的一种。" class="headerlink" title="“键值对”可以理解为对“属性”设置“属性值”。键值对有多种表现形式，例如color=”red” 、width:200px;等，其中color和width即为“键值对”中的“键”（英文key），red和200px为“键值对”中的“值”（英文value）。“键值对”广泛地应用于编程中，HTML属性的定义形式“属性=”属性值””只是“键值对”中的一种。"></a>“键值对”可以理解为对“属性”设置“属性值”。键值对有多种表现形式，例如color=”red” 、width:200px;等，其中color和width即为“键值对”中的“键”（英文key），red和200px为“键值对”中的“值”（英文value）。“键值对”广泛地应用于编程中，HTML属性的定义形式“属性=”属性值””只是“键值对”中的一种。</h5><h4 id="HTML5文档头部相关标签"><a href="#HTML5文档头部相关标签" class="headerlink" title="HTML5文档头部相关标签"></a>HTML5文档头部相关标签</h4><h5 id="lt-title‘-gt-标签用于定义HTML页面的标题，即给网页取一个名字，必须位于-lt-head’-gt-标签之内。"><a href="#lt-title‘-gt-标签用于定义HTML页面的标题，即给网页取一个名字，必须位于-lt-head’-gt-标签之内。" class="headerlink" title="&lt;title‘&gt;标签用于定义HTML页面的标题，即给网页取一个名字，必须位于&lt;head’&gt;标签之内。"></a>&lt;title‘&gt;标签用于定义HTML页面的标题，即给网页取一个名字，必须位于&lt;head’&gt;标签之内。</h5><h5 id="lt-‘meta-gt-标签用于定义页面的元信息，可重复出现在-lt-’head’-gt-头部标签中。"><a href="#lt-‘meta-gt-标签用于定义页面的元信息，可重复出现在-lt-’head’-gt-头部标签中。" class="headerlink" title="&lt;‘meta /&gt;标签用于定义页面的元信息，可重复出现在&lt;’head’&gt;头部标签中。"></a>&lt;‘meta /&gt;标签用于定义页面的元信息，可重复出现在&lt;’head’&gt;头部标签中。</h5><h5 id="一个HTML文档只能含有一对-lt-title‘-gt-lt-title’-gt-标签，-lt-title‘-gt-lt-title’-gt-之间的内容将显示在浏览器窗口的标题栏中。"><a href="#一个HTML文档只能含有一对-lt-title‘-gt-lt-title’-gt-标签，-lt-title‘-gt-lt-title’-gt-之间的内容将显示在浏览器窗口的标题栏中。" class="headerlink" title="一个HTML文档只能含有一对&lt;title‘&gt;&lt;/title’&gt;标签，&lt;title‘&gt;&lt;/title’&gt;之间的内容将显示在浏览器窗口的标题栏中。"></a>一个HTML文档只能含有一对&lt;title‘&gt;&lt;/title’&gt;标签，&lt;title‘&gt;&lt;/title’&gt;之间的内容将显示在浏览器窗口的标题栏中。</h5><h5 id="lt-title‘-gt-网页标题名称-lt-title’-gt"><a href="#lt-title‘-gt-网页标题名称-lt-title’-gt" class="headerlink" title="&lt;title‘&gt;网页标题名称&lt;/title’&gt;"></a>&lt;title‘&gt;网页标题名称&lt;/title’&gt;</h5><h4 id="文本控制标签"><a href="#文本控制标签" class="headerlink" title="文本控制标签"></a>文本控制标签</h4><h5 id="无论网页内容如何丰富，文字自始至终都是网页中最基本的元素。为了使文字排版整齐、结构清晰，HTML中提供了一系列文本控制标签，如标题标签-lt-h1‘-gt-lt-h6’-gt-、段落标签-lt-P‘-gt-等"><a href="#无论网页内容如何丰富，文字自始至终都是网页中最基本的元素。为了使文字排版整齐、结构清晰，HTML中提供了一系列文本控制标签，如标题标签-lt-h1‘-gt-lt-h6’-gt-、段落标签-lt-P‘-gt-等" class="headerlink" title="无论网页内容如何丰富，文字自始至终都是网页中最基本的元素。为了使文字排版整齐、结构清晰，HTML中提供了一系列文本控制标签，如标题标签&lt;h1‘&gt;~&lt;h6’&gt;、段落标签&lt;P‘&gt;等"></a>无论网页内容如何丰富，文字自始至终都是网页中最基本的元素。为了使文字排版整齐、结构清晰，HTML中提供了一系列文本控制标签，如标题标签&lt;h1‘&gt;~&lt;h6’&gt;、段落标签&lt;P‘&gt;等</h5><h4 id="页面格式化标签"><a href="#页面格式化标签" class="headerlink" title="页面格式化标签"></a>页面格式化标签</h4><h5 id="HTML提供了6个等级的标题，即-lt-h1’-gt-、-lt-h2‘-gt-、-lt-h3’-gt-、-lt-h4‘-gt-、-lt-h5’-gt-和-lt-h6‘-gt-，从-lt-h1’-gt-到-lt-h6‘-gt-标题的重要性依次递减。"><a href="#HTML提供了6个等级的标题，即-lt-h1’-gt-、-lt-h2‘-gt-、-lt-h3’-gt-、-lt-h4‘-gt-、-lt-h5’-gt-和-lt-h6‘-gt-，从-lt-h1’-gt-到-lt-h6‘-gt-标题的重要性依次递减。" class="headerlink" title="HTML提供了6个等级的标题，即&lt;h1’&gt;、&lt;h2‘&gt;、&lt;h3’&gt;、&lt;h4‘&gt;、&lt;h5’&gt;和&lt;h6‘&gt;，从&lt;h1’&gt;到&lt;h6‘&gt;标题的重要性依次递减。"></a>HTML提供了6个等级的标题，即&lt;h1’&gt;、&lt;h2‘&gt;、&lt;h3’&gt;、&lt;h4‘&gt;、&lt;h5’&gt;和&lt;h6‘&gt;，从&lt;h1’&gt;到&lt;h6‘&gt;标题的重要性依次递减。</h5><h4 id="页面格式化标签-1"><a href="#页面格式化标签-1" class="headerlink" title="页面格式化标签"></a>页面格式化标签</h4><h5 id="在网页中使用标签来定义段落。-lt-p’-gt-标签是HTML文档中最常见的标签，默认情况下，文本在一个段落中会根据浏览器窗口的大小自动换行。"><a href="#在网页中使用标签来定义段落。-lt-p’-gt-标签是HTML文档中最常见的标签，默认情况下，文本在一个段落中会根据浏览器窗口的大小自动换行。" class="headerlink" title="在网页中使用标签来定义段落。&lt;p’&gt;标签是HTML文档中最常见的标签，默认情况下，文本在一个段落中会根据浏览器窗口的大小自动换行。"></a>在网页中使用<p>标签来定义段落。&lt;p’&gt;标签是HTML文档中最常见的标签，默认情况下，文本在一个段落中会根据浏览器窗口的大小自动换行。</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">align</span>=<span class="string">&quot;对齐方式&quot;</span>&gt;</span>段落文本<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -1477,29 +1486,6 @@ public static synchronized void plytak ()&#123;
       <tags>
         <tag>html</tag>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>类型的转换</title>
-    <url>/posts/6280299f.html</url>
-    <content><![CDATA[<h1 id="类型的转换"><a href="#类型的转换" class="headerlink" title="类型的转换"></a>类型的转换</h1><h4 id="由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换"><a href="#由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换" class="headerlink" title="由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换"></a>由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">由低------------------------------到高</span><br><span class="line">byte → short → char → int → long → float → double</span><br></pre></td></tr></table></figure>
-
-<h4 id="在运算中，不同类型的数据先转化为同一类型，然后进行运算。"><a href="#在运算中，不同类型的数据先转化为同一类型，然后进行运算。" class="headerlink" title="在运算中，不同类型的数据先转化为同一类型，然后进行运算。"></a>在运算中，不同类型的数据先转化为同一类型，然后进行运算。</h4><h3 id="强制类型转换和自动类型转换"><a href="#强制类型转换和自动类型转换" class="headerlink" title="强制类型转换和自动类型转换"></a>强制类型转换和自动类型转换</h3><p>注意点：</p>
-<ol>
-<li>不能对布尔值进行转换</li>
-<li>不能把对象类型转换位不相干的类型</li>
-<li>在把高容量转换到低容量的时候，强制转换</li>
-<li>在转换的时候可能存在内存溢出，或者精度问题！</li>
-</ol>
-<h4 id="强制转换"><a href="#强制转换" class="headerlink" title="强制转换"></a>强制转换</h4><p>(类型)变量名     高到低</p>
-<h4 id="自动转换"><a href="#自动转换" class="headerlink" title="自动转换"></a>自动转换</h4><p>由低—–高</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -1895,6 +1881,20 @@ public static synchronized void plytak ()&#123;
       <tags>
         <tag>html</tag>
         <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Mysql</title>
+    <url>/posts/54e1373e.html</url>
+    <content><![CDATA[<h3 id="Mysql"><a href="#Mysql" class="headerlink" title="Mysql"></a>Mysql</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">-- 查询所有住在南昌的女学生</span><br><span class="line">SELECT * from yd_student where sex&#x3D;&#39;女&#39; and  address &#x3D; &#39;南昌&#39;;</span><br><span class="line">-- 查询所有男生的信息</span><br><span class="line">SELECT * FROM yd_student WHERE sex&#x3D;&#39;男&#39;;</span><br><span class="line">-- 查询所有女生的姓名，学号，地址</span><br><span class="line">SELECT name,sno,address FROM yd_student WHERE sex&#x3D;&#39;女&#39;;</span><br><span class="line">-- 把南昌的女的学生删除</span><br><span class="line">DELETE from yd_student where sex&#x3D;&#39;女&#39; and  address&#x3D;&#39;南昌&#39;;</span><br><span class="line"></span><br><span class="line">-- 查询yd_user 按年龄排序</span><br><span class="line">SELECT * FROM yd_user ORDER BY age DESC;  -- 降序(大到小)</span><br><span class="line">SELECT * FROM yd_user ORDER BY age ASC;   -- 升序</span><br><span class="line"></span><br><span class="line">-- 分组查询</span><br><span class="line">SELECT * from yd_user GROUP BY sex,id;-- 分组查询</span><br><span class="line">-- 分组查询所有男生女生各有多少人</span><br><span class="line">SELECT sex,COUNT(sex) FROM yd_user GROUP BY sex;</span><br><span class="line">SELECT COUNT(*) from yd_user; -- 统计查询</span><br><span class="line">-- 分组查询，并且设置分组条件</span><br><span class="line">-- 1.查询按照性别分组后数量大于2的那个性别，输出性别及数量</span><br><span class="line">SELECT sex,COUNT(sex) from yd_user GROUP BY sex;</span><br><span class="line">HAVING COUNT(sex)&gt;2;</span><br><span class="line">-- 2.查询按照性别分组后年龄大于两岁，数量大于2的那个性别，输出性别及数量</span><br><span class="line">SELECT sex,COUNT(sex) from yd_user where age&gt;2 GROUP BY sex;</span><br><span class="line">HAVING COUNT(sex)&gt;2;</span><br><span class="line"></span><br><span class="line">-- 限制查询数量 limit</span><br><span class="line">-- 1.查前面两个人数据</span><br><span class="line">SELECT * from yd_user LIMIT 2;</span><br><span class="line">SELECT * from yd_user LIMIT 0,2;</span><br><span class="line">-- 2.查询从第二开始查询两条数据  前面的数字代表从第几条开始，后面的数字代表查询几条</span><br><span class="line">SELECT * from yd_user LIMIT 2,2;</span><br><span class="line">-- 3.查询从第二开始查询两条数据中的男的</span><br><span class="line">SELECT * from yd_user where sex&#x3D;&#39;男&#39; LIMIT 2,2;</span><br><span class="line">-- 4查询从第二开始查询两条数据中的男的并按照年龄排序</span><br><span class="line">SELECT * from yd_user where sex&#x3D;&#39;男&#39; ORDER BY age DESC LIMIT 0,3;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-- 去除重复</span><br><span class="line">SELECT address from yd_student; -- 去除来自重复的地址</span><br><span class="line">SELECT DISTINCT address from yd_student; -- 地址</span><br><span class="line">SELECT DISTINCT name from yd_student;-- 名字</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-- 别名</span><br><span class="line">SELECT s.sex as &#39;性别&#39;,COUNT(*) as &#39;总人数&#39; from yd_student as s GROUP BY sex;-- 查询男生女生个有多少人数</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">SELECT name as &#39;姓名&#39;,sex as&#39;性别&#39;,address as &#39;地址&#39; from yd_student;</span><br><span class="line"></span><br><span class="line">#查询工资&gt;12000的员工信息</span><br><span class="line">SELECT * from employees where salary&gt;12000;</span><br><span class="line">#查询部门编号不等于90的员工名和部门编号</span><br><span class="line">SELECT first_name,department_id from </span><br><span class="line">employees where department_id !&#x3D;90;</span><br><span class="line">#查询工资在10000到20000之间的员工名、工资以及奖金</span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary&gt;10000 and salary&lt;20000;</span><br><span class="line"></span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary BETWEEN 10000 and 20000;</span><br><span class="line">#查询部门编号不是在90到100之间，或者工资高于15000的员工信息</span><br><span class="line">SELECT * from employees where </span><br><span class="line">(department_id&lt;&#x3D;90 and department_id&gt;&#x3D;100) or salary&gt;15000;</span><br><span class="line">#查询员工last_name中包含字符a的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;%a%&quot;;</span><br><span class="line">#查询员工last_name的第二个字符为a，第五个字符为e的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;_a__e%&quot;;</span><br><span class="line">#查询员工last_name的第二个字符为_的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;_\_%&quot;;</span><br><span class="line">#查询工资在10000到20000之间的员工名、工资以及奖金</span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary&gt;10000 and salary&lt;20000;</span><br><span class="line">#查询员工的工种编号为 IT_PROG，AD_VP，AD_PRES中的一个的员工信息</span><br><span class="line">SELECT * from employees where </span><br><span class="line">job_id in(&#39;IT_PROG&#39;,&#39;AD_VP&#39;,&#39;AD_PRES&#39;);</span><br><span class="line"></span><br><span class="line">#查询没有奖金的员工信息</span><br><span class="line">select * from employees where commission_pct is null;</span><br><span class="line">#查询有奖金的员工信息</span><br><span class="line">select * from employees where commission_pct is not null; </span><br><span class="line">#查询员工号为176的员工的姓名、部门号和年薪</span><br><span class="line">select last_name,first_name,job_id from employees where employee_id &#x3D; 176;</span><br><span class="line"></span><br><span class="line">#查询年龄最大的那个人</span><br><span class="line"></span><br><span class="line">Select max(age) from yd_user ;</span><br><span class="line"></span><br><span class="line">#查询年纪最小的那个人</span><br><span class="line"></span><br><span class="line">select min(min) from yd_user;</span><br><span class="line"></span><br><span class="line">#统计所有岁数的和</span><br><span class="line">select SUM(age) from yd_user;</span><br><span class="line"></span><br><span class="line">#查询数据库yd_users age 内为 2，3，30</span><br><span class="line">SELECT * FROM yd_users WHERE age in(2,3,30);</span><br><span class="line">#查询数据库yd_users age 内不为 2，3，30</span><br><span class="line">SELECT * FROM yd_users WHERE age  NOT	in(2,3,30);</span><br><span class="line">#查询数据库yd_users age 内字符串为空</span><br><span class="line">SELECT * FROM yd_users WHERE age &#x3D; &#39; &#39;;</span><br><span class="line">#查询数据库yd_users age 内为null的值</span><br><span class="line">SELECT *FROM yd_users WHERE age is NULL;</span><br><span class="line">#查询数据库yd_users age 内为不为null的值</span><br><span class="line">SELECT * FROM yd_users WHERE age is not null;</span><br><span class="line">#查询性别不是男的人</span><br><span class="line">SELECT * FROM yd_users WHERE sex !&#x3D; &#39;男&#39;;</span><br><span class="line">SELECT * FROM yd_users WHERE sex &lt;&gt; &#39;男&#39;;</span><br><span class="line">#模糊查询</span><br><span class="line">#查询名字是包含e的人</span><br><span class="line">SELECT * FROM yd_study WHERE name LIKE &#39;%e%&#39;;</span><br><span class="line">#查询名字是J开头的人</span><br><span class="line">SELECT * FROM yd_study WHERE name like &#39;j%&#39;;</span><br><span class="line">#查询身份证号减去年龄等于360109的人</span><br><span class="line">SELECT * FROM yd_study WHERE idcard-age &#x3D; 360109;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Mysql</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Mysql</tag>
       </tags>
   </entry>
   <entry>
