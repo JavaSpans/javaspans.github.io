@@ -108,8 +108,8 @@
 <li><h5 id="Lambda表达式"><a href="#Lambda表达式" class="headerlink" title="Lambda表达式"></a><a href="https://benat.cn/posts/bbcf5ff7.html">Lambda表达式</a></h5></li>
 <li><h5 id="File类"><a href="#File类" class="headerlink" title="File类"></a><a href="https://benat.cn/posts/70b5696.html">File类</a></h5></li>
 <li><h5 id="递归-1"><a href="#递归-1" class="headerlink" title="递归"></a><a href="https://benat.cn/posts/fe53c3fa.html">递归</a></h5></li>
-<li><h5 id="字符流、字节流"><a href="#字符流、字节流" class="headerlink" title="字符流、字节流"></a><a href="https://benat.cn/posts/39666f99.html">字符流、字节流</a></h5></li>
-<li><p><a href="https://benat.cn/posts/69244af4.html">字符缓冲流、字节缓冲流</a></p>
+<li><h5 id="字符流、字节流"><a href="#字符流、字节流" class="headerlink" title="字符流、字节流"></a><a href="https://benat.cn/posts/3966ff99.html">字符流、字节流</a></h5></li>
+<li><p><a href="https://benat.cn/posts/a3af51be.html">字符缓冲流、字节缓冲流</a></p>
 </li>
 </ol>
 </li>
@@ -2224,8 +2224,8 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>字节流、字符流</title>
-    <url>/posts/39666f99.html</url>
-    <content><![CDATA[<h1 id="day09【字节流、字符流】"><a href="#day09【字节流、字符流】" class="headerlink" title="day09【字节流、字符流】"></a>day09【字节流、字符流】</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><ul>
+    <url>/posts/3966ff99.html</url>
+    <content><![CDATA[<h1 id="字节流、字符流"><a href="#字节流、字符流" class="headerlink" title="字节流、字符流"></a>字节流、字符流</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><ul>
 <li>IO流</li>
 <li>字节流</li>
 <li>字符流</li>
@@ -5997,7 +5997,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>字符缓冲</title>
-    <url>/posts/69244af4.html</url>
+    <url>/posts/a3af51be.html</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>Java</category>
