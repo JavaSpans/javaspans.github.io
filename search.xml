@@ -110,7 +110,7 @@
 <li><h5 id="递归-1"><a href="#递归-1" class="headerlink" title="递归"></a><a href="https://benat.cn/posts/fe53c3fa.html">递归</a></h5></li>
 <li><h5 id="字符流、字节流"><a href="#字符流、字节流" class="headerlink" title="字符流、字节流"></a><a href="https://benat.cn/posts/3966ff99.html">字符流、字节流</a></h5></li>
 <li><h5 id="字符缓冲流、字节缓冲流"><a href="#字符缓冲流、字节缓冲流" class="headerlink" title="字符缓冲流、字节缓冲流"></a><a href="https://benat.cn/posts/a3af51be.html">字符缓冲流、字节缓冲流</a></h5></li>
-<li><h5 id="网络编程"><a href="#网络编程" class="headerlink" title="网络编程"></a><a href="https://benat.cn/posts/69244af4.html">网络编程</a></h5></li>
+<li><h5 id="网络编程"><a href="#网络编程" class="headerlink" title="网络编程"></a><a href="https://benat.cn/posts/f6491cfb.html">网络编程</a></h5></li>
 </ol>
 </li>
 </ul>
@@ -2765,7 +2765,7 @@ public static synchronized void plytak ()&#123;
   </entry>
   <entry>
     <title>网络编程</title>
-    <url>/posts/69244af4.html</url>
+    <url>/posts/f6491cfb.html</url>
     <content><![CDATA[<h1 id="【网络编程】"><a href="#【网络编程】" class="headerlink" title="【网络编程】"></a>【网络编程】</h1><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><ul>
 <li> 软件架构CS／BS</li>
 <li> 网络通信三要素</li>
