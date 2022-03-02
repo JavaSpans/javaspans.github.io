@@ -76,7 +76,7 @@
 </blockquote>
 <h3 id="最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！"><a href="#最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！" class="headerlink" title="最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！"></a>最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！</h3><hr>
 <h4 id="JAVA笔记将会分为以下几个阶段"><a href="#JAVA笔记将会分为以下几个阶段" class="headerlink" title="JAVA笔记将会分为以下几个阶段"></a>JAVA笔记将会分为以下几个阶段</h4><h1 id="（目录）"><a href="#（目录）" class="headerlink" title="（目录）"></a><strong>（目录）</strong></h1><h1 id="一、JAVA入门"><a href="#一、JAVA入门" class="headerlink" title="一、JAVA入门"></a>一、JAVA入门</h1><ul>
-<li><h2 id="Java快速入门"><a href="#Java快速入门" class="headerlink" title="Java快速入门"></a>Java快速入门</h2><ol>
+<li><h4 id="Java快速入门"><a href="#Java快速入门" class="headerlink" title="Java快速入门"></a>Java快速入门</h4><ol>
 <li><h5 id="JAVA简介"><a href="#JAVA简介" class="headerlink" title="JAVA简介"></a><a href="https://baike.baidu.com/item/java/85979?fromtitle=Java%E8%AF%AD%E8%A8%80&fromid=4148931#1">JAVA简介</a></h5></li>
 <li><h5 id="关键字以及数据类型"><a href="#关键字以及数据类型" class="headerlink" title="关键字以及数据类型"></a><a href="https://benat.cn/posts/1f3c832.html">关键字以及数据类型</a></h5></li>
 <li><h5 id="变量是什么"><a href="#变量是什么" class="headerlink" title="变量是什么"></a><a href="https://benat.cn/posts/94320cfe.html">变量是什么</a></h5></li>
@@ -117,6 +117,7 @@
 <li><h5 id="数据库的基本笔记"><a href="#数据库的基本笔记" class="headerlink" title="数据库的基本笔记"></a><a href="https://benat.cn/posts/e5d60199.html">数据库的基本笔记</a></h5></li>
 <li><h5 id="MySQL约束笔记"><a href="#MySQL约束笔记" class="headerlink" title="MySQL约束笔记"></a><a href="https://benat.cn/posts/973b63a3.html">MySQL约束笔记</a></h5></li>
 <li><h5 id="MySQL多表查询和事务"><a href="#MySQL多表查询和事务" class="headerlink" title="MySQL多表查询和事务"></a><a href="https://benat.cn/posts/983a747a.html">MySQL多表查询和事务</a></h5></li>
+<li><h5 id="JDBC基础知识"><a href="#JDBC基础知识" class="headerlink" title="JDBC基础知识"></a><a href="https://benat.cn/posts/61344af4.html">JDBC基础知识</a></h5></li>
 </ol>
 </li>
 </ul>
@@ -8242,6 +8243,22 @@ public static synchronized void plytak ()&#123;
             REVOKE UPDATE ON db3.`account` FROM &#39;lisi&#39;@&#39;%&#39;;
 </code></pre>
 ]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Scanner对象</title>
+    <url>/posts/e2abe5ec.html</url>
+    <content><![CDATA[<h3 id="Scanner对象"><a href="#Scanner对象" class="headerlink" title="Scanner对象"></a>Scanner对象</h3><h4 id="是实现人机交互的工具类，通过Scanner类来获取用户的输入。"><a href="#是实现人机交互的工具类，通过Scanner类来获取用户的输入。" class="headerlink" title="是实现人机交互的工具类，通过Scanner类来获取用户的输入。"></a>是实现人机交互的工具类，通过Scanner类来获取用户的输入。</h4><h4 id="基本的语法："><a href="#基本的语法：" class="headerlink" title="基本的语法："></a>基本的语法：</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//创建一个扫描器对象，用于接收键盘数据</span></span><br><span class="line">Scanner s = <span class="keyword">new</span> Scanner(System.in)</span><br></pre></td></tr></table></figure>
+
+<h4 id="通过Scanner类的next-与nextLine-方法获取输入的字符串，在读取前我们一般需要使用-hasNext-与hasNextLine-来判断是否还有输入的数据"><a href="#通过Scanner类的next-与nextLine-方法获取输入的字符串，在读取前我们一般需要使用-hasNext-与hasNextLine-来判断是否还有输入的数据" class="headerlink" title="通过Scanner类的next()与nextLine()方法获取输入的字符串，在读取前我们一般需要使用 hasNext()与hasNextLine()来判断是否还有输入的数据"></a>通过Scanner类的next()与nextLine()方法获取输入的字符串，在读取前我们一般需要使用 hasNext()与hasNextLine()来判断是否还有输入的数据</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//判断用户有没有输入字符</span></span><br><span class="line"><span class="keyword">if</span>(Scanner.hasNext())&#123;</span><br><span class="line"><span class="comment">//使用next方式接收</span></span><br><span class="line">String str = Scanner.next();</span><br><span class="line">System.out.println(<span class="string">&quot;输出的内容为&quot;</span>+str)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//凡是属于IO流的泪如果不关闭会一直占用资源，要养成好习惯用完就关掉</span></span><br><span class="line">scanner.close();</span><br></pre></td></tr></table></figure>
+
+<h5 id="next"><a href="#next" class="headerlink" title="next():"></a>next():</h5><h5 id="1-一定要读取到有效字符后才可以结束输入。"><a href="#1-一定要读取到有效字符后才可以结束输入。" class="headerlink" title="1. 一定要读取到有效字符后才可以结束输入。"></a>1. 一定要读取到有效字符后才可以结束输入。</h5><h5 id="2-对输入的有效字符之前遇到的空白，next-方法会自动将其去掉。"><a href="#2-对输入的有效字符之前遇到的空白，next-方法会自动将其去掉。" class="headerlink" title="2. 对输入的有效字符之前遇到的空白，next()方法会自动将其去掉。"></a>2. 对输入的有效字符之前遇到的空白，next()方法会自动将其去掉。</h5><h5 id="3-只要有输入有小字符后才将其后面输入的空白作为分隔符或者结束符。"><a href="#3-只要有输入有小字符后才将其后面输入的空白作为分隔符或者结束符。" class="headerlink" title="3. 只要有输入有小字符后才将其后面输入的空白作为分隔符或者结束符。"></a>3. 只要有输入有小字符后才将其后面输入的空白作为分隔符或者结束符。</h5><h5 id="4-next-不能得到带有空格的字符串。"><a href="#4-next-不能得到带有空格的字符串。" class="headerlink" title="4. next()不能得到带有空格的字符串。"></a>4. next()不能得到带有空格的字符串。</h5><h4 id="nextLine"><a href="#nextLine" class="headerlink" title="nextLine();"></a>nextLine();</h4><h5 id="1-以回车位结束符，也就是说nextLine-方法返回的是输入回车之前的所有字符。"><a href="#1-以回车位结束符，也就是说nextLine-方法返回的是输入回车之前的所有字符。" class="headerlink" title="1. 以回车位结束符，也就是说nextLine()方法返回的是输入回车之前的所有字符。"></a>1. 以回车位结束符，也就是说nextLine()方法返回的是输入回车之前的所有字符。</h5><h5 id="2-可以获得空白"><a href="#2-可以获得空白" class="headerlink" title="2. 可以获得空白"></a>2. 可以获得空白</h5>]]></content>
       <categories>
         <category>Java</category>
       </categories>
