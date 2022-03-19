@@ -206,7 +206,14 @@
   <entry>
     <title>mysql 学习目录(连载中)</title>
     <url>/posts/6e48d4f4.html</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<ol>
+<li><h5 id="数据库的基本笔记"><a href="#数据库的基本笔记" class="headerlink" title="数据库的基本笔记"></a><a href="https://benat.cn/posts/e5d60199.html">数据库的基本笔记</a></h5></li>
+<li><h5 id="MySQL约束笔记"><a href="#MySQL约束笔记" class="headerlink" title="MySQL约束笔记"></a><a href="https://benat.cn/posts/973b63a3.html">MySQL约束笔记</a></h5></li>
+<li><h5 id="MySQL多表查询和事务"><a href="#MySQL多表查询和事务" class="headerlink" title="MySQL多表查询和事务"></a><a href="https://benat.cn/posts/983a747a.html">MySQL多表查询和事务</a></h5></li>
+<li><h5 id="JDBC基础知识"><a href="#JDBC基础知识" class="headerlink" title="JDBC基础知识"></a><a href="https://benat.cn/posts/6b3156dd.html">JDBC基础知识</a></h5></li>
+<li><h5 id="JDBC连接池"><a href="#JDBC连接池" class="headerlink" title="JDBC连接池"></a><a href="https://benat.cn/posts/6331d382.html">JDBC连接池</a></h5></li>
+</ol>
+]]></content>
       <categories>
         <category>Mysql</category>
       </categories>
@@ -216,7 +223,7 @@
       </tags>
   </entry>
   <entry>
-    <title>小程序学校学习(连载中)</title>
+    <title>小程序学习(连载中)</title>
     <url>/posts/d347236.html</url>
     <content><![CDATA[]]></content>
       <categories>
